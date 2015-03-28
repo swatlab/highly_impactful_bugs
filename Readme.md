@@ -27,7 +27,7 @@
 
 #How to use the script
 - Run **crash_parser.py** to parse a group of crash reports
-    - There are two options to identify unique user, *i.e.,* by *installing profile* (Khomh et al.'s approach [^1]) or by *machine profile* (approach in this paper). The script will alert you to choose one of the options.
+    - There are two options to identify unique user, *i.e.,* by *installing profile* (Khomh et al.'s approach [1]) or by *machine profile* (approach in this paper). The script will alert you to choose one of the options.
     - The range of subject crash reports could be changed in line 200.
 - Please set your database's host, user and password in line 9 of **extract_metrics.py** (and do the same operation for **reduction_analysis.py** in line 11, **source_metrics.py** in line 8)
 - Run **extract_metrics.py** to output metrics of bug for further analysis (hypothesis tests and prediction).
@@ -44,7 +44,7 @@
 	http://download.cdn.mozilla.net/pub/mozilla.org/
 
 #Reference
-[^1]: F. Khomh, B. Chan, Y. Zou, and A. E. Hassan. An entropy evaluation approach for triaging field crashes: A case study of mozilla firefox. In *Reverse Engineering (WCRE), 2011 18th Working Conference on*, pages 261–270. IEEE, 2011.
+[1]: F. Khomh, B. Chan, Y. Zou, and A. E. Hassan. An entropy evaluation approach for triaging field crashes: A case study of mozilla firefox. In *Reverse Engineering (WCRE), 2011 18th Working Conference on*, pages 261–270. IEEE, 2011.
 
 #For any questions
 Please send email to le.an@polymtl.ca
