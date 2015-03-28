@@ -30,7 +30,7 @@
     - The range of subject crash reports could be changed in line 200
 - Please set your database's host, user and password in line 9 of **extract_metrics.py** (and do the same operation for **reduction_analysis.py** in line 11, **source_metrics.py** in line 8)
 - Run **extract_metrics.py** to output metrics of bug for further analysis (hypothesis tests and prediction).
-- In **prediction.R**, please set the prediction algorithm: GLM, C5.0, ctree, cforest or randomForest (in line 5), and set whether need a VIF analysis (in line 7)  
+- In **prediction.R**, please set the prediction algorithm: GLM, C5.0, ctree, randomForest or cforest (in line 5), and set whether need a VIF analysis (in line 7)  
 - Before running **code_metrics.py**, you should generate an Understand database (UDB) by the Understand tool and put the UDB in the same folder of the script. The Understand tool is available: https://scitools.com
 - **code_metrics.py** is written in Python 3 (because Understand Python API only supports Python 3), other Python scripts are written in Python 2. Please make sure that you have installed all necessary modules required in these scripts.
    
