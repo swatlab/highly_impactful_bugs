@@ -17,17 +17,18 @@
 	- **SNA_analysis** folder:
 		- **source_metrics.py**: to compute each bug's code complexity metrics and SNA metrics via its buggy files (based on the results of **code_metrics.py**)
 		- generated code complexity metrics and SNA metrics by subject systems and their releases.
+	- **false_positives** folder contains the script and data to estimate the potential loss due to the false positives in the prediction.
     - **entropy_analysis.R**: compute the porportion of highly-distributed bugs and other bugs.
     - **extract_metrics.py**: extract bugs' metrics for prediction and hypothesis tests; the result will be outputed in the folder **metrics**
     - **wilcoxon_test.R**: Wilcoxon rank sum test between highly-distributed bugs and other bugs
     - **kruskal_wallis.R**: Kruskal-Wallis rank sum test among the four categories of bugs
-    - **prediction.R**: build predictive models for highly-distributed bugs with GLM, C5.0, ctree, cforest, and randomForest. 
+    - **prediction.R**: build predictive models for highly-distributed bugs with GLM, C5.0, ctree, randomForest, and cforest. 
 - **reduction_analysis** folder contains the script to assess the benefit of the predictive model (*i.e.,* the reduction of crash occurrences and impacted users by the early prediction approach)
 
 #How to use the script
 - Run **crash_parser.py** to parse a group of crash reports
     - There are two options to identify unique user, *i.e.,* by *installing profile* (Khomh et al.'s approach) or by *machine profile* (approach in this paper). The script will alert you to choose one of the options.
-    - The range of subject crash reports could be changed in line 200
+    - The range of subject crash reports could be changed in line 200.
 - Please set your database's host, user and password in line 9 of **extract_metrics.py** (and do the same operation for **reduction_analysis.py** in line 11, **source_metrics.py** in line 8)
 - Run **extract_metrics.py** to output metrics of bug for further analysis (hypothesis tests and prediction).
 - In **prediction.R**, please set the prediction algorithm: GLM, C5.0, ctree, randomForest or cforest (in line 5), and set whether need a VIF analysis (in line 7)  
@@ -36,7 +37,7 @@
    
 #Data source
 - Mozilla Bugzilla local database is available in:
-    http://swat.polymtl.ca/anle/research-data/highly-distributed/Bugzilla-SQL/
+    http://swat.polymtl.ca/anle/data/Mozilla_bugs/
 - Socorro local crash reports are available in:
     https://crash-analysis.mozilla.com
 - Firefox and Fennec source code (by release) is available in:
