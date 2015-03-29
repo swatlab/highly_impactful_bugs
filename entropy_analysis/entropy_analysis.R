@@ -1,6 +1,6 @@
 library(data.table)
 
-product = 'fennec'
+product = 'firefox'		# please choose: firefox / fennecandroid
 plot = 'NO'
 sensitivity_level = 0.5
 
@@ -24,16 +24,10 @@ data_set[, 'log_freq'] <- data_set[, log_freq/max_freq]
 max_ver_cnt <- max(data_set$version_cnt)
 data_set[, 'norm_ver_cnt'] <- data_set[, version_cnt/max_ver_cnt]
 
-#	Show head rows
-#head(data_set, n = 100)
 
 #	Median of entropy and frequency (or 70%, 90% of percentile)
 entropy.cutoff <- quantile(data_set$entropy, c(sensitivity_level)) 		
 frequency.cutoff <- quantile(data_set$norm_freq, c(sensitivity_level)) 	
-
-print(entropy.cutoff)
-print(frequency.cutoff)
-
 
 
 if(plot == 'YES') {
