@@ -1,4 +1,4 @@
-#An Empirical Study of Highly-Distributed Bugs in Mozilla Projects
+#An Empirical Study of Highly-Impactful Bugs in Mozilla Projects
 
 #Requirements
 - Python 2.7 or newer / Python 3.0 or newer
