@@ -1,11 +1,11 @@
-#An Empirical Study of Highly-Impactful Bugs in Mozilla Projects
+# An Empirical Study of Highly-Impactful Bugs in Mozilla Projects
 
-#Requirements
+# Requirements
 - Python 2.7 or newer / Python 3.0 or newer
 - R 3.1 or newer
 - MySQL
 
-#File description
+# File description
 - **crash_parser.py** is used to parse crash reports, map crash reports to bugs, and compute crashing frequency and entropy for bugs.
 - **before_opening.py_** is used to compute the analysed bugs' average pre-opening daily crash occurrences and daily crashed users (the bugs' opened date is indicated in **bug_opening.csv**).
 - **code_metric_analysis** contains code metric analysis script (and Understand databases).
@@ -25,7 +25,7 @@
     - **prediction.R**: build predictive models for highly-distributed bugs with GLM, C5.0, ctree, randomForest, and cforest. 
 - **reduction_analysis** folder contains the script to assess the benefit of the predictive model (*i.e.,* the reduction of crash occurrences and impacted users by the early prediction approach).
 
-#How to use the script
+# How to use the script
 - Run **crash_parser.py** to parse a group of crash reports.
     - There are two options to identify unique user, *i.e.,* by *installing profile* (Khomh et al.'s approach <a href="#refone" class="button">[1]</a>) or by *machine profile* (approach in this paper). The script will alert you to choose one of the options.
     - The range of subject crash reports could be changed in line 200.
@@ -35,7 +35,7 @@
 - Before running **code_metrics.py**, you should generate an Understand database (UDB) by the Understand tool and put the UDB in the same folder of the script. The Understand tool is available: https://scitools.com.
 - **code_metrics.py** is written in Python 3 (because Understand Python API only supports Python 3), other Python scripts are written in Python 2. Please make sure that you have installed all necessary modules required in these scripts.
    
-#Data source
+# Data source
 - Mozilla Bugzilla local database is available in:
     http://swat.polymtl.ca/anle/data/Mozilla_bugs/
 - Socorro local crash reports are available in:
@@ -43,11 +43,11 @@
 - Firefox and Fennec source code (by release) is available in:
 	http://download.cdn.mozilla.net/pub/mozilla.org/
 
-#Reference
+# Reference
 <p id="refone">[1] F. Khomh, B. Chan, Y. Zou, and A. E. Hassan. An entropy evaluation approach for triaging field 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;crashes: A case study of mozilla firefox. In <i>Reverse Engineering (WCRE), 2011 18th Working 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conference on</i>, pages 261–270. IEEE, 2011.
 </p>
 
-#For any questions
+# For any questions
 Please send email to le.an@polymtl.ca
