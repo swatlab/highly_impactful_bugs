@@ -44,9 +44,8 @@
 	http://download.cdn.mozilla.net/pub/mozilla.org/
 
 # Reference
-<p id="refone">[1] F. Khomh, B. Chan, Y. Zou, and A. E. Hassan. An entropy evaluation approach for triaging field crashes: A case study of Mozilla Firefox. In <i>Reverse Engineering (WCRE), 2011 18th Working 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conference on</i>, pages 261–270. IEEE, 2011.
-</p>
+[1] F. Khomh, B. Chan, Y. Zou, and A. E. Hassan. An entropy evaluation approach for triaging field crashes: A case study of Mozilla Firefox. In _18th Working Conference on Reverse Engineering (WCRE)_, pages 261–270. IEEE, 2011.
+
 
 # For any questions
 Please send email to le.an@polymtl.ca
