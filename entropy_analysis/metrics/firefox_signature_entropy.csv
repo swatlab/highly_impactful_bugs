@@ -1,0 +1,2585 @@
+signature,entropy,frequency,bug_count
+libsystem_c.dylib@0xa2358,0.19054167802809835,34,1
+js_TraceContext,0.6078280395847122,804,1
+"js::InvokeCommon<int (__cdecl*)(JSContext*, JSObject*, unsigned int, js::Value*, js::Value*)>",0.2035943294105117,8,1
+ExecuteTree,0.5161524168808387,181,3
+JSAtomListIterator::operator()(),0.2751604638318496,14,1
+"XPCNativeSet::NewInstance(XPCCallContext&, XPCNativeInterface**, unsigned short)",0.08143773176420468,2,1
+mozilla::storage::AsyncExecuteStatements::Run(),0.2878187806428346,23,1
+HashString(nsAString_internal const&),0.31557121058629317,16,2
+nsCoreUtils::IsRootDocument(nsIDocument*),0.0,1,1
+js_NewRegExp,0.2512323486363596,12,1
+nsSplittableFrame::RemoveFromFlow(nsIFrame*),0.45697009878382533,74,1
+__NSThreadPerformPerform,0.15651746466152594,5,1
+NS_AsyncCopy,0.0,1,1
+jvm.dll@0x5e6b2,0.5460004667318746,676,1
+"_ThemeDefWindowProc(HWND__*, unsigned int, unsigned int, long, int)",0.1290757509900526,3,1
+WPUModifyIFSHandle,0.16041732931417152,17,1
+gfxContext::NewPath,0.48486027957263483,260,2
+nsGlobalWindow::GetInnerWidth,0.0,1,1
+nsTHashtable<mozilla::FrameLayerBuilder::ThebesLayerItemsEntry>::s_ClearEntry,0.0,1,1
+"js_MonitorLoopEdge(JSContext*, unsigned int&)",0.2964515798868058,15,3
+F733812712___________________________________________________________________,0.36591052401074126,36,1
+Flash Player@0x4cf38a,0.11164710677317627,5,1
+npjava11.dll@0x1674,0.0,1,1
+XMLSocketDestroyFunc,0.5062981305773738,168,1
+sqlite3VdbeExec,0.5355318425140084,325,4
+libc-2.13.so@0x32405,0.0,3,2
+avmplus::BitSet::grow(int),0.18909255736720781,5,1
+nsXULPrototypeCache::WritePrototype(nsXULPrototypeDocument*),0.48131650941463977,104,2
+js_Interpret:904,0.24431319529261405,8,2
+hang | F_855855466_____________________,0.6272101343133786,2501,1
+hang | F1786948743_______________________________,0.5274241212825395,128,1
+npwinext.dll@0x33c79,0.08143773176420468,2,1
+mozilla::net::WebSocketChannel::OnInputStreamReady(nsIAsyncInputStream*),0.08143773176420468,2,1
+"VMR9::PaintSurfaceBlack(VMR9::IDirect3DSurface9*, VMR9::_D3DSURFACE_DESC const&, int)",0.18909255736720781,5,1
+nsXBLBinding::GenerateAnonymousContent(),0.21984228483611282,14,1
+"JSCompartment::wrap(JSContext*, js::Value*)",0.6047749733123263,1292,2
+"hang | mozilla::plugins::PPluginModuleParent::CallNPP_ClearSiteData(nsCString const&, unsigned __int64 const&, unsigned __int64 const&, short*)",0.4075865769416906,44,1
+InterlockedDecrement,0.474621867288961,149,2
+RtlpWaitOnCriticalSection | EtwEventEnabled | nvlsp.dll@0x5ced,0.43392300085089947,515,1
+"nsGlobalWindow::QueryInterface(nsID const&, void**)",0.34966598753333644,25,1
+IsAboutToBeFinalized(void*),0.3861259146706378,33,1
+"GetHeightOfRowsSpannedBelowFirst(nsTableCellFrame&, nsTableFrame&)",0.0,1,1
+"je_free | js::gc::Arena::finalize<JSString>(JSContext*, js::gc::AllocKind, unsigned int)",0.5287649985064433,290,2
+@0x0 | nsGenericElement::nsDOMSlots::~nsDOMSlots(),0.16287546352840937,4,1
+"nsCanvasRenderingContext2DAzure::GetImageData_explicit(int, int, unsigned int, unsigned int, unsigned char*, unsigned int)",0.08143773176420468,2,1
+objc_msgSend | CanonIJPDE@0x1531e,0.1860167383607238,12,1
+"js::TraceRecorder::traverseScopeChain(JSObject*, nanojit::LIns*, JSObject*, nanojit::LIns*&)",0.5525218976216096,1386,1
+InitScopeForObject,0.2888265353657058,13,1
+nsXULElement::InternalGetExistingAttrNameFromQName(nsAString_internal const&),0.18909255736720781,5,1
+pixman_fill_mmx,0.18909255736720781,5,1
+nsMenuBarListener::KeyPress(nsIDOMEvent*),0.24431319529261405,8,1
+"gfxAlphaRecovery::RecoverAlphaSSE2(gfxImageSurface*, gfxImageSurface const*)",0.22862461710944693,7,1
+"nsSocketInputStream::Read(char*, unsigned int, unsigned int*)",0.42265976824592894,1096,1
+"nsContentUtils::MatchElementId(nsIContent*, nsIAtom*)",0.0,1,1
+InsertRuleByWeight,0.08143773176420468,2,1
+je_free | nsPrefBranch::`vector deleting destructor''(unsigned int),0.3574990234903447,226,1
+img_data_lock,0.18909255736720781,5,1
+nsVoidArray::IndexOf(void*),0.47347416107342905,506,1
+"v8::internal::DigitGen(v8::internal::DiyFp, v8::internal::DiyFp, v8::internal::DiyFp, v8::internal::Vector<char>, int*, int*)",0.3002776404726907,87,1
+js_AllocStack,0.0,1,6
+CFDictionaryGetValue,0.20535669374824558,7,2
+mscorwks.dll@0x95ca3,0.5155513453525945,498,1
+nsPrintEngine::InstallPrintPreviewListener(),0.1290757509900526,3,1
+DeepCopySetInLRS,0.0,1,1
+dlopen,0.21132330912970942,11,1
+"operator new(unsigned int) | mozilla::plugins::PPluginModuleParent::SendPPluginIdentifierConstructor(mozilla::plugins::PPluginIdentifierParent*, nsCString const&, int const&)",0.0,1,1
+WrappedNativeTearoffSweeper,0.45944399419452775,73,1
+yy_reduce,0.4298526290618564,65,1
+_cairo_matrix_compute_basis_scale_factors,0.0,1,1
+PR_Lock,0.23795519642573065,10,5
+nsAString_internal::Assign,0.1290757509900526,3,1
+RtlpWaitOnCriticalSection | RtlAddAccessAllowedAce | winMutexEnter,0.0,1,1
+"nsACString_internal::ReplacePrep(unsigned int, unsigned int, unsigned int)",0.07478392981391614,3,1
+"js::PropertyTree::removeChild(JSContext*, js::Shape*)",0.08143773176420468,2,1
+XPCNativeSet::Mark,0.0,1,1
+js::gc::ScanObject,0.6108798089061835,1164,3
+OBJ_TO_INNER_OBJECT,0.16287546352840937,4,2
+nsHttpConnectionMgr::nsConnectionEntry::~nsConnectionEntry(),0.0,1,1
+nsCycleCollector::MarkRoots(GCGraphBuilder&),0.6022323563540687,1859,4
+pctbdcore.dll@0xae56f,0.18909255736720781,5,1
+"nsTHashtable<nsBaseHashtableET<nsURIHashKey, CacheScriptEntry> >::s_HashKey(PLDHashTable*, void const*)",0.5097496886986325,235,2
+F1451247872___________________________,0.36862751236155417,42,2
+F1494925220_______________,0.18336757216618904,6,1
+F351981279____________________________,0.5009978718931037,204,1
+jvm.dll@0xc87b2,0.41595313448695487,68,1
+PR_Write,0.3489349308390333,31,1
+js_GetReservedSlot,0.2581515019801053,9,1
+XPCWrappedNative::FinishInit(XPCCallContext&),0.29195121451846195,12,1
+WrappedNativeJSGCThingTracer,0.5460141905883863,180,1
+RtlpWaitOnCriticalSection | RtlpDeCommitFreeBlock | idmmbc.dll@0xe99d,0.28358163325946767,75,1
+PlaceholderMapMatchEntry,0.2817282642151927,11,1
+hang | NtUserWaitMessage | DialogBox2,0.5120050289466124,1119,1
+nsCookieService::EnsureReadDomain(nsCString const&),0.2151262516500877,9,1
+call_resolve,0.24431319529261405,8,2
+"js::StackSpace::pushSegmentForInvoke(JSContext*, unsigned int, js::InvokeArgsGuard*)",0.08143773176420468,2,1
+nsGlobalWindow::GetLocalStorage(nsIDOMStorage**),0.2542427427785716,10,3
+args_or_call_trace,0.20535669374824558,7,1
+nsLoadGroupConstructor,0.0,1,1
+nsCSSFrameConstructor::SetUpDocElementContainingBlock(nsIContent*),0.11882969667116276,6,1
+"nsHtml5TreeBuilder::startTag(nsHtml5ElementName*, nsHtml5HtmlAttributes*, int)",0.16287546352840937,8,1
+"nsRuleNode::GetStyleFont(nsStyleContext*, int)",0.24431319529261405,8,1
+PR_Poll,0.16287546352840937,4,1
+F1559406643________________________________________,0.5561415771442769,401,1
+"JSC::X86Assembler::X86InstructionFormatter::oneByteOp(JSC::X86Assembler::OneByteOpcodeID, int, JSC::X86Registers::RegisterID)",0.12215659764630703,4,1
+XPCNativeScriptableInfo::Mark(),0.22862461710944693,7,1
+sqlite3RowSetClear,0.16287546352840937,4,1
+F397804670____________________________,0.08338523708687817,179,1
+"js::Shape::get(JSContext*, JSObject*, JSObject*, JSObject*, js::Value*)",0.4301935363238511,54,1
+npswf32.dll@0x18e324,0.2547905825367515,39,1
+SelectionDescendToKids,0.21051348275425724,6,1
+Abort,0.4653901301760035,102,3
+"js::mjit::EnterMethodJIT(JSContext*, JSStackFrame*, void*, js::Value*)",0.6023856727464769,5828,4
+_moz_cairo_scaled_font_status,0.11164710677317627,5,1
+F1046602669___________________________,0.22862461710944693,7,1
+OSServices@0x56cc7,0.23184183509252804,28,1
+_cairo_dwrite_font_face_scaled_font_create,0.439487852026827,506,4
+nsObjectFrame::CallSetWindow,0.1290757509900526,3,3
+VirtualAllocEx,0.5383563720938562,2460,2
+"nsTHashtable<nsBaseHashtableET<nsURIHashKey, nsRefPtr<nsCSSStyleSheet> > >::s_HashKey(PLDHashTable*, void const*)",0.5097496886986325,235,1
+TimerThread::Run(),0.4709177946220119,95,1
+"_cairo_d2d_create_brush_for_pattern(_cairo_d2d_surface*, _cairo_pattern const*, bool)",0.28593483167261075,19,2
+dtoa,0.4630372329807004,671,2
+msvcr80.dll@0xf880,0.16287546352840937,4,2
+@0x0 | NS_InvokeByIndex_P,0.2581515019801053,9,2
+nsNPAPIPluginInstance::InitializePlugin(),0.1765949256637902,19,1
+libc-2.11.3.so@0x32ab5,0.15622166157812084,6,1
+"@0x0 | nsFrameManager::ReResolveStyleContext(nsPresContext*, nsIFrame*, nsIContent*, nsStyleChangeList*, nsChangeHint, nsRestyleHint, mozilla::css::RestyleTracker&, nsFrameManager::DesiredA11yNotifications, nsTArray<nsIContent*, nsTArrayDefaultAllocato...",0.5510281151025537,289,1
+nsImageBoxFrame::UpdateImage(),0.21051348275425724,6,1
+kernelbase.dll@0x9673,0.3540078920477835,292,1
+nsThreadManager::GetMainThread(nsIThread**),0.20535669374824558,7,1
+"JSC::Yarr::Interpreter::matchDisjunction(JSC::Yarr::ByteDisjunction*, JSC::Yarr::Interpreter::DisjunctionContext*, bool, bool)",0.30639052258509064,23,1
+js_Interpret:4436,0.16287546352840937,4,1
+js::gc::MarkKind,0.47833338309274753,128,1
+"nsGfxScrollFrameInner::InternalScrollPositionDidChange(int, int)",0.0,1,1
+nsDocShell::EnsureContentViewer(),0.47496268505045536,157,2
+nsIContent::IsInNamespace(int),0.35981599098863254,24,1
+@0x0 | WSASocketW,0.3051015224221809,20,1
+mono-1-vc.dll@0x83dcf,0.49400616906706857,157,1
+strlen | nsDependentCString::nsDependentCString(char const*),0.31508627534816314,56,9
+GraphWalker<ScanBlackVisitor>::DoWalk(nsDeque&),0.6214788511243832,3709,1
+gfxTextRun::AllocateDetailedGlyphs,0.0,1,1
+qcms_transform_data_rgba_out_lut_sse,0.0,8,1
+"nsIOService::NewURI(nsACString_internal const&, char const*, nsIURI*, nsIURI**)",0.24431319529261405,8,1
+nsQueryInterfaceWithError::operator(),0.0,1,1
+pmxg.dll@0x9ef3,0.07478392981391614,3,1
+"UniscribeItem::IsGlyphMissing(SCRIPT_FONTPROPERTIES*, unsigned int)",0.2993274359712291,37,1
+js_FillPropertyCache,0.2705302891314126,10,2
+nsIDOMElementCSSInlineStyle_GetStyle,0.16287546352840937,4,1
+hang | F351981279____________________________,0.5566330314377868,332,1
+isalloc,0.44098415524136864,188,1
+je_malloc,0.4956627282714291,102,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | gfxFontGroup::BuildFontList(),0.4158955839454549,67,1
+NtQueryInformationProcess,0.0,1,1
+"nsRuleNode::WalkRuleTree(nsStyleStructID, nsStyleContext*, nsRuleData*, nsCSSStruct*)",0.42866004496212723,71,1
+js_TraceWatchPoints,0.0,1,1
+"nsStringInputStream::ReadSegments(unsigned int (*)(nsIInputStream*, void*, char const*, unsigned int, unsigned int, unsigned int*), void*, unsigned int, unsigned int*)",0.1290757509900526,3,1
+"js::PropertyTable::search(int, bool)",0.6277692358221941,1170,4
+nsGenericElement::GetPrimaryFrame(mozFlushType),0.16287546352840937,4,1
+"nsStyleSet::AddImportantRules(nsRuleNode*, nsRuleNode*)",0.08143773176420468,2,3
+"mozilla::css::SheetLoadData::OnStreamComplete(nsIUnicharStreamLoader*, nsISupports*, unsigned int, nsAString_internal const&)",0.44909698096347744,171,1
+WSARecv,0.3385493051435033,128,1
+MatchString,0.30051471913845407,17,1
+FinalizeArenaList<js::Shape>,0.1290757509900526,3,1
+"nsIFrame::InvalidateInternalAfterResize(nsRect const&, int, int, unsigned int)",0.18336757216618904,6,1
+chromehang | ZwQueryDirectoryFile,0.2811897908051327,16,1
+F_1440603502__________________,0.525069074169903,241,1
+js::Shape::trace,0.5019514374410315,170,3
+nsFrame::DestroyFrom(nsIFrame*),0.5263253950312947,198,2
+js_GetGCThingTraceKind,0.5927511064245335,706,4
+JS_ConvertStub,0.5692793864794163,424,1
+js::types::TypeScriptNesting::~TypeScriptNesting(),0.42949781599790166,58,2
+hang | NtUserSetWindowPos,0.5289073629454488,1163,1
+"memmove | nsTArray_base::ShiftData(unsigned int, unsigned int, unsigned int, unsigned int)",0.38874767588623776,30,11
+"_cairo_d2d_surface_init(_cairo_d2d_surface*, _cairo_d2d_device*, _cairo_format)",0.45832086722173376,153,1
+"mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::plugins::PPluginInstance::Transition(mozilla::plugins::PPluginInstance::State, mozilla::ipc::Trigger, mozilla::plugins::PPluginInstance::State*)",0.40119711060925484,39,1
+SocketConnect,0.4049983031385849,183,1
+"nsGlobalWindow::Observe(nsISupports*, char const*, unsigned short const*)",0.08143773176420468,2,1
+"nsEventStateManager::GetContentState(nsIContent*, int)",0.08143773176420468,2,1
+nsEventListenerManager::Release(),0.5304476388637812,218,2
+nsINode::GetSlots(),0.08143773176420468,2,1
+"nsTArray<nsHttpHeaderArray::nsEntry, nsTArrayDefaultAllocator>::IndexOf<nsHttpAtom, nsHttpHeaderArray::nsEntry::MatchHeader> | nsHttpHeaderArray::LookupEntry",0.0,1,1
+"js::mjit::EnterMethodJIT(JSContext*, js::StackFrame*, void*, js::Value*)",0.6023856727464769,5828,5
+nsCycleCollector::CollectWhite(nsICycleCollectorListener*),0.5075032852051332,125,1
+sblsp.dll@0x4f6f,0.38470159710647756,44,1
+JSObject::unwrap(unsigned int*),0.37338894628266667,24,2
+JSObject::getGlobal,0.6198136376250165,14807,1
+nsStyleContext::Release(),0.5198420772489716,178,2
+"nsGfxScrollFrameInner::BuildDisplayList(nsDisplayListBuilder*, nsRect const&, nsDisplayListSet const&)",0.4477278858245629,86,1
+zzz_AsmCodeRange_End,0.6332062770369321,3059,2
+"js_XDRFunctionObject(JSXDRState*, JSObject**)",0.39244867250726495,64,1
+@0x0 | F1650855128_____________________________,0.3804592141025964,31,1
+"JSObject::nativeSearch(int, bool)",0.4938836888533128,169,2
+XPCNativeSet::IsMarked(),0.1290757509900526,3,1
+je_free | mozutils.dll@0x2a3f,0.3904657034808163,36,1
+hang | NtUserGetMessage,0.6422915526784094,10572,1
+RgnRectMemoryAllocator::Alloc,0.08143773176420468,2,1
+BaseThreadStart,0.5431422597216011,1129,1
+js_XDRAtom,0.29753636045021525,26,1
+libawt.jnilib@0x2480,0.1290757509900526,3,1
+@0x0 | datamngr.dll@0xd2f1,0.5597617144253467,1788,1
+F_629364644________________________,0.15651746466152594,5,1
+nsIFrame::PeekOffset(nsPeekOffsetStruct*),0.08143773176420468,2,2
+"nsFrameManager::ReResolveStyleContext(nsPresContext*, nsIFrame*, nsIContent*, nsStyleChangeList*, nsChangeHint, nsRestyleHint, mozilla::css::RestyleTracker&, nsFrameManager::DesiredA11yNotifications, nsTArray<nsIContent*, nsTArrayDefaultAllocator>&, Tr...",0.5510281151025537,289,1
+js_DefaultValue,0.1290757509900526,3,1
+MultiByteToWideChar,0.35370805663067817,55,2
+nsINode::GetFlags(),0.33054059688162035,18,3
+sftk_handleKeyObject,0.0,1,1
+F1091364253_____________,0.3646553460506084,75,1
+gfxASurface::AddRef(),0.28679442551245027,14,1
+"nsTreeBodyFrame::HandleEvent(nsPresContext*, nsGUIEvent*, nsEventStatus*)",0.08143773176420468,2,1
+objc_exception_throw | -[NSException raise] | registerNatives,0.1290757509900526,3,1
+readCPPline,0.0,1,1
+"js::analyze::Bytecode::mergeDefines(JSContext*, js::analyze::ScriptAnalysis*, bool, unsigned int, unsigned int*, unsigned int)",0.45359902677245584,123,1
+"_purecall | nsCOMPtr_base::assign_from_qi(nsQueryInterface, nsID const&) | nsContentUtils::CanCallerAccess(nsPIDOMWindow*)",0.45101442848152495,124,1
+JSC::Yarr::execute,0.5599132263392933,347,1
+free,0.08143773176420468,2,3
+xul.dll@0x19295d,0.24431319529261405,8,1
+@0x0 | nsIEProfileMigrator::CopyPasswords(int),0.4341584298915318,85,1
+wdrvprg.dll@0x3db0,0.3315050006471867,21,1
+arena_dalloc_small | arena_dalloc | free | sqlite3_free | sqlite3DbFree,0.1290757509900526,3,1
+"nsAString_internal::MutatePrep(unsigned int, unsigned short**, unsigned int*)",0.2581515019801053,9,1
+XPCJSContextStack::Pop,0.5271381826421216,272,3
+mozilla::layers::DeviceManagerD3D9::VerifyReadyForRendering(),0.4299916085407379,229,1
+mozcomp.dll@0x9305,0.35685543744125026,41,1
+"js_NextActiveContext(JSRuntime*, JSContext*)",0.4582976841377719,118,1
+"nsQueryInterface::operator()(nsID const&, void**)",0.39096730852378414,31,1
+GetTopLevelWindowActiveState,0.07478392981391614,3,1
+"nsPrintEngine::DoCommonPrint(int, nsIPrintSettings*, nsIWebProgressListener*)",0.22862461710944693,7,1
+nsAStreamCopier::Process(),0.257828383080379,20,1
+FinderKit@0x78ec6,0.2420964375306899,198,1
+jvm.dll@0x5e4e4,0.5460004667318746,676,1
+arena_dalloc_small | arena_dalloc | free | sqlite3_free | pcache1TruncateUnsafe,0.32575092705681874,16,1
+nsVoidArray::Count(),0.3300724674353566,41,1
+"js::Vector<wchar_t, int, js::TempAllocPolicy>::infallibleAppend<wchar_t>(wchar_t const*, unsigned int)",0.601919081560302,3209,1
+"nsJARInputStream::InitFile(nsZipHandle*, nsZipItem*)",0.0,1,1
+JVM_Lseek,0.21051348275425724,6,1
+nsCSSFrameConstructor::GetInsertionPoint,0.0,1,1
+ffplugin.dll@0x174524,0.3275367013663557,20,1
+canonicalize,0.525391225970144,131,2
+nsWeakFrame::InitInternal(nsIFrame*),0.35770036809949934,21,6
+nsObjectFrame::TryNotifyContentObjectWrapper,0.4639455657404319,118,1
+"nsGenericElement::FindAttrValueIn(int, nsIAtom*, nsIAtom* const* const*, nsCaseTreatment)",0.0,1,1
+@0x0 | GCGraphBuilder::NoteXPCOMChild(nsISupports*),0.5897536480330535,2263,1
+"strstr | nsFileOutputStream::Write(char const*, unsigned int, unsigned int*)",0.32783944771077794,139,1
+"_purecall | nsDisplayList::ComputeVisibilityForSublist(nsDisplayListBuilder*, nsRegion*, nsRect const&, nsRect const&)",0.5016605304062538,137,1
+ScanBlackWalker::ShouldVisitNode(PtrInfo const*),0.4873834440375954,111,1
+_pthread_tsd_cleanup,0.0,1,1
+nsCSSValue::GetStringValue(nsAString_internal&),0.18208877038704424,7,1
+XPCWrappedNative::GetScope(),0.1290757509900526,3,1
+"nsExpirationTracker<imgCacheEntry, int>::RemoveObject(imgCacheEntry*)",0.4690867925334919,72,1
+cell_list_render_edge,0.1290757509900526,3,1
+MakeDay,0.23765939334232544,12,1
+"nsFrame::BoxReflow(nsBoxLayoutState&, nsPresContext*, nsHTMLReflowMetrics&, nsRenderingContext*, int, int, int, int, int)",0.5284829574579331,341,1
+nsProxyObject::LockedFind,0.07478392981391614,3,1
+xpc_TraceForValidWrapper,0.0,2,1
+`anonymous namespace''::TimerExpiredTask::`scalar deleting destructor''(unsigned int),0.16287546352840937,4,1
+"XPCNativeSet::FindMember(int, XPCNativeMember**, unsigned short*)",0.3315050006471867,21,1
+@0x0 | nsCycleCollector::MarkRoots(GCGraphBuilder&),0.6032128610949441,1891,1
+"imgContainer::GetFrameAt(unsigned int, gfxIImageFrame**)",0.08143773176420468,2,2
+FileWrite,0.22862461710944693,7,1
+NewGCThing<JSObject>,0.5052635692831825,146,1
+gfxFontFamily::FindFontForChar(FontSearch*),0.352074161453,30,2
+GCGraphBuilder::NoteXPCOMChild(nsISupports*),0.588411279996408,2208,3
+CreateFileW,0.3930845773261024,73,1
+nsHttpConnection::EndIdleMonitoring(),0.3740491381169553,28,3
+nsProxyObjectCallInfo::Run(),0.32446288507068877,20,1
+js_CheckForStringIndex(int),0.5761225785020988,398,2
+"js::SetFlatUpvar(JSContext*, JSObject*, int, js::Value*)",0.12394237195584407,5,1
+"nsPluginHost::GetPluginName(nsIPluginInstance*, char const**)",0.20535669374824558,7,3
+"nsSubDocumentFrame::Reflow(nsPresContext*, nsHTMLReflowMetrics&, nsHTMLReflowState const&, unsigned int&)",0.321491960018931,18,2
+"nsDocument::ContentAppended(nsIDocument*, nsIContent*, int)",0.3598047081249484,29,1
+ycc_rgb_convert_argb,0.3208779764002988,78,2
+@0x0 | nsFrameList::DestroyFrames(),0.08143773176420468,2,1
+mscorwks.dll@0x95873,0.5155513453525945,498,1
+nsAccessible::NativeState(),0.21051348275425724,6,3
+strchr | XPT_DoCString,0.4036363293345685,54,1
+"operator new(unsigned int) | js::Parser::markFunArgs(JSFunctionBox*, unsigned int)",0.16287546352840937,4,1
+"js::mjit::stubs::UncachedNewHelper(js::VMFrame&, unsigned int, js::mjit::stubs::UncachedCallResult*)",0.0,1,1
+@0x0 | AddPurpleRoot,0.08143773176420468,2,1
+nsBidiPresUtils::TraverseFrames,0.0,1,1
+"XPCCallContext::Init(XPCContext::LangType, int, JSObject*, JSObject*, int, int, unsigned int, unsigned __int64*, unsigned __int64*)",0.32754705324111943,24,1
+PR_JoinThread,0.5779009967099263,1800,2
+js::mjit::stubs::GetElem,0.1290757509900526,3,1
+skypeffcomponent.dll@0x190047,0.34284202943656533,26,1
+nsGlobalWindow::DispatchDOMWindowCreated(),0.14597560725923098,6,1
+VP3VideoDecoder_DecodeFrameCompleteCallback,0.0,1,1
+pixman_multiply_overflows_int,0.0,1,1
+arena_dalloc | free | JSAutoByteString::~JSAutoByteString(),0.07029058134309712,7,1
+nsAccessible::AsHyperText(),0.33443244473829803,21,1
+F1243454957________________,0.0,1,1
+"nsWindow::IPCWindowProcHandler(unsigned int&, unsigned int&, long&)",0.21147682037285181,15,1
+JSObject::nativeLookup(int),0.24431319529261405,8,1
+nsFrameManager::CaptureFrameStateFor,0.0,1,3
+_vorbis_block_ripcord,0.0,1,1
+"js::gc::MarkObjectRange(JSTracer*, unsigned int, JSObject**, char const*)",0.523979005953991,236,1
+nsFrameManager::ReResolveStyleContext,0.2888265353657058,13,8
+"js::mjit::ic::GetProp(js::VMFrame&, js::mjit::ic::PICInfo*)",0.49027976974422327,148,1
+DocumentViewerImpl::SetBounds(nsIntRect const&),0.3973093311614876,100,2
+npswf32.dll@0x138798,0.15651746466152594,5,1
+"js::gc::Arena::finalize<JSObject>(JSContext*, js::gc::AllocKind, unsigned int)",0.5994784645839574,1418,1
+_clip_and_composite_trapezoids,0.3356804745427763,20,1
+nsCycleCollector::CollectWhite,0.16287546352840937,4,1
+PluginWndProc,0.2581515019801053,9,1
+_class_isInitialized,0.24431319529261405,8,1
+mozilla::widget::WindowHook::Lookup(unsigned int),0.4656442798052339,763,2
+trace_local_names_enumerator,0.31939292818993537,20,1
+hang | deinit_image,0.2705302891314126,10,1
+nsDisplayList::GetBounds(nsDisplayListBuilder*),0.24005422825472644,9,1
+hang | google_breakpad::ExceptionHandler::WriteMinidump,0.5533892463226361,215,1
+NS_StackWalk,0.0,1,1
+js::gc::ScanShape,0.617834483817525,1264,4
+js::mjit::JITScript::nativeToPC,0.0,1,1
+hang | RtlpWaitForCriticalSection | RtlEnterCriticalSection,0.5895059690283307,1215,2
+F_1339296399_____________________________,0.5251161002607161,149,1
+JS_XDRString,0.30763946119762525,108,5
+JS_CallTracer,0.6081244622010555,802,20
+js_FinalizeObject,0.18909255736720781,5,1
+nsRuleNode::GetBorderData(nsStyleContext*),0.0,1,1
+js::gc::PushMarkStack,0.6382287563242569,3777,3
+"gfxTextRun::CopyGlyphDataFrom(gfxTextRun*, unsigned int, unsigned int, unsigned int, int)",0.0,1,1
+nsHtml5AttributeName::initializeStatics(),0.4196247190945935,108,1
+nsObjectFrame::GetWindowOriginInPixels(int),0.39617299858893795,60,1
+CrashReporter::GetFileContents,0.5022056547358206,1326,1
+nsDownloadManager::RemoveDownloadsForURI(nsIURI*),0.5546735239260936,245,1
+js::types::CheckNestingParent,0.4285817312827178,46,1
+F1219083413________________________________________________________________,0.3155712105862931,16,1
+CGLRestoreDispatchFunction,0.07478392981391614,3,1
+"js::types::TypeSet::addType(JSContext*, js::types::Type)",0.5642410919271127,453,2
+objc_msgSend | imgRequestProxy::OnStopFrame(gfxIImageFrame*),0.23180756383439677,10,1
+ClaimTitle,0.2705302891314126,10,3
+nsZipItemPtr_base::nsZipItemPtr_base,0.5579820594510287,612,1
+quicktimewebhelper.qtx@0xec19,0.46919651061675655,568,2
+nsXREDirProvider::DoStartup(),0.0,1,1
+"memcpy | nsAString_internal::ReplacePrepInternal(unsigned int, unsigned int, unsigned int, unsigned int)",0.08143773176420468,2,1
+nsBaseWidget::AutoUseBasicLayerManager::AutoUseBasicLayerManager,0.0,1,1
+nsDocShell::Destroy(),0.24005422825472644,9,1
+mozilla::css::StyleRule::RuleMatched,0.0,1,1
+F_596512829______________________________,0.35422554141105306,23,1
+nsTHashtable<mozilla::places::History::KeyClass>::s_HashKey,0.3940379455907879,54,2
+"nsBlockReflowState::nsBlockReflowState(nsHTMLReflowState const&, nsPresContext*, nsBlockFrame*, nsHTMLReflowMetrics const&, int, int, int)",0.33361114274231984,47,1
+mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsHtml5TreeBuilder::flushCharacters(),0.4027724927763462,42,1
+je_free | CloseDir,0.48815819778740505,258,1
+libsystem_c.dylib@0xa24f0,0.43049763209515857,146,1
+objc_msgSend | getContext_ADCM,0.07478392981391614,3,1
+nsDisplayWrapList::GetBounds(nsDisplayListBuilder*),0.5135714586549129,189,1
+nsXULTreeAccessible::GetChildCount(),0.5893721947381978,7105,2
+nsXULTextFieldAccessible::NativeRole(),0.39132294876127344,54,3
+msvcrt.dll@0x2070,0.31006234887365164,14,1
+hang | F_1090611750__________________,0.6168420365154228,1210,1
+sqlite3Step,0.5355318425140084,325,4
+JS_Assert,0.18909255736720781,5,3
+nsCOMPtr_base::assign_from_qi | nsContentUtils::CanCallerAccess,0.0,1,1
+hang | NtGdiDdLock,0.24252929267107742,14,1
+"nsXULTemplateQueryProcessorRDF::cycleCollection::Traverse(void*, nsCycleCollectionTraversalCallback&)",0.1290757509900526,3,2
+@0x1b2710,0.4151300865216222,202,1
+"nsBaseAppShell::OnProcessNextEvent(nsIThreadInternal*, int, unsigned int)",0.44406525433354216,64,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | AbortIfOffMainThreadIfCheckFast,0.5576525763854628,778,5
+"nsChromeTreeOwner::OnLocationChange(nsIWebProgress*, nsIRequest*, nsIURI*)",0.4904543694142758,1891,1
+strncmp,0.39126820668694307,39,1
+"nsRootAccessible::FireAccessibleFocusEvent(nsAccessible*, nsIContent*, int, EIsFromUserInput)",0.30935112619650496,41,1
+PresShell::FlushPendingNotifications(mozFlushType),0.3974307835039236,42,1
+"memcpy | NS_CopySegmentToBuffer(nsIInputStream*, void*, char const*, unsigned int, unsigned int, unsigned int*)",0.43765104317790865,56,2
+gfxContext::gfxContext,0.12215659764630703,4,6
+ClearAllTextRunReferences,0.5074766053206158,108,2
+strcat,0.2151262516500877,9,1
+vksaver.dll@0x4917,0.5812872727292551,3568,1
+F1111738641______________________,0.18208877038704424,7,1
+vksaver.dll@0x3392,0.5812872727292551,3568,1
+nsWindow::GetParentWindow(int),0.5199110657177309,199,3
+js::types::TypeSet::getKnownTypeTag(JSContext*),0.5642410919271127,453,1
+"nsHttpChannel::AsyncOpen(nsIStreamListener*, nsISupports*)",0.18411607863832752,14,1
+"_purecall | nsBlockReflowState::nsBlockReflowState(nsHTMLReflowState const&, nsPresContext*, nsBlockFrame*, nsHTMLReflowMetrics const&, int, int, int)",0.33361114274231984,47,1
+PL_DHashTableOperate | mozilla::scache::StartupCache::GetBuffer,0.5579820594510287,612,1
+AddSelector,0.5686376226636347,394,1
+nsGlobalWindow::SetDocShell(nsIDocShell*),0.21901796368012952,28,1
+JSString::flatten(),0.07478392981391614,3,2
+"@0x0 | nsXULPrototypeCache::HasData(nsIURI*, int*)",0.5779009967099263,1800,1
+_pixman_setup_combiner_functions_32,0.07478392981391614,3,1
+NtFindAtom,0.5423628153387432,314,1
+"js::Bindings::getLocalNameArray(JSContext*, js::Vector<JSAtom*, int, js::TempAllocPolicy>*)",0.5978983928423047,5985,3
+nsCOMPtr_base::~nsCOMPtr_base() | nsSocketTransport::~nsSocketTransport(),0.08143773176420468,2,1
+F_1441563101_______________________,0.4458771213984332,135,1
+nsAString_internal::Finalize(),0.4163907560868244,47,1
+insertCell,0.12215659764630703,4,1
+"nsCoreUtils::IsAncestorOf(nsINode*, nsINode*, nsINode*)",0.17090358386386967,18,1
+nsHtml5NamedCharacters::initializeStatics(),0.07478392981391614,3,1
+nsContainerFrame::DestroyFrom,0.0,1,1
+nsURIHashKey::HashKey(nsIURI const*),0.20535669374824558,7,3
+nsPluginInstanceOwner::ProcessEvent(nsGUIEvent const&),0.0,1,1
+XPCWrappedNative::FlatJSObjectFinalized,0.28067020289291955,20,1
+setsockopt,0.2207595370731471,18,1
+mozcomp.dll@0xadb6,0.35685543744125026,41,1
+PL_DHashTableOperate,0.3694790445836221,46,13
+"nsBlockReflowContext::ReflowBlock(nsRect const&, int, nsCollapsingMargin&, int, int, nsLineBox*, nsHTMLReflowState&, unsigned int&, nsBlockReflowState&)",0.2669214038944282,11,1
+F382462422_____________________________________,0.4721934920741591,139,1
+hashKey,0.3868899711581142,52,1
+"LocationStep::fromDescendants(txXPathNode const&, txIMatchContext*, txNodeSet*)",0.4956254258238139,123,1
+nsAsyncInstantiateEvent::Run(),0.08143773176420468,2,1
+OSServices@0x56c9f,0.23184183509252804,28,1
+"nsImageLoadingContent::OnStopDecode(imgIRequest*, unsigned int, unsigned short const*)",0.0,1,1
+js_NewGCString(JSContext*),0.38874767588623776,30,1
+nsAString_internal::SetLength(unsigned int),0.28679442551245027,14,1
+nsContentList::ContentAppended,0.08143773176420468,2,1
+"WaitForSingleObjectEx | WaitForSingleObject | google_breakpad::ExceptionHandler::WriteMinidumpOnHandlerThread(_EXCEPTION_POINTERS*, MDRawAssertionInfo*)",0.48086109747905026,151,1
+nsXBLPrototypeBinding::ConstructAttributeTable(nsIContent*),0.16287546352840937,4,1
+js_ValueToBoolean,0.4552024106103153,101,5
+"nsTextControlFrame::CalcIntrinsicSize(nsIRenderingContext*, nsSize&)",0.16287546352840937,4,3
+js::mjit::ic::GetGlobalName,0.0,1,2
+"nsGenericHTMLElement::SetAttr(int, nsIAtom*, nsAString_internal const&, int)",0.08143773176420468,2,1
+nsDocShellEditorData::TearDownEditor(),0.1290757509900526,3,1
+mozalloc_abort(char const* const) | mozalloc.dll@0x106f,0.36912997924477886,27,4
+mozalloc_abort(char const* const) | NS_DebugBreak_P | write_string,0.1290757509900526,3,1
+"XPCNativeSet::GetNewOrUsed(XPCCallContext&, nsIClassInfo*)",0.22862461710944693,7,1
+nsRegion::SetToElements,0.07478392981391614,3,1
+ConvertWinError,0.0,2,1
+"nsTextFrame::Reflow(nsPresContext*, nsHTMLReflowMetrics&, nsHTMLReflowState const&, unsigned int&)",0.21051348275425724,6,2
+nsDocument::EnsureCatalogStyleSheet(char const*),0.0,1,1
+nsImageLoader::Load,0.0,1,1
+nsAString_internal::IsEmpty(),0.0,1,1
+syncJournal,0.18909255736720781,5,1
+js_XDRScript,0.21051348275425724,6,1
+"nsPluginStreamListenerPeer::SetUpStreamListener(nsIRequest*, nsIURI*)",0.4769172539317146,85,2
+GeForceGLDriver@0x12910,0.05293635161491743,6,2
+"nsTHashtable<nsPtrHashKey<nsIFrame> >::s_EnumStub(PLDHashTable*, PLDHashEntryHdr*, unsigned int, void*)",0.5538745520822721,384,1
+FinderKit@0x78d87,0.2420964375306899,198,1
+ntdll.dll@0x82825,0.5635308029896902,2299,1
+nsRefreshDriver::Notify(nsITimer*),0.4248240949621111,49,4
+"XPCCallContext::Init(XPCContext::LangType, int, JSObject*, JSObject*, int, int, unsigned int, int*, int*)",0.38675341108917366,43,2
+"nsHttpChannel::OnStopRequest(nsIRequest*, nsISupports*, unsigned int)",0.28503206117471636,16,1
+nsGlobalWindow::SaveWindowState(nsISupports**),0.1290757509900526,3,1
+nsINode::GetUserData(nsAString_internal const&),0.0,2,1
+nsCOMPtr_base::assign_with_AddRef(nsISupports*) | nsSocketTransport::SendStatus(unsigned int),0.16287546352840937,4,1
+"nsTypedSelection::selectFrames(nsPresContext*, nsIRange*, bool)",0.4275584507662195,166,2
+nsXULButtonAccessible::ContainsMenu(),0.18336757216618904,6,1
+nsBuiltinDecoderStateMachine::GetBuffered,0.496498793526799,150,1
+balance,0.15651746466152594,5,2
+"nsTHashtable<mozilla::places::History::KeyClass>::s_HashKey(PLDHashTable*, void const*)",0.47240902402638724,166,3
+"nsEventTargetChainItem::HandleEventTargetChain(nsEventChainPostVisitor&, unsigned int, nsDispatchingCallback*, int, nsCxPusher*)",0.41285351859552827,57,1
+PL_HashTableLookupConst,0.15651746466152594,5,3
+@0x0 | __NSThreadPerformPerform,0.15651746466152594,5,1
+SetOrigin,0.12394237195584407,5,1
+libappmenu.so@0x4238,0.0,3,1
+mozilla::storage::Connection::getFilename(),0.2645394813495184,17,4
+"mozilla::FrameLayerBuilder::StoreNewDisplayItemData(mozilla::FrameLayerBuilder::DisplayItemDataEntry*, void*)",0.48264970329918916,122,1
+F1949931376__________________,0.32450144377158274,39,1
+nsXBLService::GetBinding,0.0,2,1
+NewScopeProperty,0.2581515019801053,9,1
+nsTextFrame::ClearTextRun(),0.08143773176420468,2,3
+"nsPluginStreamListenerPeer::OnStartRequest(nsIRequest*, nsISupports*)",0.0,1,1
+"nsStyleSet::FileRules(int (*)(nsIStyleRuleProcessor*, void*), RuleProcessorData*)",0.4078700841193315,50,1
+"xpc::XrayWrapper<JSCrossCompartmentWrapper>::resolveOwnProperty(JSContext*, JSObject*, int, bool, js::PropertyDescriptor*)",0.5617375502027625,399,1
+RapportTanzan8.dylib@0x7e63,0.44406525433354216,64,1
+nsGenericElement::cycleCollection::Traverse,0.16287546352840937,4,1
+nsDocument::AddToIdTable,0.0,1,1
+nsRefPtr<nsIDOMEventListener>::~nsRefPtr<nsIDOMEventListener>(),0.0,1,1
+"memcpy | nsFastLoadFileReader::Read(char*, unsigned int, unsigned int*)",0.08089965060165719,16,1
+js_LookupPropertyWithFlags,0.4793398653983174,123,13
+js::StackFrame::scopeChain(),0.5005343762203877,148,1
+"nsObjectFrame::CreateWidget(int, int, bool)",0.5555970518197388,318,1
+@0x0,0.5594625358994642,449,6
+@0x1,0.5643154200200622,481,1
+nsRDFResource::Release(),0.2902766642697591,35,1
+jvm.dll@0x5e4e2,0.5460004667318746,676,1
+RtlpCreateSplitBlock,0.408406973715661,87,1
+@0x0 | F1009621517________________,0.2155200174815558,10,2
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | mozilla::Preferences::GetBranch(char const*, nsIPrefBranch**)",0.4795466058847186,3222,1
+fslsp.dll@0x19d6f,0.0,1,1
+"free | js_json_stringify(JSContext*, unsigned int, int*)",0.24431319529261405,8,2
+nsRuleNode::WalkRuleTree,0.08143773176420468,2,1
+GetMemberInfo,0.5171778367477171,247,1
+"hang | mozilla::plugins::PPluginInstanceParent::CallPaint(mozilla::plugins::NPRemoteEvent const&, short*)",0.5704255467366623,379,1
+jvm.dll@0xca552,0.39123159237073957,43,1
+"js::mjit::Compiler::jsop_relational_full(JSOp, int (*)(js::VMFrame&), unsigned char*, JSOp)",0.20535669374824558,7,1
+F802827052_____________,0.3978427849769503,122,1
+call_enumerate,0.08143773176420468,2,2
+JS_GetUCProperty,0.0,1,1
+pngu3267.dll@0x8cc2,0.12394237195584407,5,1
+layout_flush_block,0.31128780847449394,45,3
+StartRequest,0.5193199175299075,198,3
+nsPrintEngine::DoCommonPrint,0.08143773176420468,2,1
+hang | mozilla::plugins::PPluginInstanceParent::CallSetPluginFocus(),0.5883337399890595,503,1
+sqlite3MemMalloc,0.4864712704179655,105,1
+imgRequest::NotifyProxyListener(imgRequestProxy*),0.4307860603613063,46,1
+nsLinkableAccessible::NativeState(),0.30539149411576755,16,1
+js::mjit::Compiler::finishThisUp(js::mjit::JITScript**),0.46608665926942644,148,1
+@0x0 | nsSupportsArray::Release(),0.0,1,1
+nsCycleCollector::BeginCollection(nsICycleCollectorListener*),0.0790720140674944,5,1
+ReleaseObjects,0.5561472347569696,338,2
+nsGenericElement::SaveSubtreeState,0.18909255736720781,5,1
+skypeffcomponent.dll@0x87107,0.6079831561898975,3955,1
+@0x1a2689,0.0,2,1
+myMCSetControllerPort,0.16665737842303296,10,1
+NS_InvokeByIndex_P,0.49700377950382774,133,2
+"nsDocLoader::FireOnLocationChange(nsIWebProgress*, nsIRequest*, nsIURI*)",0.2751604638318496,14,1
+CERT_DestroyCertificate,0.40569491191172896,49,1
+nsAppShell::ProcessNextNativeEvent(int),0.48532724357777846,194,3
+F_977001240_________________,0.3739288955196731,69,1
+_SEH_epilog,0.3541889780496272,31,1
+hang | mozilla::plugins::PPluginInstanceParent::CallNPP_SetWindow(mozilla::plugins::NPRemoteWindow const&),0.6195997119050589,4767,3
+@0x0 | BaseThreadStart,0.5431422597216011,1129,1
+PresShell::~PresShell(),0.20538010372004878,10,1
+js::gc::MarkObjectRange,0.523979005953991,236,2
+"mozilla::plugins::PPluginInstanceChild::OnCallReceived(IPC::Message const&, IPC::Message*&)",0.08143773176420468,2,1
+js::ContextStack::popInvokeArgs(js::InvokeArgsGuard const&),0.4343027858633987,93,2
+_MD_CURRENT_THREAD,0.4827310735854653,284,1
+"PresShell::DoReflow(nsIFrame*, int)",0.2705302891314126,10,1
+"nsXBLService::GetBinding(nsIContent*, nsIURI*, int, nsIPrincipal*, int*, nsXBLBinding**, nsTArray<nsIURI*, nsTArrayDefaultAllocator>&)",0.3561725831805559,30,1
+icf.dll@0x175af,0.0,1,1
+sqlite3VdbeHalt,0.34417437996835715,48,1
+nvappfilter.dll@0x5628,0.07478392981391614,3,1
+nsScriptSecurityManager::doGetObjectPrincipal(JSObject*),0.4179022863557584,39,1
+JS_GetContextPrivate,0.4096254355326905,165,1
+CalcQuirkContainingBlockHeight,0.0,9,1
+js_ValueToString,0.4552024106103153,101,16
+MarkOutOfFlowFrameForDisplay,0.23100559139203686,18,1
+nsDownloadManager::RemoveDownloadsForURI,0.5546735239260936,245,1
+js::VisitFrameSlots<js::DefaultSlotMap>,0.11164710677317627,5,1
+mozilla::ipc::AsyncChannel::ReportConnectionError(char const*),0.5930542183044129,590,2
+JSLinearString::mark(JSTracer*),0.5594133719987514,341,1
+nsCSSCompressedDataBlock::MapRuleInfoInto,0.044266655321848,16,2
+"js::gc::MarkChildren(JSTracer*, js::Shape const*)",0.5379637781464205,220,1
+js::mjit::ic::CallProp,0.0,1,1
+nsLinkableAccessible::GetValue(nsAString_internal&),0.5095359454419076,672,1
+hang | NtUserPeekMessage,0.5757827794699091,2392,1
+nsFrame::~nsFrame(),0.4970309332975308,135,1
+js_DestroyContext,0.08143773176420468,2,1
+orangetoolbar.dll@0x9236,0.459878355208964,628,1
+js_GC,0.4792960654585479,99,7
+bDIBSectionSelected,0.2888265353657058,13,1
+"@0x0 | XPCWrappedNative::CallMethod(XPCCallContext&, XPCWrappedNative::CallMode)",0.14251603058735818,8,1
+NormalizeColor,0.2240864380482914,12,1
+js::mjit::Compiler::finishThisUp,0.46608665926942644,148,1
+"TimerThread::UpdateFilter(unsigned int, unsigned int, unsigned int)",0.3063849314387181,32,1
+je_free | DefaultFreeEntry,0.3515526576756905,23,1
+strchr | rfmozhlp.dll@0x3d6f,0.24005422825472644,9,1
+"nsXPCWrappedJS::QueryInterface(nsID const&, void**)",0.41178227595691347,67,1
+xul.dll@0x1b3c72,0.40474634286803873,62,1
+"nsTreeBodyFrame::GetItemWithinCellAt(int, nsRect const&, int, nsTreeColumn*)",0.1290757509900526,3,1
+nvd3dum.dll@0x41566c,0.3691473588223158,50,1
+RecycleTree,0.16287546352840937,4,1
+IsContinuationPlaceholder,0.07478392981391614,3,4
+PL_DHashTableOperate | mozilla::storage::AsyncBindingParams::BindByName,0.08143773176420468,2,1
+F_20680835_________________________________,0.5047081740964278,143,1
+"nsHttpConnectionMgr::GetConnection(nsHttpConnectionMgr::nsConnectionEntry*, nsHttpTransaction*, int, nsHttpConnection**)",0.29195121451846195,12,1
+hang | F_1440603502__________________,0.6370393747791826,9000,1
+"JSAutoEnterCompartment::enter(JSContext*, JSObject*)",0.5975851742754736,1765,2
+js::Interpret(JSContext*),0.24005422825472644,9,1
+nsAttrValue::Contains,0.1290757509900526,3,1
+call_trace,0.32322649010553234,23,1
+nsCStringKey::HashCode(),0.07478392981391614,3,1
+"nsTHashtable<nsBaseHashtableET<nsURIHashKey, nsCOMPtr<nsIStorageStream> > >::s_HashKey(PLDHashTable*, void const*)",0.47240902402638724,166,2
+nsCharTraits<unsigned short>::length(unsigned short const*),0.10192984040198437,6,2
+AttributeEnumFunc,0.32329279284258106,17,1
+js::analyze::ScriptAnalysis::analyzeBytecode,0.45359902677245584,123,1
+NotificationController::Shutdown(),0.2219569545293476,9,1
+cairo_dwrite_font_face_create_for_dwrite_fontface,0.10192984040198436,6,1
+"nsScriptSecurityManager::CheckPropertyAccessImpl(unsigned int, nsAXPCNativeCallContext*, JSContext*, JSObject*, nsISupports*, nsIURI*, nsIClassInfo*, char const*, int, void**)",0.5002449201318996,294,3
+"PL_DHashTableOperate | mozilla::scache::StartupCache::GetBuffer(char const*, char**, unsigned int*)",0.5265459784909171,452,1
+GraphWalker::DoWalk(nsDeque&),0.6214788511243832,3709,1
+igd10umd32.dll@0x3da3,0.14043186132319133,14,1
+CellCallback,0.16287546352840937,4,1
+JSRopeNodeIterator::init(),0.4260951523426462,44,1
+js_ReportOutOfMemory,0.497906739848534,228,1
+nsSHistory::EvictGlobalContentViewer(),0.35069179084413876,29,1
+gfxDWriteFont::GetSpaceGlyph(),0.0,1,1
+nsContentList::~nsContentList(),0.22862461710944693,7,1
+2puabtn.dll@0x2c2f,0.539878403156092,272,1
+nsDiskCacheMap::DeleteRecord(nsDiskCacheRecord*),0.5959197044768505,1325,2
+objc_msgSend | TFSInfo::~TFSInfo(),0.08143773176420468,2,1
+nsBlockInFlowLineIterator::Prev(),0.30135541717558345,13,2
+PInvokeCalliWorker,0.4316428693961864,100,1
+"operator new(unsigned int) | std::_Allocate<MessageLoop::PendingTask>(unsigned int, MessageLoop::PendingTask*)",0.1290757509900526,3,1
+nsGenericHTMLFormElement::IsDisabled,0.0,1,1
+RtlpWaitOnCriticalSection | nvlsp64.dll@0x3391,0.24017216220737392,27,1
+nsGenericElement::GetBaseURI(),0.21051348275425724,6,2
+@0x0 | datamngr.dll@0xd2d1,0.5597617144253467,1788,1
+JS_GetFrameFunctionObject,0.2151262516500877,9,3
+PR_EnterMonitor,0.481850814949347,87,2
+F_397880079__________________________,0.5471293338009012,296,1
+hang | RtlpWaitOnCriticalSection | RtlpDeCommitFreeBlock | F_1706698279__________________________________,0.5895059690283307,1215,1
+RtlpWaitOnCriticalSection | EtwEventEnabled | nvlsp.dll@0x5d40,0.43392300085089947,515,1
+EmitEnterBlock,0.2239537623515629,8,1
+gfxWindowsPlatform::VerifyD2DDevice(int),0.4303070462708847,379,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsComponentManagerImpl::RegisterJarManifest(nsIZipReader*, char const*, bool)",0.3654492550779847,39,1
+nsPIDOMWindow::IsOuterWindow(),0.1290757509900526,3,1
+GetPropertyHelper<ScopeNameCompiler>::testForGet(),0.24005422825472644,9,1
+libPDFRIP.A.dylib@0x181c2,0.31128780847449394,45,2
+StopRequest,0.2648053039303937,12,2
+sblsp.dll@0x4872,0.38470159710647756,44,1
+UnlockEnumerator,0.2824032593757832,14,2
+__ClientMonitorEnumProc,0.2533184180000202,19,1
+rlxf.dll@0xd8ad,0.25977806545356796,15,1
+nsGlobalChromeWindow::Release(),0.16287546352840937,4,1
+nsTransportStatusEvent::Run(),0.08143773176420468,2,1
+PopulateReportBlame,0.24431319529261405,8,1
+js::mjit::JaegerShotAtSafePoint,0.0,1,1
+"nsIFrame::InvalidateInternal(nsRect const&, int, int, nsIFrame*, unsigned int)",0.5131469051041792,150,1
+_cairo_spline_error_squared,0.3185642104669068,34,1
+GCGraphBuilder::NoteScriptChild,0.4480301178252223,53,2
+js::gc::Chunk::releaseArena(js::gc::ArenaHeader*),0.33258924940055645,579,1
+fun_finalize,0.3668530782850255,27,1
+BindNameToSlot,0.4677254328804213,82,4
+XPCWrappedNative::GetFlatJSObject(),0.08143773176420468,2,1
+nsXULWindow::GetDocShell(nsIDocShell**),0.0,1,1
+RtlpDeCommitFreeBlock | RtlpCoalesceFreeBlocks,0.2658073351266717,17,1
+CallTypeSniffers,0.08143773176420468,2,1
+@0x0 | ReleaseData,0.07478392981391614,3,1
+F_213315267___________,0.3371173754902168,30,1
+UnlinkFunctionBoxes,0.37873203064406585,35,1
+"nsNavHistory::AutoCompleteFeedback(int, nsIAutoCompleteController*)",0.08143773176420468,2,1
+sqlite3VdbeMemFinalize,0.0,1,1
+"nsAccUtils::GetHeaderCellsFor(nsIAccessibleTable*, nsIAccessibleTableCell*, int, nsIArray**)",0.0,1,1
+"js::GetFlatUpvar(JSContext*, JSObject*, int, js::Value*)",0.12215659764630703,4,3
+js_NewGCShortString(JSContext*),0.2961803820864437,19,2
+avgssff.dll@0xe8d0,0.5889480003879529,1199,1
+js::StackFrame::prevpcSlow(js::mjit::CallSite**),0.18336757216618904,6,1
+_spin_lock$VARIANT$mp,0.19054167802809835,34,1
+floor,0.08143773176420468,2,1
+nsXULTemplateBuilder::Uninit(int),0.5779009967099263,1800,1
+nvwgf2um.dll@0x9bf22,0.08143773176420468,2,1
+nsComponentManagerImpl::GetServiceByContractID,0.0,1,2
+js_ErrorToException,0.0,1,1
+F445589076_______________________________________________________________,0.4559910816544111,154,1
+storeEntityValue,0.0,6,1
+"nsUrlClassifierHash<int>::FromPlaintext(nsACString_internal const&, nsICryptoHash*)",0.4870970559510792,565,1
+js_NewObjectWithGivenProto,0.3885510329450628,34,5
+hang | F_1180069599_________________________________________________________________________________,0.48018189349818013,100,1
+nsDiskCacheStreamIO::Flush(),0.2817282642151927,11,1
+FOGetNameInternal,0.0,1,1
+nsHtml5ElementName::initializeStatics(),0.3513323010074765,42,1
+je_free | mozutils.dll@0x2b0f,0.3904657034808163,36,1
+objc_msgSend | HIToolbox@0x155fef,0.2531650670679912,20,1
+ClassSelector_ClearEntry,0.22862461710944693,7,1
+"mozilla::plugins::PPluginModuleChild::OnCallReceived(IPC::Message const&, IPC::Message*&)",0.0,1,1
+nsStyleContext::DoGetStyleDisplay(int),0.4216082227161718,61,2
+"nsAttrAndChildArray::GetAttr(nsIAtom*, int)",0.29235315815924984,15,1
+PR_Unlock,0.4070716278852968,50,4
+@0x0 | F_854888893________________________,0.31869848021100994,31,1
+gfxFontFamily::ReadCMAP(),0.352074161453,30,2
+SetPrintSettingsFromDevMode,0.0,1,1
+orangetoolbar.dll@0x776a,0.459878355208964,628,1
+js_NativeGet,0.3392609751009204,21,2
+mozcomp.dll@0xab51,0.35685543744125026,41,1
+hang | _SEH_prolog4,0.20535669374824558,7,3
+je_free | mozutils.dll@0x2a1f,0.3904657034808163,36,1
+GetWordFontOrGroup,0.18909255736720781,5,1
+F1053314403___________________________________________________________,0.4515195417011508,73,1
+nsThread::Shutdown(),0.21051348275425724,6,1
+JSString::hasFlag(unsigned int),0.0,1,1
+"mozilla::GenericFactory::CreateInstance(nsISupports*, nsID const&, void**)",0.19241620902887846,18,1
+"nsComponentManagerImpl::CreateInstanceByContractID(char const*, nsISupports*, nsID const&, void**)",0.20535669374824558,7,1
+nsURIHashKey::HashKey,0.47240902402638724,166,3
+nsViewManager::IsViewInserted(nsView*),0.0,1,1
+nsCSSRuleProcessor::RefreshRuleCascade(nsPresContext*),0.5314430743744301,240,1
+libflashplayer.so@0x609295,0.16287546352840937,4,1
+FlushNativeStackFrame,0.1290757509900526,3,3
+libflashplayer.so@0x609292,0.18909255736720781,5,1
+@0x0 | nsAttrName::ReleaseInternalName(),0.4844381335156651,119,1
+ffplugin.dll@0x175244,0.3275367013663557,20,1
+gfxASurface::Release(),0.47404260765410267,261,1
+nsDocument::cycleCollection::UnmarkPurple(nsISupports*),0.34093667274216094,58,1
+@0x0 | aticfx32.dll@0x10c98,0.11882969667116276,6,1
+"gfxTextRun::GetAdvanceWidth(unsigned int, unsigned int, gfxTextRun::PropertyProvider*)",0.24431319529261405,8,1
+js::AutoCompartment::enter,0.5980908704312384,5990,1
+"memcpy | nsMemory::Clone(void const*, unsigned int)",0.2542427427785716,10,1
+gfxReleaseSharedState,0.0,1,1
+"operator new(unsigned int) | gfxTextRun::operator new(unsigned int, unsigned int, unsigned int)",0.14597560725923098,6,1
+nsStringBuffer::Release(),0.4885163384505098,95,1
+PR_GetSocketOption,0.1290757509900526,3,1
+memcpy | DoReplace,0.1290757509900526,3,1
+memcpy | _NLG_Return2,0.0,22,1
+_cairo_atomic_int_dec_and_test,0.2542427427785716,10,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | nsTArray<unsigned int, nsTArrayDefaultAllocator>::AppendElements<unsigned int>(unsigned int const*, unsign...",0.5652862398508908,680,2
+nsXPCWrappedJS::`scalar deleting destructor''(unsigned int),0.08143773176420468,2,2
+JS_IsArrayObject,0.08143773176420468,2,1
+JS_GetFunctionScript,0.08143773176420468,2,1
+js::gc::MarkChildren,0.5231860535032845,176,3
+RtlpWaitForCriticalSection | RtlEnterCriticalSection,0.5481860856211586,1629,5
+nsFrameList::RemoveFrame,0.33235405315096894,51,6
+"NS_TableDrivenQI(void*, QITableEntry const*, nsID const&, void**)",0.4781910133205354,111,1
+"mozilla::`anonymous namespace''::ContainerState::ProcessDisplayItems(nsDisplayList const&, mozilla::FrameLayerBuilder::Clip&)",0.5578911131962184,570,1
+XPCJSRuntime::GCCallback,0.16287546352840937,4,3
+JS_free | PostMessageEvent::Run,0.1905294583146483,15,1
+"nsExternalAppHandler::nsExternalAppHandler(nsIMIMEInfo*, nsACString_internal const&, nsIInterfaceRequestor*, nsAString_internal const&, unsigned int, int)",0.22862461710944693,7,1
+little2_updatePosition,0.0,1,3
+"memcpy | nsAString_internal::Replace(unsigned int, unsigned int, wchar_t const*, unsigned int)",0.19590978867134434,8,1
+XPC_WN_Helper_GetProperty,0.3395892337443097,18,1
+libc-2.13.so@0x10d714,0.472585343211527,203,1
+MakePlaceholder,0.435469899388252,64,1
+nsAttrValue::ResetMiscAtomOrString(),0.08143773176420468,2,1
+nsHtml5TreeOpExecutor::RunFlushLoop(),0.47493287597055783,86,2
+nsStyleContext::~nsStyleContext,0.5198420772489716,178,1
+nsPresContext::MediaFeatureValuesChanged(int),0.12215659764630703,4,2
+PickChunk,0.07478392981391614,3,1
+F_1166855013_______________________________________________,0.37739741071742183,40,1
+nsJSNPRuntime::OnPluginDestroy(_NPP*),0.5423628153387432,314,1
+"nsLocalFile::OpenANSIFileDesc(char const*, _iobuf**)",0.0,2,1
+js::gc::MarkObject,0.49091143785493935,187,1
+js_IsAboutToBeFinalized,0.5846439631085997,595,2
+nsDisplayText::GetBounds(nsDisplayListBuilder*),0.24431319529261405,8,1
+"js_GetProperty(JSContext*, JSObject*, JSObject*, int, js::Value*)",0.4361111684169886,108,1
+libnspr4.dylib@0x21f85,0.0,1,1
+nsJSScriptTimeoutHandler::SetLateness(unsigned int),0.3395892337443097,18,1
+array_getProperty,0.22862461710944693,7,1
+js::gc::MarkString,0.4033950092657812,44,1
+"js::mjit::stubs::CompileFunction(js::VMFrame&, unsigned int)",0.0,1,1
+RtlpWaitOnCriticalSection | nvlsp64.dll@0x36b1,0.24017216220737392,27,1
+LdrShutdownThread,0.40279363110309685,144,1
+"TV_GetItemRect(_TREE*, _TREEITEM*, tagRECT*, unsigned int)",0.20535669374824558,7,1
+fastzero_I,0.5538097119765644,502,2
+nsCOMPtr_base::assign_with_AddRef | nsFactoryEntry::GetFactory,0.10429503336181481,12,1
+nsAccessible::UpdateChildren(),0.2705302891314126,10,1
+F291763843____________,0.0,1,1
+ns_if_addref<nsIDOMStorageItem*>(nsIDOMStorageItem*),0.16287546352840937,4,1
+pixman_fill_sse2,0.37151599126669477,62,1
+linux-gate.so@0x424,0.18208877038704424,7,6
+js_PutBlockObject,0.3837307468735482,39,3
+js_UntrapScriptCode,0.08143773176420468,2,1
+cairo_d2d_present_backbuffer,0.28554803515902977,216,7
+mozilla::layers::SwapChainD3D9::PrepareForRendering(),0.4299916085407379,229,2
+JSC::Yarr::Interpreter::interpret(),0.2581515019801053,9,2
+"nsViewManager::UpdateWidgetArea(nsView*, nsIWidget*, nsRegion const&, nsView*)",0.2840975872185259,26,1
+CdxmPlay::put_FileName(unsigned short*),0.18909255736720781,5,1
+arena_dalloc_small | arena_dalloc | free | DefaultFreeEntry,0.5942559820474925,849,2
+js_GetCallObject,0.4115094115709372,40,1
+hang | kernelbase.dll@0x179b,0.5205354252186137,3887,1
+specializeTreesToMissingGlobals,0.0,1,1
+"nsImageBoxFrame::AttributeChanged(int, nsIAtom*, int)",0.4136587806186937,48,1
+JSStackFrame::scopeChain(),0.3344324447382981,21,2
+arena_dalloc_small | arena_dalloc | free | CloseDir,0.47892214798426397,216,1
+CrashInJS,0.43293450055573557,432,3
+FastConvertYUVToRGB32Row_SSE,0.2322593284404024,45,1
+"gfxFontGroup::FindFontForChar(unsigned int, unsigned int, int, gfxFont*, unsigned char*)",0.352074161453,30,1
+nsXULPopupManager::HidePopupsInDocShell(nsIDocShellTreeItem*),0.18909255736720781,5,1
+CFRelease,0.0,1,1
+js_NewGCString,0.38874767588623776,30,1
+"nsBindingManager::GetBindingImplementation(nsIContent*, nsID const&, void**)",0.5789925474754432,541,1
+JSC::ExecutablePool::ExecutablePool(unsigned int),0.12215659764630703,4,1
+"nsEventDispatcher::Dispatch(nsISupports*, nsPresContext*, nsEvent*, nsIDOMEvent*, nsEventStatus*, nsDispatchingCallback*, nsCOMArray<nsPIDOMEventTarget>*)",0.3155712105862931,16,2
+arena_dalloc_small | arena_dalloc | free | XPT_DestroyArena,0.4425510315746731,112,1
+"nsCacheService::SearchCacheDevices(nsCString*, int, int*)",0.05293635161491743,6,1
+hang | NtUserMessageCall | NtUserMessageCall | FindAccResource,0.3566401345575467,43,1
+IsPercentageAware,0.20535669374824558,7,6
+strlen | Flash Player@0x2e7bc4,0.3913587477698421,155,1
+afurladvisor.dll@0x8a05,0.08143773176420468,2,1
+nsUserFontSet::ReplaceFontEntry,0.20539045559481234,12,2
+nsAccessible::Role(),0.08143773176420468,2,2
+MacOSFontEntry::GetFontID(),0.08143773176420468,2,1
+"js::Bindings::lookup(JSContext*, JSAtom*, unsigned int*)",0.2984283871930509,14,1
+js_TraceStackFrame,0.1733064381137101,7,1
+pref_DoCallback,0.0,1,1
+nsGenericElement::GetScrollFrame(nsIFrame**),0.18909255736720781,5,1
+nsCOMPtr_base::~nsCOMPtr_base() | nsThread::Shutdown(),0.21051348275425724,6,1
+"nsXPConnect::Traverse(void*, nsCycleCollectionTraversalCallback&)",0.5830495070948589,701,4
+mozilla::plugins::PluginScriptableObjectChild::CreateProxyObject(),0.24005422825472644,9,1
+FlashPlayer-10.4-10.5@0x61bfd2,0.32450144377158274,39,1
+nsGlobalWindow::IsInModalState(),0.16287546352840937,4,1
+nsIFrame::GetOffsetToCrossDoc(nsIFrame const*),0.24652578667245106,11,1
+wmp.dll@0x22933f,0.18336757216618904,6,1
+js::Shape::markChildrenNotParent(JSTracer*),0.3073099441220331,15,1
+GetWrapperFor,0.22862461710944693,7,1
+FinalizeArenaList<JSObject_Slots2>,0.45763861787591864,127,1
+"nsStyleContext::FindChildWithRules(nsIAtom const*, nsRuleNode*, nsRuleNode*, int)",0.08143773176420468,2,1
+@0x0 | DoDeferredRelease<nsISupports*>,0.2964515798868058,15,1
+nsCOMPtr_base::~nsCOMPtr_base | nsCachedStyleData::Destroy,0.08143773176420468,2,1
+hang | mozilla::plugins::PPluginModuleParent::CallNP_Shutdown(short*),0.08143773176420468,2,2
+"XPCCallContext::Init(XPCContext::LangType, int, JSObject*, JSObject*, XPCCallContext::WrapperInitOptions, int, unsigned int, unsigned __int64*, unsigned __int64*)",0.32754705324111943,24,2
+F572062215____________________________________________,0.2581515019801053,9,1
+InternalFindAtom,0.3798182324599177,32,2
+"nsIFrame::InvalidateWithFlags(nsRect const&, unsigned int)",0.24005422825472644,9,4
+"nsLayoutUtils::GetCrossDocParentFrame(nsIFrame const*, nsPoint*)",0.20535669374824558,7,3
+@0x0 | nsZipArchive::OpenArchive(nsIFile*),0.15651746466152594,5,1
+__CFStringCreateImmutableFunnel3,0.08143773176420468,2,1
+"nsScriptSecurityManager::LookupPolicy(nsIPrincipal*, ClassInfoData&, int, unsigned int, ClassPolicy**, SecurityLevel*)",0.46422243039134725,164,1
+js_Date,0.1290757509900526,3,1
+nsObjectFrame::GetImageContainer(mozilla::layers::LayerManager*),0.0,2,1
+mozilla::ipc::RPCChannel::DequeueTask::Run(),0.1290757509900526,3,1
+libvlc.dll@0x6e214,0.0,1,1
+"nsRuleNode::GetStyleData(nsStyleStructID, nsStyleContext*, int)",0.24427909166629716,15,2
+nsNodeUtils::LastRelease(nsINode*),0.49484896955858276,114,1
+"JSObject::putProperty(JSContext*, int, int (*)(JSContext*, JSObject*, int, js::Value*), int (*)(JSContext*, JSObject*, int, int, js::Value*), unsigned int, unsigned int, unsigned int, int)",0.22862461710944693,7,1
+TextRunWordCache::CacheHashEntry::KeyEquals(TextRunWordCache::CacheHashKey const* const),0.5134547180009575,186,1
+"nsFileInputStream::QueryInterface(nsID const&, void**)",0.12394237195584407,5,1
+js_Interpret:1493,0.21051348275425724,6,1
+js_Interpret:1491,0.08143773176420468,2,1
+arena_avail_tree_remove,0.4877763285567674,121,2
+nsParser::cycleCollection::UnmarkPurple(nsISupports*),0.08143773176420468,2,1
+@0x0 | mozilla::imagelib::Decoder::Finish(),0.15651746466152594,5,1
+"js_TraceScript(JSTracer*, JSScript*)",0.43008748198792796,55,1
+AsyncClickHandler::Run(),0.38826021539450895,49,1
+mscorwks.dll@0xbf7eb,0.5155513453525945,498,1
+nsEventQueue::PutEvent(nsIRunnable*),0.4024598927911484,46,1
+nsHtml5AttributeName::initializeStatics,0.4196247190945935,108,1
+mozilla::layers::ContainerLayerD3D9::RenderLayer(),0.16287546352840937,4,3
+"xpc::XrayWrapper<JSCrossCompartmentWrapper>::createHolder(JSContext*, JSObject*, JSObject*)",0.42296336219559877,56,2
+"XPCWrappedNative::GetWrappedNativeOfJSObject(JSContext*, JSObject*, JSObject*, JSObject**, XPCWrappedNativeTearOff**)",0.5151318969905513,248,1
+_moz_cairo_matrix_multiply,0.0,1,1
+RtlpWaitOnCriticalSection | RtlAddAccessAllowedAce | nvlsp.dll@0x5d40,0.43392300085089947,515,1
+nsContentList::PopulateSelf,0.5537680500644471,326,1
+arena_chunk_init,0.323292792842581,17,2
+nsCSSScanner::Next(nsCSSToken&),0.3495934675792134,34,1
+F1292875159_________________________________________,0.36542110341903145,29,1
+gfxContext::Translate(gfxPoint const&),0.1290757509900526,3,1
+F984240032_________________________,0.46928711422984226,443,1
+GetPropertyTreeChild,0.37718827417952966,31,2
+rlxg.dll@0x9ef3,0.1290757509900526,3,1
+je_free,0.4658784552859589,201,1
+nsIDOMNode_InsertBefore,0.0,1,1
+@0x0 | mozilla::gl::GLContext::MarkDestroyed(),0.0,2,1
+MOZ_Z_adler32,0.42931924282557826,73,1
+GetCat,0.1290757509900526,3,1
+"XPCWrappedNative::Morph(XPCCallContext&, JSObject*, XPCNativeInterface*, nsWrapperCache*, XPCWrappedNative**)",0.18909255736720781,5,2
+nsXPConnect::GetPrincipal,0.2984283871930509,14,2
+JS_GetStringChars,0.08143773176420468,2,2
+orangetoolbar.dll@0x724b,0.459878355208964,628,1
+libobjc.A.dylib@0xeca0,0.0,4,1
+nsAutoCompleteController::HandleDelete(int*),0.24431319529261405,8,1
+"nsHttpConnectionMgr::nsHalfOpenSocket::OnTransportStatus(nsITransport*, unsigned int, unsigned __int64, unsigned __int64)",0.08143773176420468,2,2
+"mozilla::plugins::PPluginInstanceParent::CallPBrowserStreamConstructor(mozilla::plugins::PBrowserStreamParent*, nsCString const&, unsigned int const&, unsigned int const&, mozilla::plugins::PStreamNotifyParent*, nsCString const&, nsCString const&, bool...",0.6450655418172818,11002,2
+"PresShell::Paint(nsIView*, nsIView*, nsIWidget*, nsRegion const&, nsIntRegion const&, int, int)",0.2783782592244278,12,1
+nsZipArchive::GetData,0.37252883652265306,33,2
+LeaveTree,0.3519680208956171,20,3
+XPCNativeSet::Mark(),0.4870258690067522,109,1
+js_SrcNoteLength,0.5161376654062972,226,1
+"nsRuleNode::GetStyleContent(nsStyleContext*, int)",0.18336757216618904,6,1
+SetPluginParameter,0.08143773176420468,2,1
+STAN_GetNSSCertificate,0.0,1,1
+F_1427589130_________________,0.2239537623515629,8,1
+arena_bin_nonfull_run_get,0.5424842256140392,256,1
+gfxASurface::GetType(),0.17330643811371008,7,1
+libflashplayer.so@0x60928f,0.0,1,1
+"nsPluginHost::FindPlugins(int, int*)",0.1290757509900526,3,2
+memcpy,0.11164710677317627,5,2
+TextRunWordCache::CacheHashEntry::KeyEquals(TextRunWordCache::CacheHashKey const*) const,0.12483708507879698,15,2
+gfxTextRun::GetAdvanceWidth,0.24431319529261405,8,1
+_alloca_probe_16,0.20535669374824558,7,1
+JSC::Yarr::CharacterClassConstructor::~CharacterClassConstructor(),0.0,1,1
+nsCOMPtr_base::~nsCOMPtr_base() | factory_ClearEntry,0.31006234887365164,14,1
+"nsSocketTransportService::CreateTransport(char const**, unsigned int, nsACString_internal const&, int, nsIProxyInfo*, nsISocketTransport**)",0.0,16,1
+"js_TraceObject(JSTracer*, JSObject*)",0.3275367013663557,20,1
+"nsDisplayBackground::Paint(nsDisplayListBuilder*, nsIRenderingContext*)",0.3462430356945984,24,1
+"memcpy | nsCacheMetaData::SetElement(char const*, char const*)",0.3554768106851669,31,2
+secmod_argParseModuleSpec,0.0,2,1
+"mozilla::WebGLContext::GetCanvasLayer(nsDisplayListBuilder*, mozilla::layers::CanvasLayer*, mozilla::layers::LayerManager*)",0.0,1,1
+nsEventStateManager::PostHandleEvent,0.0,1,1
+mozilla::dom::indexedDB::CheckPermissionsHelper::Run(),0.08143773176420468,2,1
+F_1090611750__________________,0.5198623672901981,310,1
+nsXPCComponents::ClearMembers(),0.16287546352840937,4,1
+WrapNative,0.2705302891314126,10,1
+NewGCThing<JSString>,0.5052635692831825,146,1
+nsGenericHTMLElement::GetOffsetWidth(int*),0.08143773176420468,2,1
+cvtdate,0.0,1,1
+FlashPlayer-10.6@0x4b7024,0.0,1,1
+gfxContext::NewPath(),0.48486027957263483,260,1
+"nsXULWindow::Center(nsIXULWindow*, int, int)",0.5096789859466154,225,1
+"js::PropertyCache::fill(JSContext*, JSObject*, unsigned int, JSObject*, js::Shape const*, int)",0.5943817930860522,937,1
+hang | WaitForMultipleObjectsEx | RealMsgWaitForMultipleObjectsEx,0.44555878869975085,390,1
+QuoteString,0.5160727709763019,157,5
+pt_PostNotifies,0.0,1,1
+WrappedJSDyingJSObjectFinder,0.4232031970489612,51,1
+IcedTeaPlugin.so@0x873c,0.1290757509900526,3,1
+@0x0 | _PR_MD_PR_POLL,0.5188810546802597,352,1
+DoDeletingFrameSubtree,0.08143773176420468,2,9
+hang | __psynch_mutexwait,0.2370571831218092,62,1
+extent_tree_ad_remove,0.56187099370711,355,1
+"nsMIMEHeaderParamImpl::GetParameterInternal(char const*, char const*, char**, char**, char**)",0.08143773176420468,2,1
+nsACString_internal::Finalize(),0.277347520435549,16,1
+GetModuleFileNameA,0.3241056882427317,58,1
+nsViewManager::~nsViewManager(),0.14597560725923098,6,1
+nsCSSSelector::Reset(),0.5149251485413759,135,1
+array_trace,0.5015072864933696,171,1
+JSContext::delete_<js::RegExpPrivate>(js::RegExpPrivate*),0.07478392981391614,3,1
+hang | F_980482081__________________,0.4674585074885148,99,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | nsTArray<nsUrlClassifierLookupResult, nsTArrayDefaultAllocator>::AppendElements(unsigned int) | nsUrlClass...",0.5894657014964156,1754,1
+nsAttrAndChildArray::Clear,0.1290757509900526,3,1
+nsBlockFrame::GetMinWidth(nsRenderingContext*),0.3452065035101553,26,1
+_moz_cairo_surface_destroy,0.36995111968140876,31,1
+libfontconfig.so.1.4.4@0x1a942,0.12228807656852547,16,1
+"js::gc::MarkChildren(JSTracer*, js::types::TypeObject*)",0.5295000496327565,217,1
+nsStyleContext::Destroy(),0.08143773176420468,2,1
+"js::gc::MarkAtomRange(JSTracer*, unsigned int, JSAtom**, char const*)",0.6070862460638492,603,2
+GetPropertyByName,0.2581515019801053,9,1
+"nsWindowWatcher::CalculateChromeFlags(char const*, int, int, int, int)",0.0,1,1
+"@0x0 | nsBaseAppShell::OnProcessNextEvent(nsIThreadInternal*, int, unsigned int)",0.1290757509900526,3,1
+js_FindClassObject,0.29997933485392225,18,2
+"js::Mark(JSTracer*, void*, unsigned long)",0.3231221252578856,28,1
+RtlEnterCriticalSection,0.6341647657460323,2316,15
+XPCWrappedNative::FlatJSObjectFinalized(JSContext*),0.516401800741313,200,2
+@0x0 | nsContentList::PopulateSelf(unsigned int),0.5537680500644471,326,1
+VisitFrameSlots<ImportUnboxedStackSlotVisitor>,0.16287546352840937,4,1
+libnspr4.dylib@0x21f75,0.0,1,1
+"gfxDWriteShaper::InitTextRun(gfxContext*, gfxTextRun*, unsigned short const*, unsigned int, unsigned int, int)",0.16287546352840937,4,1
+"nsImageFrame::DisplayAltFeedback(nsIRenderingContext&, nsRect const&, imgIRequest*, nsPoint)",0.1290757509900526,3,2
+"XPCNativeInterface::NewInstance(XPCCallContext&, nsIInterfaceInfo*)",0.3929504158113112,31,1
+MorphSlimWrapper,0.15651746466152594,5,1
+"nsDisplayList::Sort(nsDisplayListBuilder*, int (*)(nsDisplayItem*, nsDisplayItem*, void*), void*)",0.0,1,1
+operator new(unsigned int) | nsFastLoadFileReader::ReadFooter(nsFastLoadFileReader::nsFastLoadFooter*),0.3616684827453242,43,2
+JSCompartment::wrap,0.45640665302968664,141,9
+"nsPluginHost::TrySetUpPluginInstance(char const*, nsIURI*, nsIPluginInstanceOwner*)",0.5814465560022056,495,1
+flvsniff.dll@0x50f30,0.4325782447952415,133,1
+swi_filter_0001.dll@0x14915,0.38551559670125723,39,1
+"UnionExpr::evaluate(txIEvalContext*, txAExprResult**)",0.4970309332975308,135,1
+nsCocoaWindow::Show,0.08143773176420468,2,2
+js::mjit::ic::BasePolyIC::releasePools(),0.4894160853610886,145,2
+"nsObjectFrame::CreateWidget(int, int, int)",0.5555970518197388,318,1
+base::MessagePumpForIO::DoRunLoop(),0.5206110823212177,235,1
+nsZipArchive::BuildFileList(),0.3608206537098993,27,2
+"JSScope::destroy(JSContext*, JSScope*)",0.4084100051321744,35,1
+F_243651960___________________,0.4109720267945281,41,1
+"txNameTest::matches(txXPathNode const&, txIMatchContext*)",0.44356933030128115,60,1
+"nsAString_internal::Assign(unsigned short const*, unsigned int)",0.21051348275425724,6,1
+BCMapCellInfo::SetColumn(int),0.1290757509900526,3,1
+UnmarkGrayChildren,0.2239537623515629,8,1
+"mozilla::FrameLayerBuilder::DrawThebesLayer(mozilla::layers::ThebesLayer*, gfxContext*, nsIntRegion const&, nsIntRegion const&, void*)",0.5593676613850843,421,1
+js::LifoAlloc::getOrCreateChunk(unsigned int),0.3833184937686241,30,1
+PostMessageEvent::Run(),0.3856371705241916,41,1
+"nsJSObjWrapper::NP_GetProperty(NPObject*, void*, _NPVariant*)",0.30135541717558345,13,1
+sqlite3BtreeBeginTrans,0.06606865028586992,4,1
+nsDocShell::SetupNewViewer(nsIContentViewer*),0.3776920259618302,41,6
+imtcui.dll@0x2038c,0.22862461710944693,7,1
+"js::RunScript(JSContext*, JSScript*, JSStackFrame*)",0.20535669374824558,7,1
+chromehang | CreateFileMappingA,0.0,1,1
+nsAttrName::ReleaseInternalName(),0.4844381335156651,119,1
+@0x0 | datamngr.dll@0x1b661,0.5597617144253467,1788,1
+nsStyleContext::GetStyleDisplay(),0.583131765602639,735,1
+"nsLoadGroup::AddRequest(nsIRequest*, nsISupports*)",0.18411607863832752,14,1
+atidxx32.dll@0x3e543,0.20539045559481234,12,1
+"nsBlockFrame::DoReflowInlineFrames(nsBlockReflowState&, nsLineLayout&, nsLineList_iterator, nsFlowAreaRect&, int&, nsFloatManager::SavedState*, int*, LineReflowStatus*, int)",0.18909255736720781,5,1
+_moz_cairo_surface_create_similar,0.15003851475250876,7,2
+nsINode::doInsertChildAt,0.0,1,1
+"nsPluginHost::InstantiateFullPagePlugin(char const*, nsIURI*, nsIPluginInstanceOwner*, nsIStreamListener**)",0.5102147211012996,158,1
+"nsIFrame::GetOffsetToCrossDoc(nsIFrame const*, int)",0.5738866060667462,366,1
+mozilla::plugins::parent::_forceredraw,0.3130315833056093,299,3
+hang | CreateFileMappingA,0.557539557594829,1236,2
+nsIDocument::GetContainer(),0.29880721998890913,23,1
+WillDeadlock,0.2239537623515629,8,3
+nsFrame::DidSetStyleContext(nsStyleContext*),0.5615937022345816,551,1
+TraceRecorder::record_NativeCallComplete(),0.3202244029417496,19,2
+nsBufferedOutputStream::Finish(),0.12215659764630703,4,1
+nsDocShell::FirePageHideNotification(int),0.14597560725923098,6,1
+"js_SetPropertyHelper(JSContext*, JSObject*, int, unsigned int, js::Value*, int)",0.2783782592244278,12,1
+JSObject::isWrapper(),0.54820641562611,1102,1
+"js::DefaultValue(JSContext*, JSObject*, JSType, js::Value*)",0.4053485609958623,68,2
+nsRefPtr<nsSVGFEMorphologyElement>::~nsRefPtr<nsSVGFEMorphologyElement>() | nsInvalidPluginTag::~nsInvalidPluginTag(),0.0,1,1
+FinalizeObject,0.42511925387908045,48,1
+arena_dalloc | free | nsAutoArrayPtr<gfxTextRun::DetailedGlyph>::~nsAutoArrayPtr<gfxTextRun::DetailedGlyph>(),0.08143773176420468,4,1
+js::gc::Mark<JSObject>,0.2542427427785716,10,1
+NSC_GetTokenInfo,0.0,1,1
+"nsEventStateManager::SetClickCount(nsPresContext*, nsMouseEvent*, nsEventStatus*)",0.2961803820864437,19,1
+F_153412292_______________________,0.0,1,1
+js::GCMarker::drainMarkStack,0.471238233176177,88,1
+nsGenericElement::SaveSubtreeState(),0.48771495178609225,87,1
+AppleIntelGMAX3100GLDriver@0x2a920,0.17117081920971364,31,1
+nsJSCID::GetService(nsISupports**),0.05384568381547043,50,1
+hang | __semwait_signal,0.17555035573029315,8,1
+"js_ConcatStrings(JSContext*, JSString*, JSString*)",0.4545641865855491,86,2
+XPCJSStackFrame::`vector deleting destructor''(unsigned int),0.2902766642697591,35,1
+sse2_composite_over_8888_8888,0.1290757509900526,3,1
+"js::Shape::getChild(JSContext*, js::Shape const&, js::Shape**)",0.39444925111545365,35,1
+hang | F350294125____________________________________________________,0.6370393747791826,9000,1
+remove_token_certs,0.08143773176420468,2,1
+nsImageLoadingContent::OnStartContainer,0.4627739994425032,140,1
+nsRuleNode::Transition,0.08143773176420468,2,1
+GetPropA,0.1290757509900526,3,1
+RtlNtStatusToDosErrorNoTeb,0.1290757509900526,3,1
+"nsRegion::SubRect(nsRegion::nsRectFast const&, nsRegion&, nsRegion&)",0.5210950524079093,172,1
+JS_RestoreFrameChain,0.3857132613131903,31,6
+hang | F_1644221920___________________________________,0.5802851867904205,761,1
+"mozilla::plugins::PStreamNotifyParent::Send__delete__(mozilla::plugins::PStreamNotifyParent*, short const&)",0.24431319529261405,8,3
+"nsWindow::ProcessMessage(unsigned int, unsigned int&, long&, long*)",0.5306282740743428,241,3
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsEventDispatcher::CreateEvent(nsPresContext*, nsEvent*, nsAString_internal const&, nsIDOMEvent**)",0.5789925474754432,541,1
+RtlAcquireSRWLockShared,0.07478392981391614,3,1
+PaintBackgroundLayer,0.0,2,1
+fillInCell,0.2239537623515629,8,2
+Flash Player@0x39d6ee,0.07478392981391614,3,1
+js::Interpret,0.35492455337607776,63,8
+js::LoopProfile::decide(JSContext*),0.26454015627689054,28,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsHtml5Tokenizer::stateLoop(int, unsigned short, int, unsigned short*, int, int, int)",0.20535669374824558,7,1
+bilinear_interpolate_line_sse2,0.2239537623515629,8,1
+_moz_pixman_image_create_bits,0.27622804337050455,19,1
+libc-2.14.90.so@0x36285,0.2542427427785716,10,1
+"nsFrameSelection::ConstrainFrameAndPointToAnchorSubtree(nsIFrame*, nsPoint&, nsIFrame**, nsPoint&)",0.08143773176420468,2,1
+nsThread::ProcessNextEvent,0.2336913536903053,36,2
+nsTArray_base::UsesAutoArrayBuffer(),0.0,1,1
+nsThread::ThreadFunc(void*),0.08143773176420468,2,1
+flash asset.x32@0x72340,0.338377484710453,28,1
+xpavgtbapi.dll@0xe5a4,0.3195499478641882,25,1
+js::RegExp::decref(JSContext*),0.08143773176420468,2,1
+"js::MonitorLoopEdge(JSContext*, unsigned int&, js::RecordReason)",0.370563414050595,34,3
+nsUrlClassifierDBServiceWorker::FinishUpdate(),0.0,1,1
+nsCounterManager::AddCounterResetsAndIncrements(nsIFrame*),0.2794636394712066,19,2
+js::types::TypeSet::hasType(js::types::Type),0.5721851877750168,414,1
+"JSC::Yarr::execute(JSC::Yarr::YarrCodeBlock&, wchar_t const*, unsigned int, unsigned int, int*)",0.601919081560302,3209,2
+Flash Player@0x3ce8a5,0.0,1,1
+nsTextInputListener::EditAction(),0.2581515019801053,9,1
+"XPCConvert::JSObject2NativeInterface(XPCCallContext&, void**, JSObject*, nsID const*, nsISupports*, unsigned int*)",0.5173067472707135,255,1
+dct_8x8_inv_16s,0.12394237195584407,5,2
+nsCSSCompressedDataBlock::MapRuleInfoInto(nsRuleData*),0.47735061527201916,120,1
+HandleEvent,0.18909255736720781,5,3
+nsDocShell::ConfirmRepost(int*),0.3912682066869431,39,1
+nsGlobalWindow::GetLocalStorage,0.0,1,2
+libsystem_c.dylib@0x27d91,0.08143773176420468,2,2
+"GetPropCompiler::reset(js::mjit::ic::Repatcher&, js::mjit::ic::PICInfo&)",0.5098973885499909,141,2
+libpthread-2.11.1.so@0x93c4,0.18336757216618904,6,1
+CFileOpenBrowser::_CleanupDialog(int),0.08143773176420468,2,1
+JSCGObjectList::finish(JSObjectArray*),0.44598127075308824,51,1
+objc_msgSend | IdleTimerVector,0.21663493325292732,17,2
+mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::plugins::PluginInstanceChild::ShowPluginFrame(),0.2542427427785716,10,1
+NSSRWLock_LockRead_Util,0.2581515019801053,9,2
+nsRuleNode::GetVisibilityData(nsStyleContext*),0.5615937022345816,551,1
+"nsBufferedStream::Seek(int, __int64)",0.18336757216618904,6,1
+NetworkBrowser::closeNode(__NWNode*),0.23184183509252804,28,1
+F_1735567501__________________________________________,0.4890380595504957,231,1
+_pr_poll_with_poll,0.0,1,1
+arena_dalloc_small | arena_dalloc | free | PL_DHashFreeTable,0.4011234509234672,46,1
+objc_msgSend | MultiClutchInputManager@0x1f25,0.0,1,1
+sblsp.dll@0x6988,0.38470159710647756,44,1
+js_ReportOutOfMemory(JSContext*),0.497906739848534,228,1
+mozilla::plugins::PluginInstanceParent::BackgroundDescriptor,0.16287546352840937,4,1
+nestegg_free_packet | PacketQueue::Reset(),0.23795519642573065,10,1
+"nsBulletFrame::GetListItemText(nsStyleList const&, nsString&)",0.22862461710944693,7,1
+GetPropW,0.2719494049073108,20,1
+"NSPROVIDER::NSPLookupServiceBegin(_WSAQuerySetW*, _WSAServiceClassInfoW*, unsigned long, void**)",0.18909255736720781,5,1
+"imgRequestProxy::OnStopRequest(nsIRequest*, nsISupports*, unsigned int, int)",0.0,1,1
+"_cairo_dwrite_scaled_show_glyphs(void*, _cairo_operator, _cairo_pattern const*, _cairo_surface*, int, int, int, int, unsigned int, unsigned int, cairo_glyph_t*, int, _cairo_region*, int*)",0.0,1,2
+WrappedNativeProtoMarker,0.5158240743662884,147,3
+xul.dll@0x16becd,0.18909255736720781,5,1
+js_NewStringCopyN,0.08143773176420468,2,2
+"libunwind::CFI_Parser<libunwind::LocalAddressSpace>::parseInstructions(libunwind::LocalAddressSpace&, unsigned int, unsigned int, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info const&, unsigned int, libunwind::CFI_Parser<libunwind::Local...",0.0,1,1
+"js::LoopProfile::profileOperation(JSContext*, JSOp)",0.26454015627689054,28,1
+"nsGenericHTMLElement::AfterSetAttr(int, nsIAtom*, nsAString_internal const*, int)",0.08143773176420468,2,1
+GetRealWindowOwner,0.38526817990696266,176,2
+npswf32.dll@0xd856b,0.2542427427785716,10,1
+compileBranch,0.44487823346977784,193,1
+"mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::ipc::RPCChannel::DebugAbort(char const*, int, char const*, char const*, char const*, bool)",0.6016738544465943,5242,1
+gfxWindowsSurface::`vector deleting destructor''(unsigned int),0.0,1,1
+FindFunArgs,0.5244681391850516,301,1
+"_cairo_dwrite_manual_show_glyphs_on_d2d_surface(void*, _cairo_operator, _cairo_solid_pattern const*, cairo_glyph_t*, int, _cairo_dwrite_scaled_font*, _cairo_clip*)",0.32613404942227164,165,1
+js_DeepBail(JSContext*),0.3053324575187586,25,2
+"nsTextFrameUtils::TransformText(unsigned char const*, unsigned int, unsigned char*, nsTextFrameUtils::CompressionMode, unsigned char*, gfxSkipCharsBuilder*, unsigned int*)",0.24431319529261405,8,1
+nsDiskCacheStreamIO::FlushBufferToFile(),0.34158148468183713,34,1
+libSystem.B.dylib@0x42b0,0.0,1,2
+"nsOverflowClipWrapper::WrapItem(nsDisplayListBuilder*, nsDisplayItem*)",0.34910647034150416,26,1
+do_QueryFrame::operator<nsIScrollableFrame> nsIScrollableFrame*(),0.34835913565863286,22,2
+mozilla::WebGLContext::MakeContextCurrent(),0.08143773176420468,2,1
+JSScript::numNotes(),0.4264940893016437,66,1
+pkix_Throw,0.05293635161491743,6,1
+"XPCConvert::NativeData2JS(XPCLazyCallContext&, unsigned __int64*, void const*, nsXPTType const&, nsID const*, JSObject*, unsigned int*)",0.20328534228552578,23,1
+nsHttpsHandler::GetProtocolFlags(unsigned int*),0.0,1,1
+"FinalizeArenaList<JSObject, &FinalizeObject>",0.28979768428740643,21,1
+BitmapRealization::BatchTracker::~BatchTracker(),0.2167242300219577,13,1
+JSCompartment::finalizeObjectArenaLists,0.18909255736720781,5,1
+js_NewGCThing,0.33287370246189923,17,2
+WSAStartup,0.0,1,1
+mozilla::net::CallOnStop::Run(),0.3726994877327629,48,2
+FreeEEInfoChain(tagExtendedErrorInfo*),0.31614494821299277,23,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::layers::ReadbackManagerD3D10::~ReadbackManagerD3D10(),0.3838106237523072,140,1
+nsObjectFrame::IsTransparentMode(),0.38712797208364713,91,1
+"XPCConvert::NativeData2JS(XPCCallContext&, unsigned __int64*, void const*, nsXPTType const&, nsID const*, JSObject*, unsigned int*)",0.08143773176420468,2,1
+"UnlockEnumerator(imgIRequest*, unsigned int, void*)",0.4249837758905348,57,1
+"nsTObserverArray_base::AdjustIterators(unsigned int, int)",0.21051348275425724,6,1
+TimerThread::Run,0.08143773176420468,2,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTextFragment::Append(wchar_t const*, unsigned int, bool)",0.0,3,1
+RtlUlonglongByteSwap,0.2685597262660636,40,1
+JS_GetGlobalForObject,0.3837307468735482,39,2
+_eFOGetName,0.0,1,1
+RtlAnsiStringToUnicodeString,0.08143773176420468,2,1
+"nsFrameList::InsertFrames(nsIFrame*, nsIFrame*, nsFrameList&)",0.5118232939605165,155,1
+"JSC::X86Assembler::movl_i32m(int, int, JSC::X86Registers::RegisterID)",0.21051348275425724,6,1
+"nsDisplayBackground::GetOpaqueRegion(nsDisplayListBuilder*, int*)",0.4579471817445145,61,1
+nvwgf2um.dll@0xe1edf,0.0,1,1
+"js::Invoke(JSContext*, js::CallArgs const&, unsigned int)",0.39765011138711664,94,1
+memcpy | F_826626007_________________,0.5106308653146047,409,1
+@0x0 | mozilla::plugins::parent::_forceredraw,0.3130315833056093,299,2
+XPT_DestroyArena,0.4425510315746731,112,1
+nssCertificateStore_Lock,0.4508240450019345,60,1
+nsCOMPtr_base::assign_with_AddRef(nsISupports*) | FreeFactoryEntries,0.31006234887365164,14,1
+Flash Player@0x38bc5f,0.08143773176420468,2,1
+"nsHtml5Tokenizer::stateLoop(int, wchar_t, int, wchar_t*, int, int, int)",0.33433353088813644,24,1
+_cairo_user_data_array_fini,0.3978338284992923,37,2
+ssl3_SendRecord,0.08143773176420468,2,1
+"nsEventDispatcher::DispatchDOMEvent(nsISupports*, nsEvent*, nsIDOMEvent*, nsPresContext*, nsEventStatus*)",0.23795519642573065,10,1
+js_CloseIterator,0.48051816703178224,85,1
+ArgToRootedString,0.24005422825472644,9,1
+nsScrollPortView::IncrementalScroll(),0.3395892337443097,18,4
+"nsBlockFrame::DoRemoveFrame(nsIFrame*, unsigned int)",0.21051348275425724,6,1
+InterlockedIncrement,0.295211777645242,16,1
+nsHTMLReflowMetrics::UnionOverflowAreasWithDesiredBounds(),0.0,1,1
+dosprintf,0.36640688568898855,42,1
+nsScriptSecurityManager::PopContextPrincipal(JSContext*),0.0,1,1
+js_Enumerate,0.27076929769518254,14,4
+libc-2.11.1.so@0x33a75,0.20535669374824558,7,1
+ARGB32_image_mark,0.0,1,1
+PK11_IsDisabled,0.4841981393578358,306,1
+js_CheckForStringIndex,0.5761225785020988,398,6
+hang | CreateEventExW,0.5205354252186137,3887,1
+nsWebSocketEstablishedConnection::Close(),0.3715596511741839,32,2
+JSC::X86Assembler::linkJump,0.0,1,1
+_callHook,0.08143773176420468,2,1
+nsCxPusher::Pop(),0.0,1,1
+array_toString_sub,0.24431319529261405,8,1
+nsIContent::Tag(),0.39132294876127344,54,2
+"nsAuthSSPI::GetNextToken(void const*, unsigned int, void**, unsigned int*)",0.0,1,1
+Resize,0.33030803199807185,23,1
+nsContentUtils::CanCallerAccess(nsPIDOMWindow*),0.18909255736720781,5,2
+FinalizeArenaList<JSObject_Slots4>,0.45763861787591864,127,1
+"nsAString_internal::ReplacePrepInternal(unsigned int, unsigned int, unsigned int, unsigned int)",0.35685543744125026,41,2
+DocumentViewerImpl::SetMinFontSize,0.0,1,1
+IMLLib@0x3fd52,0.0,1,2
+nppl3260.dll@0x3c17,0.0,1,1
+nsCSSCompressedDataBlock::MapRuleInfoInto(nsRuleData*) const,0.0,1,1
+NPP_DestroyStream,0.4834111576863188,102,2
+hang | F439765286_____________________________________________________,0.6370393747791826,9000,1
+malloc_rtree_set | chunk_alloc,0.0,1,1
+"PL_DHashTableOperate | nsScriptSecurityManager::LookupPolicy(nsIPrincipal*, ClassInfoData&, int, unsigned int, ClassPolicy**, SecurityLevel*)",0.395271117321291,50,2
+"XPCWrappedNative::GetNewOrUsed(XPCCallContext&, nsISupports*, XPCWrappedNativeScope*, XPCNativeInterface*, int, XPCWrappedNative**)",0.08143773176420468,2,1
+fastcopy_I,0.6050176129593775,1274,8
+"nsXPConnect::GetPrincipal(JSObject*, int)",0.2984283871930509,14,4
+@0x0 | nsProxyObjectCallInfo::Run(),0.32446288507068877,20,1
+ageSelectionCallback,0.32575092705681874,16,1
+arena_dalloc_small | arena_dalloc | free | js::GCHelperThread::doSweep(),0.45503682947519036,105,1
+nsPluginInstanceOwner::GetInstance,0.0,1,1
+"nsHyperTextAccessible::GetChildOffset(nsAccessible*, int)",0.08143773176420468,2,1
+PR_GetEnv,0.1290757509900526,3,1
+nsNPAPIPluginInstance::Stop(),0.35706513009452634,27,1
+nsHtml5TreeOpExecutor::RunScript(nsIContent*),0.12215659764630703,4,1
+orangetoolbar.dll@0x6eb3,0.459878355208964,628,1
+JS_HashTableEnumerateEntries,0.08143773176420468,2,1
+DEBUG_CheckWrapperThreadSafety(XPCWrappedNative const*),0.2669214038944282,11,1
+free | nsPluginInstanceOwner::~nsPluginInstanceOwner(),0.2669214038944282,11,3
+"nsPrefBranch::NotifyObserver(char const*, void*)",0.0,1,1
+nsNodeUtils::ParentChainChanged,0.07478392981391614,3,1
+"mozilla::layers::BasicLayerManager::PushGroupWithCachedSurface(gfxContext*, gfxASurface::gfxContentType, gfxPoint*)",0.39833431985607326,79,1
+64bar.dll@0x3ab27,0.15651746466152594,5,1
+_purecall | nsGenericHTMLFormElement::IsDisabled(),0.24537766211088197,17,1
+vFreeCFONTCrit,0.2219569545293476,9,1
+libawt.jnilib@0x2afe,0.1290757509900526,3,1
+read_tag_XYZType,0.0,1,1
+"_purecall | CallQueryInterface<nsIContent, nsIDOMElement>(nsIContent*, nsIDOMElement**)",0.0,1,1
+nsCharTraits<wchar_t>::length(wchar_t const*),0.1290757509900526,3,1
+F1146177332__________________________,0.4061893877163875,44,1
+F_184943427____________________________________,0.29235315815924984,15,1
+closeAudio,0.4216917611512989,102,1
+IteratorNext,0.2817282642151927,11,1
+"nsImageLoadingContent::OnStartContainer(imgIRequest*, imgIContainer*)",0.4627739994425032,140,1
+"std::deque<base::AtExitManager::CallbackAndParam, std::allocator<base::AtExitManager::CallbackAndParam> >::_Growmap(unsigned int)",0.0,1,1
+"PresShell::DispatchSynthMouseMove(nsGUIEvent*, int)",0.0,1,1
+js_CloneFunctionObject,0.0,1,1
+hang | kernelbase.dll@0x103a0,0.5205354252186137,3887,1
+JSScope::destroy,0.08143773176420468,2,1
+nsFrameList::InsertFrames,0.2542427427785716,10,5
+Flash Player@0x92160,0.24133107756537808,19,2
+AnalyzeNewScriptProperties,0.08143773176420468,2,1
+hang | NtUserMessageCall | SendMessageA,0.6334853853428165,5385,1
+_PR_MD_CONNECT,0.340062457625974,23,1
+RuleHash_ClassTable_GetKey,0.45318938539991,70,1
+"nsCreateInstanceByContractID::operator()(nsID const&, void**)",0.5523566075131437,260,1
+"nsLocalFile::CopyMove(nsIFile*, nsAString_internal const&, int, int)",0.43459074394763425,78,2
+"js_GCThingIsMarked(void*, unsigned int)",0.551715742951485,257,3
+js_AddScopeProperty,0.16287546352840937,4,1
+"nsPrintEngine::DonePrintingPages(nsPrintObject*, unsigned int)",0.22862461710944693,7,1
+js_EmitTree,0.5593604342166622,548,4
+CrashReporter::WriteDataToFile,0.08143773176420468,2,1
+PL_DHashTableRawRemove,0.2817282642151927,11,1
+PL_DHashTableOperate | nsObjectFrame::StopPluginInternal,0.0,1,1
+@0x0 | nsAccessibleWrap::UpdateSystemCaret(),0.0,1,1
+"XPCWrappedNative::GetNewOrUsed(XPCCallContext&, xpcObjectHelper&, XPCWrappedNativeScope*, XPCNativeInterface*, int, XPCWrappedNative**)",0.5553884709738757,1000,1
+memmove,0.0,1,2
+nsHttpConnection::Close(unsigned int),0.3740491381169553,28,3
+nsDiskCacheMap::OpenBlockFiles(),0.15651746466152594,5,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | nsDisplayList::HitTest(nsDisplayListBuilder*, nsRect const&, nsDisplayItem::HitTestState*, nsTArray<nsIFra...",0.38682922587997237,32,1
+"nsPrefetchNode::OnStopRequest(nsIRequest*, nsISupports*, unsigned int)",0.4498854872544764,104,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::plugins::PPluginScriptableObjectChild::FatalError(char const* const),0.5180709824151489,326,1
+"CSSLoaderImpl::LoadSheet(SheetLoadData*, StyleSheetState)",0.08143773176420468,2,2
+pngu3267.dll@0x8ce7,0.07478392981391614,3,1
+extent_tree_ad_insert,0.0,1,1
+"js_CallGCMarker(JSTracer*, void*, unsigned long)",0.2783782592244278,12,1
+"CallQueryInterface<nsISupports, nsWrapperCache>",0.0,1,1
+nsStandardURL::GetFilePath(nsACString_internal&),0.0,1,1
+AffixMgr::~AffixMgr(),0.15651746466152594,5,1
+"nsView::DoResetWidgetBounds(int, int)",0.22862461710944693,7,1
+PrivateQTGetMoviePlayabilityState_priv,0.15622166157812084,6,1
+GetNormalLineHeight,0.2826992355719087,19,5
+residenthook.dll@0x4622,0.3834313982651494,55,1
+"nsCSSFrameConstructor::FindFrameForContentSibling(nsIContent*, nsIContent*, unsigned char&, int)",0.0,1,1
+GlobalFindAtomA,0.18336757216618904,6,1
+_cairo_d2d_create_brush_for_pattern,0.28593483167261075,19,1
+xul.dll@0x50b97,0.40474634286803873,62,1
+js_InferFlags,0.08143773176420468,2,1
+pixman_blt_mmx,0.05667960885024184,38,1
+nsFactoryEntry::GetFactory(),0.2888265353657058,13,1
+escript.api@0x27429,0.0,1,1
+chromehang | ZwOpenFile,0.2811897908051327,16,1
+"gl::VertexDataConverter<float, gl::WidenRule<int, 2>, gl::ConversionRule<int, 0, int>, gl::DefaultVertexValues<float, int> >::convertArray(void const*, unsigned int, unsigned int, void*)",0.0,1,1
+mozalloc_abort(char const* const),0.3275367013663557,20,4
+"objc_msgSend | TStyleRunArray::InsertStyleIntoRun(unsigned long, OpaqueATSUStyle*, unsigned long, unsigned long)",0.2888265353657058,13,1
+icucnv36.dll@0x13df,0.4577219249875978,604,1
+LeaveFunction,0.4335118932172046,60,2
+mozalloc_abort | NS_DebugBreak_P | X11Error,0.4489079408987582,97,5
+"nsDocShell::QueryInterface(nsID const&, void**)",0.34906051816082534,33,1
+epicplaygames.dll@0xdc47,0.4362258910998667,117,1
+NdrDllGetClassObject,0.0,1,1
+sqlite3VdbeMemGrow,0.0,1,1
+XPCWrappedNativeProto::Mark(),0.43712797749647625,55,1
+_SEH_prolog,0.49330767248897117,199,6
+"nsRegion::Or(nsRegion const&, nsRegion const&)",0.3202244029417496,19,1
+hang | F1650855128_____________________________,0.3804592141025964,31,1
+_wrap_image,0.2896659557419823,34,1
+XPCWrappedNative::CallMethod,0.08143773176420468,2,2
+_moz_pixman_image_composite32,0.29195121451846195,12,3
+js_InflateString,0.36042793603495155,43,1
+"nsEventStateManager::PostHandleEvent(nsPresContext*, nsEvent*, nsIFrame*, nsEventStatus*, nsIView*)",0.43556110408098253,60,1
+"memcpy | CWaveHeader::Read(CFrameFifo&, unsigned char*&, unsigned int&, int&)",0.1290757509900526,3,1
+hang | ZwDelayExecution,0.5103847588645096,321,1
+RtlRaiseStatus,0.6332062770369321,3059,3
+NSGetModule,0.0,3,1
+nsScriptSecurityManager::Init(),0.2151262516500877,9,1
+"nsXPCWrappedJSClass::DelegatedQueryInterface(nsXPCWrappedJS*, nsID const&, void**)",0.2581515019801053,9,1
+"nsNavHistory::RecalculateFrecenciesInternal(mozIStorageStatement*, int)",0.16287546352840937,4,1
+RtlpWaitOnCriticalSection | RtlEqualString,0.15651746466152594,5,1
+UserCallDlgProcCheckWow,0.24431319529261405,8,2
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | gfxTextRun::DetailedGlyphStore::Allocate(unsigned int, unsigned int)",0.2888265353657058,13,1
+mozilla::FrameLayerBuilder::DisplayItemDataEntry::HasNonEmptyContainerLayer,0.0,1,1
+F_1512892623______________________________________,0.3873395210509439,147,1
+PluginBoundsEnumerator,0.08143773176420468,2,1
+"nsCOMPtr_base::assign_from_qi(nsQueryInterface, nsID const&) | nsXBLService::GetBinding(nsIContent*, nsIURI*, int, nsIPrincipal*, int*, nsXBLBinding**, nsTArray<nsIURI*, nsTArrayDefaultAllocator>&)",0.0,1,1
+sblsp.dll@0x6f77,0.38470159710647756,44,1
+_moz_cairo_scaled_font_create,0.30051471913845407,17,1
+nvd3dum.dll@0x351943,0.3691473588223158,50,1
+nppdf32.dll@0x5e14,0.617330618596446,2202,1
+nsCSSValue::UnitHasArrayValue(),0.24047092492303035,16,1
+ocsp_CacheKeyHashFunction,0.1290757509900526,3,1
+@0x0 | CallWindowProcAorW,0.6332062770369321,3059,2
+JS_ArenaRealloc,0.08143773176420468,2,1
+CFRetain,0.12215659764630703,4,2
+js_MatchScopeProperty,0.38119029456371645,33,1
+@0x0 | XPC_WN_Helper_NewResolve,0.47378339545060566,84,1
+"nsNPAPIPluginInstance::GetJSObject(JSContext*, JSObject**)",0.31698880684104747,19,1
+nsDocument::RegisterNamedItems(nsIContent*),0.44918356848027946,71,1
+_woutput_l,0.2669214038944282,11,1
+nsHtml5TreeOperation::AppendText,0.0,1,1
+js::TraceRecorder::traverseScopeChain,0.2900795613364194,83,1
+NS_TableDrivenQI,0.21051348275425724,6,1
+nsPlaintextEditor::Release(),0.0,1,1
+"JSObject::defaultValue(JSContext*, JSType, int*)",0.24431319529261405,8,1
+nsIFrame::GetAncestorWithView(),0.3085476064061153,22,1
+js_Invoke,0.47478012839281813,82,9
+arena_salloc,0.3124433231562416,18,1
+"nsScriptSecurityManager::IsCapabilityEnabled(char const*, int*)",0.27538824474599,17,2
+"wcslen | std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t> >::assign(wchar_t const*)",0.16287546352840937,4,1
+ParserWriteFunc,0.08143773176420468,2,1
+BindLet,0.1290757509900526,3,2
+"mozilla::plugins::PluginModuleParent::StreamCast(_NPP*, _NPStream*)",0.18336757216618904,6,1
+nsXMLPrettyPrinter::Unhook(),0.0,1,1
+nsArraySH::GetProperty,0.08143773176420468,2,1
+xpc::holder_get,0.1290757509900526,3,2
+"nsGenericElement::UnbindFromTree(bool, bool)",0.5659250806769559,681,2
+@0x1a2710,0.4151300865216222,202,1
+xtolong,0.37252883652265306,33,1
+"AffixMgr::parse_file(char const*, char const*)",0.23013048318337903,19,1
+WahCloseSocketHandle,0.4375343214136438,133,1
+JSObject::isWrapper,0.54820641562611,1102,1
+"js::RegExp::executeInternal(JSContext*, js::RegExpStatics*, JSString*, unsigned int*, bool, js::Value*)",0.36442559323947876,39,1
+"XPCWrappedNativeScope::TraceJS(JSTracer*, XPCJSRuntime*)",0.40300616168007286,75,1
+"js::analyze::ScriptAnalysis::addJump(JSContext*, unsigned int, unsigned int*, unsigned int*, unsigned int)",0.35735007449970124,47,1
+linux-gate.so@0x416,0.18208877038704424,7,6
+"nsQueryInterfaceWithError::operator()(nsID const&, void**)",0.5224766020602618,220,1
+mozilla::layers::OpaqueRenderer::End(),0.0,1,1
+"RaiseTheExceptionInternalOnly(Object*, int, int)",0.4316428693961864,100,1
+JS_GetScriptPrincipals,0.18909255736720781,5,1
+JSObject::unwrap,0.37818511473441546,25,1
+JS_GetPrivate,0.0,1,6
+nsGfxScrollFrameInner::AsyncScrollPortEvent::Run(),0.1290757509900526,3,1
+"nsBuiltinDecoder::NotifyDataArrived(char const*, unsigned int, unsigned int)",0.3229020940101856,32,2
+"JSC::ExecutableAllocator::sizeOfCode(unsigned int*, unsigned int*, unsigned int*)",0.0,6,1
+SdbInitDatabase,0.4841981393578358,306,1
+nsPresContext::Release(),0.08143773176420468,2,1
+EMPTY: no crashing thread identified; corrupt dump,0.0,31197,2
+nsInlineFrame::ReflowFrames,0.0,1,1
+libflashplayer.so@0x138350,0.0,1,1
+nsXULAppInfo::GetVendor(nsACString_internal&),0.0,3,1
+js_InternalInvoke,0.18909255736720781,5,1
+xptiInterfaceEntry::ResolveLocked,0.0,1,1
+js_FoldConstants,0.551434569906863,468,2
+ZwFindAtom,0.5757112901051072,436,1
+nsDisplayList::DeleteAll(),0.4859801608547606,141,1
+RtlFreeHeap,0.42647365988835845,78,1
+"nsHashtable::Put(nsHashKey*, void*)",0.08143773176420468,2,1
+"nsScriptableUnescapeHTML::ParseFragment(nsAString_internal const&, int, nsIURI*, nsIDOMElement*, nsIDOMDocumentFragment**)",0.0,2,1
+TList<CMixer>::RemoveAt(void*),0.24178199364171296,13,1
+F73690197_______________,0.32014873989040005,26,1
+_chkstk,0.47766947708848595,184,2
+nsProxyObjectCallInfo::RefCountInInterfacePointers(int),0.0,1,1
+"js::types::TypeScript::Sweep(JSContext*, JSScript*)",0.3373895738906114,23,1
+AtomTableClearEntry,0.5476539484234183,213,1
+"nsObjectLoadingContent::Instantiate(nsIObjectFrame*, nsACString_internal const&, nsIURI*)",0.08143773176420468,2,1
+"AffixMgr::suffix_check(char const*, int, int, PfxEntry*, char**, int, int*, unsigned short, unsigned short, char)",0.08143773176420468,2,1
+"nsDisplayList::ComputeVisibilityForSublist(nsDisplayListBuilder*, nsRegion*, nsRect const&, nsRect const&)",0.5016605304062538,137,1
+BoxBlurHorizontal,0.18909255736720781,5,1
+F_261459542________________________,0.3507305022638158,46,1
+_purecall | nsContentList::PopulateSelf(unsigned int),0.5537680500644471,326,1
+nsHttpConnectionMgr::nsConnectionHandle::~nsConnectionHandle(),0.0,1,1
+Dns_CreateSocketEx,0.0,1,1
+"nsXULPopupManager::ShowTooltipAtScreen(nsIContent*, nsIContent*, int, int)",0.4916518747742177,130,1
+PluginBackgroundSink::~PluginBackgroundSink(),0.16287546352840937,4,1
+F_1897762229____________________________________________,0.5159778260362804,326,2
+gfxTextRun::IsRightToLeft(),0.0,2,1
+"nsCOMArray_base::InsertObjectAt(nsISupports*, int)",0.4094587686003007,49,1
+F_1762124171_______________,0.46085333570718373,69,1
+js::AutoCompartment::AutoCompartment,0.5073963383159403,227,2
+nsViewManager::UpdateWidgetsForView(nsView*),0.05293635161491743,6,1
+"PL_DHashTableOperate | nsTHashtable<nsBaseHashtableET<nsUint32HashKey, nsAutoPtr<`anonymous namespace''::DatabaseInfoHash> > >::RemoveEntry(unsigned int const&)",0.0,1,1
+XPCWrappedNative::GetObjectPrincipal,0.2984283871930509,14,2
+"js::gc::PushMarkStack(js::GCMarker*, js::BaseShape*)",0.6382287563242569,3777,1
+"nsTypedSelection::selectFrames(nsPresContext*, nsIRange*, int)",0.0,1,1
+scale_line_8_c,0.5796584608923598,519,1
+"xpc::XrayWrapper<JSCrossCompartmentWrapper>::get(JSContext*, JSObject*, JSObject*, int, js::Value*)",0.0,1,1
+JS_DHashTableOperate,0.4792498204331003,90,2
+ffplugin.dll@0x19d0c4,0.3275367013663557,20,1
+"nsTArray_base::EnsureCapacity(unsigned int, unsigned int)",0.24431319529261405,8,1
+PR_DestroyCondVar,0.0,1,1
+SearchTable,0.5179495941225936,163,2
+js_CallGCMarker,0.0,2,6
+"nsXPCWrappedJSClass::CallQueryInterfaceOnJSObject(XPCCallContext&, JSObject*, nsID const&)",0.2648053039303937,12,1
+imgCacheExpirationTracker::NotifyExpired(imgCacheEntry*),0.4690867925334919,72,1
+nsGenericHTMLElement::ClearDataset,0.08143773176420468,2,2
+nsDOMEvent::GetTargetFromFrame,0.0,1,1
+CollectNewLoadedModules,0.0,1,1
+RtlpWaitOnCriticalSection | EtwEventEnabled | nvlsp.dll@0x5d0d,0.43392300085089947,515,1
+"nsXBLPrototypeHandler::EnsureEventHandler(nsIScriptGlobalObject*, nsIScriptContext*, nsIAtom*, nsScriptObjectHolder&)",0.4227633104684379,83,2
+F_1417225323______________________________________,0.3731573720204711,29,1
+hang | semaphore_wait_signal_trap,0.2696565104080069,193,1
+nsCycleCollector::FinishCollection(),0.3073099441220331,15,1
+NtReleaseSemaphore,0.2669214038944282,11,1
+NP_Initialize,0.32450144377158274,39,1
+"nsDocShell::InternalLoad(nsIURI*, nsIURI*, nsISupports*, unsigned int, wchar_t const*, char const*, nsIInputStream*, nsIInputStream*, unsigned int, nsISHEntry*, bool, nsIDocShell**, nsIRequest**)",0.05879218654448032,5,1
+"GCGraphBuilder::NoteRoot(unsigned int, void*, nsCycleCollectionParticipant*)",0.4394941788957895,58,1
+JSCompartment::purge,0.2984283871930509,14,2
+memcpy | JSString::flatten(),0.08143773176420468,2,1
+"nsCanvasRenderingContext2DAzure::InitializeWithTarget(mozilla::gfx::DrawTarget*, int, int)",0.3483723467753066,49,1
+"XPCJSRuntime::AddXPConnectRoots(JSContext*, nsCycleCollectionTraversalCallback&)",0.372455021395727,49,1
+_SEH_prolog4,0.5306282740743428,241,6
+F957328252________________________,0.5322287964692923,538,2
+nsPluginHost::GetPluginName,0.24005422825472644,9,1
+nsCycleCollectingAutoRefCnt::decr(nsISupports*),0.5304476388637812,218,1
+nsStyleSet::ReparentStyleContext,0.08143773176420468,2,1
+hang | libSystem.B.dylib@0x1322,0.08143773176420468,2,1
+js::mjit::ic::GetProp,0.0,1,2
+DrawPlugin,0.18576240707858993,9,1
+nsDocAccessible::FireDelayedAccessibleEvent(AccEvent*),0.0,1,1
+"js_InternNonIntElementIdSlow(JSContext*, JSObject*, js::Value const&, int*, js::Value*)",0.2239537623515629,8,1
+nsJSEventListener::HandleEvent(nsIDOMEvent*),0.44693460980144584,106,3
+glgProcessPixelsWithProcessor,0.30216860409402646,40,1
+_hb_ot_layout_get_glyph_property,0.4540676186272434,70,1
+hang | npswf32.dll@0xbb1eb,0.6345106957142445,7936,1
+_SEH_prolog4_GS,0.2705302891314126,10,1
+RtlpWaitOnCriticalSection | RtlpDeCommitFreeBlock | nvlsp.dll@0x5d0d,0.43392300085089947,515,1
+CopyHostent,0.08143773176420468,2,1
+"nsCoreUtils::GetID(nsIContent*, nsAString_internal&)",0.06606865028586992,4,2
+@0x0 | datamngr.dll@0x9f61,0.5597617144253467,1788,1
+hang | NtUserMessageCall | NtUserMessageCall | SetWindowTextW,0.34962592044810015,166,2
+nsGenericElement::GetChildAt(unsigned int),0.5659250806769559,681,1
+mozilla::widget::TaskbarTabPreview::UpdateProxyWindowStyle(),0.2824783901884795,28,2
+fixupSelectorsInMethodList,0.34150796323486415,51,1
+"nsDocShell::SetHistoryEntry(nsCOMPtr<nsISHEntry>*, nsISHEntry*)",0.2461093214769147,12,2
+F_1115197261_____________________________________________________________________,0.43937211961602746,80,1
+sblsp.dll@0x6967,0.38470159710647756,44,1
+"js_fun_apply(JSContext*, unsigned int, js::Value*)",0.2648053039303937,12,1
+NPObjWrapperPluginDestroyedCallback,0.08143773176420468,2,1
+hang | F_1406087653________________________________,0.6081324979520439,865,1
+js::mjit::JaegerShot,0.34161233109472783,70,14
+SelectorMatches,0.5659250806769559,681,7
+je_free | mozutils.dll@0x2a5f,0.3904657034808163,36,1
+"nsJSEventListener::cycleCollection::Traverse(void*, nsCycleCollectionTraversalCallback&)",0.16287546352840937,4,1
+gfxSparseBitSet::test(unsigned int),0.352074161453,30,2
+libobjc.A.dylib@0x5120,0.16287546352840937,4,2
+nsTextControlFrame::CalcIntrinsicSize,0.0,1,2
+read_markers,0.11164710677317627,5,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsGenericElement::QueryInterface(nsID const&, void**)",0.0,1,1
+nsLineBox::IndexOf,0.0,1,3
+GLEngine@0x620cf,0.19664136588238829,104,1
+nsINode::OwnerDoc(),0.29434604943086273,18,1
+libheuristic.dll@0xe1a2,0.2715687054086482,13,1
+speex_bits_remaining,0.34516220261650765,46,1
+_moz_cairo_surface_set_user_data,0.20535669374824558,7,2
+F_2051672044________________________,0.405400099290401,100,1
+hang | F1704956168____________,0.1290757509900526,3,1
+"xpc::XrayWrapper<JSCrossCompartmentWrapper, xpc::CrossCompartmentXray>::resolveOwnProperty(JSContext*, JSObject*, int, bool, js::PropertyDescriptor*)",0.08143773176420468,2,1
+fbRasterizeEdges8,0.0,1,1
+nsPluginInstanceOwner::ReleasePluginPort(void*),0.537940959939612,222,1
+caprenn.dll@0x6799,0.34046179018010714,46,1
+GCGraphBuilder::NoteXPCOMChild,0.44209740171685136,76,2
+"nsTextControlFrame::SetInitialChildList(nsIAtom*, nsFrameList&)",0.2511203611114881,23,2
+nsACString_internal::Equals(nsACString_internal const&),0.37520516689200256,31,1
+nsContentSink::WillParseImpl(),0.18909255736720781,5,1
+"nsPluginInstanceOwner::Paint(tagRECT const&, HDC__*)",0.5116199620910894,174,3
+nsContentList::PopulateSelf(unsigned int),0.5483322303340463,312,2
+"gfxContext::SetSource(gfxASurface*, gfxPoint const&)",0.301337827286371,38,1
+xul.dll@0x44527c,0.40474634286803873,62,1
+nsSHEntry::GetParent(nsISHEntry**),0.3824423213901235,31,2
+kernelbase.dll@0x31f66,0.42236179002230234,71,1
+"js::types::HashSetLookup<js::types::TypeObjectKey*, js::types::TypeObjectKey, js::types::TypeObjectKey>",0.5421116387423888,434,1
+libobjc.A.dylib@0x512d,0.16287546352840937,4,1
+js::AbortRecordingIfUnexpectedGlobalWrite,0.08143773176420468,2,1
+GraphWalker<scanVisitor>::DoWalk,0.18909255736720781,5,1
+CallResolveOp,0.539452321923,225,1
+"js_FindClassObject(JSContext*, JSObject*, JSProtoKey, js::Value*, js::Class*)",0.18336757216618904,6,1
+"XPC_WN_CallMethod(JSContext*, unsigned int, unsigned __int64*)",0.4331250535450698,88,1
+DoDeferredRelease<nsISupports*>,0.532009176744955,200,1
+@0x0 | BaseThreadInitThunk,0.4808236473228638,568,1
+"AppendUTF16toUTF8(nsAString_internal const&, nsACString_internal&)",0.38244232139012346,31,1
+"hang | mozilla::plugins::PPluginScriptableObjectParent::CallInvoke(mozilla::plugins::PPluginIdentifierParent*, InfallibleTArray<mozilla::plugins::Variant> const&, mozilla::plugins::Variant*, bool*)",0.5898101010614306,828,1
+"xpc::AccessCheck::documentDomainMakesSameOrigin(JSContext*, JSObject*)",0.4491860518470038,75,1
+"nsINode::doRemoveChildAt(unsigned int, int, nsIContent*, nsAttrAndChildArray&, int)",0.05879218654448032,5,1
+nsTimerImpl::Fire,0.0,1,1
+msvcr80.dll@0x14500,0.43049763209515857,146,5
+roboform.dll@0x395ac1,0.16287546352840937,4,1
+cairo_d2d_surface_create_for_texture,0.3387157756279861,29,3
+js_FullTestPropertyCache,0.23795519642573065,10,1
+"RelatedAccIterator::RelatedAccIterator(nsDocAccessible*, nsIContent*, nsIAtom*)",0.08143773176420468,2,1
+nsHttpTransaction::DeleteSelfOnConsumerThread(),0.48726166441459384,115,1
+nsPrintEngine::DocumentReadyForPrinting(),0.21051348275425724,6,1
+arena_dalloc_small | arena_dalloc | free | nsPrefBranch::`vector deleting destructor''(unsigned int),0.5627930234539948,3122,1
+je_free | plds4.dll@0x168f,0.5276200986738123,190,1
+JS_GetClass,0.18909255736720781,5,5
+"XPCJSRuntime::GCCallback(JSContext*, JSGCStatus)",0.4337588977331498,78,1
+mscorwks.dll@0x104393,0.5155513453525945,498,1
+xpc::ResolveNativeProperty,0.5328686820726501,198,1
+"JSCompartment::wrap(JSContext*, JS::Value*)",0.611895047141324,1669,2
+mozalloc_abort | NS_DebugBreak_P | mozilla::plugins::PPluginInstanceChild::FatalError,0.2583272226150886,61,3
+"base::MessagePumpForIO::GetIOItem(unsigned long, base::MessagePumpForIO::IOItem*)",0.5322039839173598,620,1
+__RtlUserThreadStart,0.49000159231264256,903,1
+nsIDocument::GetWindow(),0.08143773176420468,2,1
+strlen | __vfprintf,0.0,1,1
+"nsObjectFrame::PaintPlugin(nsIRenderingContext&, nsRect const&, nsPoint const&)",0.0,1,1
+@0x0 | nsSSLIOLayerImportFD,0.16287546352840937,4,1
+"nsSHistory::EvictContentViewersInRange(int, int)",0.2669214038944282,11,1
+js_Array,0.5045520665299137,158,1
+"nsBlockFrame::Init(nsIContent*, nsIFrame*, nsIFrame*)",0.18336757216618904,6,1
+"js::mjit::stubs::FixupArity(js::VMFrame&, unsigned int)",0.5365829984454378,801,1
+F739327107_________________________,0.3090279717166116,18,1
+JS_ResumeRequest,0.3502725203712915,32,4
+"js::Interpret(JSContext*, JSStackFrame*, unsigned int, JSInterpMode)",0.4145750159493545,101,2
+__cxa_finalize,0.1290757509900526,3,1
+UnhookTextRunFromFrames,0.5074766053206158,108,3
+XPC_WN_NoHelper_Finalize,0.560122604453728,431,2
+js_PCToLineNumber,0.1290757509900526,3,1
+SprintPut,0.0,1,1
+sqlite3_reset,0.15651746466152594,5,1
+nvapi.dll@0x4683e,0.2794636394712066,19,2
+gfxFontFamily::Release(),0.08143773176420468,2,1
+GetSpanDep,0.15651746466152594,5,1
+ozone_size,0.15622166157812084,6,1
+"nsTreeBodyFrame::GetCellAt(int, int, int*, nsTreeColumn**, nsIAtom**)",0.1290757509900526,3,1
+Variables,0.08143773176420468,2,2
+nsJSPrincipalsSubsume,0.08143773176420468,2,1
+F_1184324021__________________________________,0.0,1,1
+js::Shape::removeChild,0.5028010291967261,130,1
+afurladvisor50.dll@0x8995,0.08143773176420468,2,1
+nsScriptSecurityManager::CheckPropertyAccessImpl,0.11164710677317627,5,1
+"nsRuleNode::HasAuthorSpecifiedRules(nsStyleContext*, unsigned int, int)",0.30135541717558345,13,1
+"nsObserverService::NotifyObservers(nsISupports*, char const*, unsigned short const*)",0.0,1,1
+nsStyleContext::FindChildWithRules,0.0,1,2
+arena_malloc_small,0.4827310735854653,284,7
+nsAString_internal::Assign(nsAString_internal const&),0.5571383909549122,396,4
+TType1Strike::GetStrike(TStrikeDescription const&),0.2239537623515629,8,1
+nsStyleContext::AddChild(nsStyleContext*),0.17341197480016848,10298,1
+hang | NtUserWaitMessage | InternalDialogBox,0.5432102335409769,868,2
+gfxContext::SetOperator(gfxContext::GraphicsOperator),0.20535669374824558,7,1
+"CSMP_PVFUNCS::CreateWorkerThreads(int, unsigned long)",0.09872065035537513,45,1
+nsCSSBorderRenderer::DrawNoCompositeColorSolidBorder(),0.3113082890933962,46,1
+js::StackSpace::pushSegmentForInvoke,0.08143773176420468,2,1
+CChannelObject::CallFinished(),0.15622166157812084,6,1
+"mozilla::plugins::PluginInstanceParent::NPP_NewStream(char*, _NPStream*, unsigned char, unsigned short*)",0.12215659764630703,4,1
+PR_SetPollableEvent,0.39666788724127555,97,1
+TraceJSHolder,0.5158598272334292,151,1
+nsTypedSelection::Repaint(nsPresContext*),0.0,1,1
+arena_avail_tree_nsearch,0.3463900486190869,28,2
+orangetoolbar.dll@0x12fb7,0.459878355208964,628,1
+qcms_transform_data_rgb_out_lut_sse2,0.41156910951161163,92,1
+libgobject-2.0.so.0.2800.6@0x32fcc,0.18909255736720781,5,1
+nsHyperTextAccessible::GetAttributesInternal,0.18909255736720781,5,1
+@0x0 | XMLSocketDestroyFunc,0.5062981305773738,168,1
+DoApplyRenderingChangeToTree,0.08143773176420468,2,1
+"MorphSlimWrapper(JSContext*, JSObject*)",0.15651746466152594,5,1
+CoreFoundation@0x6f78d,0.2564797864090407,16,1
+js_FreeStack,0.08143773176420468,2,2
+hang | kernelbase.dll@0x10db,0.6345106957142445,7936,1
+PK11_ReadMechanismList,0.2581515019801053,9,1
+sqlite3MemCompare,0.19702897792470886,9,1
+JSContext::resetCompartment,0.1290757509900526,3,1
+"js::mjit::StubCompiler::fixCrossJumps(unsigned char*, unsigned int, unsigned int)",0.2964515798868058,15,1
+"nsLocalFile::CopyMove(nsIFile*, nsAString_internal const&, bool, bool)",0.43459074394763425,78,2
+ntdll.dll@0x22272,0.6341647657460323,2316,1
+nsNPAPIPluginInstance::UseAsyncPainting(int*),0.4585991978186001,103,1
+@0x0 | nsPurpleBuffer::SelectPointers(GCGraphBuilder&),0.5681938258677937,429,1
+"nsTArray_base::SwapArrayElements(nsTArray_base&, unsigned int)",0.0,1,1
+fill_n,0.1290757509900526,3,1
+"mozilla::FrameLayerBuilder::DrawThebesLayer(mozilla::layers::ThebesLayer*, gfxContext*, nsIntRegion const&, void*)",0.1398509457969546,28,1
+md_UnlockAndPostNotifies,0.4445272771266847,75,2
+SetColor,0.07478392981391614,3,1
+"mozilla::dom::PAudioParent::CreateSharedMemory(unsigned int, mozilla::ipc::SharedMemory::SharedMemoryType, bool, int*)",0.18909255736720781,5,1
+nsPluginInstanceOwner::GetPluginPortFromWidget,0.2857010867091507,80,1
+F1661783649________________,0.4790335516513828,145,1
+ILFindLastID,0.4163907560868244,47,2
+sblsp.dll@0x3f85,0.38470159710647756,44,1
+XPC_XOW_AddProperty,0.0,1,3
+nsTypedSelection::selectFrames,0.4275584507662195,166,1
+connect,0.340062457625974,23,1
+"mozilla::`anonymous namespace''::ContainerState::ThebesLayerData::Accumulate(nsDisplayListBuilder*, nsDisplayItem*, nsIntRect const&, nsIntRect const&, mozilla::FrameLayerBuilder::Clip const&)",0.24680837102397224,16,1
+"nsSSLThread::requestPoll(nsNSSSocketInfo*, short, short*)",0.24431319529261405,8,1
+mscorwks.dll@0x1d8a,0.5155513453525945,498,1
+arena_dalloc_small | arena_dalloc | free | JS_DHashFreeTable,0.1290757509900526,3,1
+npww.dll@0x1634,0.18909255736720781,5,1
+CVideoPortObj::AddRef(),0.18909255736720781,5,1
+"nsTextAttrsMgr::GetAttributes(nsIPersistentProperties*, int*, int*)",0.08143773176420468,2,1
+"TimerThread::UpdateFilter(unsigned int, mozilla::TimeStamp, mozilla::TimeStamp)",0.3063849314387181,32,1
+nsHtml5TreeOpExecutor::RunFlushLoop,0.47493287597055783,86,1
+_objc_error,0.2182210337512796,36,5
+DOMGCCallback,0.2964515798868058,15,1
+OnLinkClickEvent::OnLinkClickEvent,0.27076929769518254,14,1
+AttemptToExtendTree,0.2669214038944282,11,1
+nsNSSComponent::InitializeNSS(int),0.11780918014393367,9,1
+JS_Enumerate,0.0,1,3
+js::Shape::finalize,0.49474718026462816,122,2
+F1906831248_____,0.321908656687235,32,1
+"gfxHarfBuzzShaper::GetKerning(unsigned short, unsigned short)",0.18909255736720781,5,1
+nspr4.dll@0x15f9f,0.0,1,1
+hang | NtUserMessageCall | ValidateRgn,0.289850885211532,64,1
+nsAccessNode::IsContent(),0.36454865775412926,32,2
+imgFrame::Optimize(),0.35091803812656036,31,1
+arena_dalloc | free | js::GCHelperThread::doSweep(),0.5514623462460257,216,1
+nsEditor::CreateTxnForDeleteElement,0.0,1,1
+recv,0.31165201012446486,19,1
+xul.dll@0x86217,0.3719342269689358,31,1
+RtlpWaitOnCriticalSection | RtlpDeCommitFreeBlock | nvlsp.dll@0x5ced,0.43392300085089947,515,1
+@0x0 | datamngr.dll@0x9ec1,0.5597617144253467,1788,1
+nsINode::GetOwnerDoc(),0.4981780106303498,111,3
+RtlpCallQueryRegistryRoutine,0.38282398408065116,87,3
+kernelbase.dll@0x179b,0.5200024545474365,251,1
+RtlpWaitOnCriticalSection | RtlAddAccessAllowedAce | nvlsp.dll@0x5d0d,0.43392300085089947,515,1
+js_NewFlatClosure,0.3475868682462997,70,1
+nsIFrame::GetConstFrameSelection(),0.0,1,1
+"mozJSComponentLoader::LoadModuleFromJAR(nsILocalFile*, nsACString_internal const&)",0.08143773176420468,2,1
+mozilla::plugins::PluginModuleChild::UnregisterActorForNPObject(NPObject*),0.3053914941157676,16,2
+F877715741___________________________________________,0.0,1,1
+nsLocalFile::Append(nsAString_internal const&),0.3137118832232628,17,1
+"_purecall | nsXPCWrappedJS::QueryInterface(nsID const&, void**)",0.41178227595691347,67,2
+atiumdva.dll@0xc127,0.1290757509900526,3,1
+Flash Player@0x91bd0,0.27389845836244775,21,1
+nsZipArchive::OpenArchive(nsIFile*),0.15651746466152594,5,1
+js::StackIter::settleOnNewState(),0.5406267083514216,293,1
+nsPluginNativeWindow::CallSetWindow(nsCOMPtr<nsIPluginInstance>&),0.3839501513289739,38,2
+_purecall | ffplugin.dll@0x19d0c8,0.3275367013663557,20,1
+F_363836192______________________________,0.32450144377158274,39,1
+nsFrameList::RemoveFrame(nsIFrame*),0.5495514028432661,469,5
+"mozilla::plugins::PPluginScriptableObjectParent::CallInvoke(mozilla::plugins::PPluginIdentifierParent*, InfallibleTArray<mozilla::plugins::Variant> const&, mozilla::plugins::Variant*, bool*)",0.22862461710944693,7,1
+"nsConverterOutputStream::WriteString(nsAString_internal const&, int*)",0.131596525574672,90,1
+"js_ValueToAtom(JSContext*, js::Value const&, JSAtom**)",0.31892049583083054,21,1
+"strlen | nsACString_internal::Assign(char const*, unsigned int)",0.39705777537474174,97,3
+js_DefineNativeProperty,0.41722406844923043,269,2
+hang | _SEH_epilog4,0.4065702677086527,219,2
+libgobject-2.0.so.0.2702.0@0x2ef80,0.0,1,1
+tfpupwdbankex.dll@0x9746,0.24834045993162066,22,1
+hang | NtUserWaitMessage | NtUserWaitMessage | DialogBox2,0.5120050289466124,1119,1
+nsINode::GetBoolFlag(nsINode::BooleanFlag),0.3774644566295747,33,1
+nsHtml5Module::InitializeStatics(),0.11164710677317627,5,1
+je_free | nsScriptSecurityManager::`vector deleting destructor''(unsigned int),0.44474668763888753,367,1
+datamngrhlpff3.dll@0x4808,0.5597617144253467,1788,1
+js_DeflateString,0.0,1,5
+nsBuiltinDecoderStateMachine::GetBuffered(nsTimeRanges*),0.496498793526799,150,1
+"nsSHistory::RemoveEntries(nsTArray<unsigned __int64, nsTArrayDefaultAllocator>&, int)",0.0,1,1
+nsINode::HasFlag(unsigned long),0.31557121058629317,16,1
+js::MaybeGC,0.5581271297085117,590,1
+nsPropertyTable::GetPropertyInternal,0.0,2,1
+js_IsIdentifier,0.1290757509900526,3,1
+_d2d_compute_bitmap_mem_size,0.4021080713271403,1099,1
+LoadPlatformDirectory,0.0,1,1
+isPromoteInt,0.46032483616769676,169,2
+js_UnwindScope,0.1290757509900526,3,1
+acrobat.dll@0x13b519,0.46735275331765386,437,1
+"nsDocument::AdoptNode(nsIDOMNode*, nsIDOMNode**)",0.0,1,1
+"nsXULDocument::OnStreamComplete(nsIStreamLoader*, nsISupports*, unsigned int, unsigned int, unsigned char const*)",0.16287546352840937,4,1
+"nsDisplayList::PaintThebesLayers(nsDisplayListBuilder*, nsTArray<nsDisplayList::LayerItems> const&)",0.12215659764630703,4,2
+ntdll.dll@0x7e0d8,0.5635308029896902,2299,1
+gfxASurface::GetContentType(),0.38745512848553953,76,1
+nsCSSFrameConstructor::AddFrameConstructionItemsInternal,0.08143773176420468,2,1
+BBFastDoubleSrcCopy,0.0,1,1
+"PL_DHashTableOperate | mozilla::storage::AsyncBindingParams::BindByName(nsACString_internal const&, nsIVariant*)",0.08143773176420468,2,1
+PL_DHashTableOperate | _MD_CURRENT_THREAD,0.2542427427785716,10,1
+F_875177159_________________________________________________________________,0.44392344090884867,125,1
+_PR_MD_SEND,0.5383563720938562,2460,3
+JSCompartment::purge(JSContext*),0.4983444666030069,182,3
+GetPropertyHelper<GetPropCompiler>::testForGet(),0.24005422825472644,9,2
+"js_CloseIterator(JSContext*, JSObject*)",0.18909255736720781,5,1
+CWindowFeedBackAnimation::RestoreDisplacedWindow(),0.2465109417888929,13,1
+"nsCSSFrameConstructor::ConstructFramesFromItem(nsFrameConstructorState&, nsCSSFrameConstructor::FrameConstructionItemList::Iterator&, nsIFrame*, nsFrameItems&)",0.340062457625974,23,1
+operator new(unsigned int) | shell32.dll@0x15d741,0.1290757509900526,3,1
+mozilla::css::Declaration::~Declaration,0.08143773176420468,2,1
+JSStackFrame::script(),0.08143773176420468,2,1
+"hang | mozilla::plugins::PPluginModuleParent::CallNP_Initialize(unsigned long*, short*)",0.24431319529261405,8,1
+SHA256_Compress,0.320681587498537,31,1
+nsStringBuffer::Release,0.3373691885763189,19,2
+"memcpy | nsJARInputStream::Read(char*, unsigned int, unsigned int*)",0.3344324447382981,21,2
+nsAutoCompleteController::ClosePopup(),0.12215659764630703,4,1
+nsGenericElement::GetBindingParent(),0.21051348275425724,6,1
+nsPipeOutputStream::AddRef(),0.08143773176420468,2,1
+"FindDataInStaticFile(_UNISTOR_CLIENT*, void*, unsigned long, unsigned long, unsigned char, void**)",0.21984228483611276,14,1
+"nsPluginTag::RegisterWithCategoryManager(int, nsPluginTag::nsRegisterType)",0.0,2,1
+js_GetMethod,0.21051348275425724,6,5
+js_TraceObject,0.5899460011532249,682,3
+js_HashString,0.22862461710944693,7,5
+XPCWrappedNative::FindTearOff,0.11164710677317627,5,1
+nsThread::nsChainedEventQueue::PutEvent(nsIRunnable*),0.0,1,1
+mozilla::storage::`anonymous namespace''::CallbackResultNotifier::Run(),0.1290757509900526,3,1
+zzz_AsmCodeRange_Begin,0.45892873094066505,311,2
+nsIFrame::GetStyleVisibility(),0.2286275104958881,13,1
+nsPrefetchNode::OnStopRequest,0.18909255736720781,5,2
+nsCOMPtr_base::assign_with_AddRef | nsCSSSelector::Reset,0.2512323486363596,12,1
+"nsXPCWrappedJSClass::CallMethod(nsXPCWrappedJS*, unsigned short, XPTMethodDescriptor const*, nsXPTCMiniVariant*)",0.5574121281701881,306,1
+arena_run_reg_alloc,0.5400073263904976,310,2
+sqlite3BtreeParseCellPtr,0.0,1,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | BuildTextRunsScanner::FlushFrames(bool, bool)",0.0,1,1
+rlls.dll@0x40e7f,0.45130648536145923,376,1
+js_FinalizeStringRT,0.0,1,1
+js::gc::ScanTypeObject,0.4746603072867671,99,1
+huge_dalloc,0.1290757509900526,3,2
+js_FinishSharingTitle,0.2824032593757832,14,3
+_cairo_hash_table_lookup_exact_key,0.18909255736720781,5,1
+CFHash,0.25517969731821544,37,1
+js_SweepAtomState(JSContext*),0.2219569545293476,9,1
+XPC_WN_JSOp_ThisObject,0.14597560725923098,6,1
+mozJSComponentLoader::Import(nsACString_internal const&),0.4956073369424353,113,3
+"JSObject::nativeSearch(JSContext*, int, bool)",0.5579364996682622,214,1
+"nsAccessible::GetState(unsigned int*, unsigned int*)",0.08143773176420468,2,1
+"gfxContext::Scale(double, double)",0.1290757509900526,3,1
+mozilla::plugins::PluginModuleChild::UnregisterActorForNPObject,0.22862461710944693,7,1
+"_purecall | nsEditor::QueryInterface(nsID const&, void**)",0.0,1,1
+"JSC::Yarr::Vector<JSC::Yarr::PatternAlternative*, int>::deleteAllValues()",0.5599132263392933,347,1
+"ClientData::GetOtlTable(long, unsigned char const**, unsigned long*)",0.4156005905462997,526,3
+WriteFile,0.22862461710944693,7,1
+nvwgf2um.dll@0xcfb68,0.08143773176420468,2,1
+ExternalResourceEnumerator,0.3073099441220331,15,1
+js_ExecuteRegExp,0.3301085668208419,24,2
+js_LookupProperty,0.3999400697971264,34,1
+js_GetProperty,0.1290757509900526,3,7
+epicplaygames.dll@0xcfe7,0.4362258910998667,117,1
+"nsDOMConstructor::Create(unsigned short const*, nsDOMClassInfoData const*, nsGlobalNameStruct const*, nsPIDOMWindow*, nsDOMConstructor**)",0.3155712105862931,16,1
+"nsTextBoxFrame::GetTextSize(nsPresContext*, nsIRenderingContext&, nsString const&, nsSize&, int&)",0.26994238341961907,29,1
+"js::Invoke(JSContext*, js::CallArgs const&, js::ConstructOption)",0.24431319529261405,8,1
+"hang | mozilla::plugins::PPluginInstanceParent::CallPBrowserStreamConstructor(mozilla::plugins::PBrowserStreamParent*, nsCString const&, unsigned int const&, unsigned int const&, mozilla::plugins::PStreamNotifyParent*, nsCString const&, nsCString const...",0.6450655418172818,11002,3
+regexp_trace,0.5599132263392933,347,1
+"nsQueryContentEventHandler::GenerateFlatTextContent(nsIRange*, nsString&)",0.16287546352840937,4,1
+"@0x0 | XPC_WN_CallMethod(JSContext*, unsigned int, unsigned __int64*)",0.4331250535450698,88,1
+operator new(unsigned int) | EdgePool::Builder::Add(PtrInfo*),0.4480301178252223,53,1
+nsRuleNode::GetStyleDisplay,0.43434819909129097,54,1
+FinalizeArenaList<JSObject_Slots12>,0.45763861787591864,127,1
+_class_getMethodNoSuper,0.20318053193593497,22,1
+IteratorMore,0.35492455337607776,63,1
+_objc_trap,0.25152193569355774,56,1
+js_GetProtoIfDenseArray,0.3053914941157676,16,2
+xpc::XrayWrapper<JSCrossCompartmentWrapper>::resolveOwnProperty,0.5617375502027625,399,1
+mozilla::layers::DeviceManagerD3D9::Init(),0.0,3,1
+CompositeDataSourceImpl::cycleCollection::UnmarkPurple(nsISupports*),0.24431319529261405,8,1
+hang | F_596512829______________________________,0.5932089413461246,717,2
+JS_ValueToString,0.0,1,1
+avgxpl.dll@0xb986,0.2581515019801053,9,1
+nsAutoCompleteController::EnterMatch(int),0.3395892337443097,18,1
+vksaver.dll@0x3d66,0.5812872727292551,3568,1
+hang | mozilla::plugins::PPluginInstanceParent::CallUpdateWindow(),0.6347785248372129,5234,4
+hang | mozilla::plugins::PluginInstanceChild::GetActorForNPObject(NPObject*),0.22862461710944693,7,1
+strchr,0.39955152260515575,66,2
+"strlen | AppendUTF8toUTF16(char const*, nsAString_internal&)",0.27505135824928345,18,2
+JS_GetFunctionArgumentCount,0.0,2,1
+nsDiskCacheMap::UpdateRecord(nsDiskCacheRecord*),0.5641483267962745,522,1
+nsPKCS12Blob::~nsPKCS12Blob(),0.0,1,1
+"js_NewGCObject(JSContext*, js::gc::FinalizeKind)",0.46249655474439044,70,1
+"XPCWrappedNative::GetNewOrUsed(XPCCallContext&, nsISupports*, XPCWrappedNativeScope*, XPCNativeInterface*, nsWrapperCache*, int, XPCWrappedNative**)",0.4687182646572802,117,1
+"PL_DHashTableOperate | GCGraphBuilder::NoteRoot(unsigned int, void*, nsCycleCollectionParticipant*)",0.2826722413610731,35,1
+DestroyScript,0.31009562875777225,17,1
+"mozilla::plugins::PPluginInstanceChild::CallPStreamNotifyConstructor(mozilla::plugins::PStreamNotifyChild*, nsCString const&, nsCString const&, bool const&, nsCString const&, bool const&, short*)",0.3626960246156092,25,1
+mozalloc_abort(char const* const) | get_fpsr,0.3030727814355705,40,1
+XPCJSStackFrame::Release(),0.3683127108020619,44,3
+NS_ProcessNextEvent_P,0.0,1,2
+mozilla::gfx::DrawTargetD2D::CreateGradientTexture(mozilla::gfx::GradientStopsD2D const*),0.0,1,1
+"nsCSSFrameConstructor::MaybeRecreateContainerForFrameRemoval(nsIFrame*, unsigned int*)",0.2581515019801053,9,1
+PL_DHashTableEnumerate,0.49036669679231965,91,4
+nsINode::CompareDocPosition(nsINode*),0.1290757509900526,3,1
+hang | mozalloc_abort(char const* const) | _RTC_Terminate,0.5885636705972926,4145,1
+nsBuiltinDecoder::GetBuffered,0.3836874918478636,45,1
+clearHashEntry,0.22862461710944693,7,2
+MarkAndSweep,0.11164710677317627,5,1
+hang | WaitForSingleObjectEx | WaitForSingleObject | CJob::Wait(unsigned long),0.5205354252186137,3887,1
+Flash Player@0x8fd94,0.056993613471754745,15,1
+hang | NtUserMessageCall | ImeWndCreateHandler,0.4695635509526715,272,1
+np32dsw.dll@0x7830,0.0,1,1
+js::Bindings::getLocalNameArray,0.18336757216618904,6,2
+CheckStackAndEnterMethodJIT,0.6023856727464769,5828,3
+js_SetPropertyHelper,0.37888145651284033,65,1
+"nsJAR::GetInputStream(char const*, nsIInputStream**)",0.0,2,1
+ns_if_addref<jsdIExecutionHook*>(jsdIExecutionHook*),0.0,1,1
+CFReadStreamGetStatus,0.2564797864090407,16,3
+F_973733276______________________________,0.4829531556259697,171,1
+hang | F1156974495_____________________,0.5573974134535293,354,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | nsCycleCollectingAutoRefCnt::decr(nsISupports*),0.5576525763854628,778,1
+arena_run_dalloc,0.3933414877547219,34,2
+hang | mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::plugins::PluginModuleChild::ShouldContinueFromReplyTimeout(),0.5885636705972926,4145,1
+nsSecureBrowserUIImpl::Init(nsIDOMWindow*),0.08143773176420468,2,1
+F_964402326_______________________________________,0.1290757509900526,3,1
+atidxx32.dll@0x3ec73,0.20539045559481234,12,1
+"TraceRecorder::scopeChainProp(JSObject*, int*&, nanojit::LIns*&, TraceRecorder::NameResult&)",0.0,1,1
+nsThebesDeviceContext::SetDPI(),0.0,3,1
+je_free | mozutils.dll@0x2a9f,0.3904657034808163,36,1
+"nsDisplayClip::ComputeVisibility(nsDisplayListBuilder*, nsRegion*)",0.08143773176420468,2,1
+mozilla::plugins::PPluginInstanceChild::CallPStreamNotifyConstructor,0.3046547481632762,23,1
+JSObject::finish(JSContext*),0.08143773176420468,2,1
+_purecall | nsPurpleBuffer::SelectPointers(GCGraphBuilder&),0.5691086252787503,430,1
+"JSObject::shrinkSlots(JSContext*, unsigned int)",0.11289501781036575,18,1
+nsCookieService::HandleCorruptDB(DBState*),0.22999936141142546,51,1
+__delayLoadHelper2,0.21919399324945762,30,1
+"XPCWrappedNative::CallMethod(XPCCallContext&, XPCWrappedNative::CallMode)",0.4316362068919046,69,3
+pcache1Unpin,0.6268464577185945,2218,1
+"nsPrefBranch::Observe(nsISupports*, char const*, unsigned short const*)",0.0,1,1
+F_671092988_________________,0.11798825911797325,7,1
+"js::gc::Arena::finalize<JSObject>(JSContext*, js::gc::AllocKind, unsigned int, bool)",0.5994784645839574,1418,1
+WriteBitmap,0.0,1,1
+dataRead,0.1290757509900526,3,1
+"nsTHashtable<nsNavHistory::VisitHashKey>::s_HashKey(PLDHashTable*, void const*)",0.47240902402638724,166,2
+js_GetUpvar,0.0,1,8
+NS_CopySegmentToBuffer,0.15651746466152594,5,2
+nsCSSRect::nsCSSRect(),0.0,7,1
+"xpc::WrapperFactory::PrepareForWrapping(JSContext*, JSObject*, JSObject*, unsigned int)",0.3315050006471867,21,1
+Decompile,0.2705302891314126,10,2
+libpthread-2.6.1.so@0x7440,0.1290757509900526,3,2
+imgFrame::Optimize,0.30139976400136803,47,1
+_nsnote_callback,0.0,3,1
+"nsZipItemPtr_base::nsZipItemPtr_base(nsZipArchive*, char const*, bool)",0.5579820594510287,612,1
+_cairo_quartz_surface_fill,0.0,1,2
+nsWindow::Destroy(),0.5555970518197388,318,1
+libvoikko-1.dll@0x169ad,0.4026258910143775,116,1
+JS_IsSystemObject,0.08143773176420468,2,1
+Flash Player@0x38efcf,0.0,1,1
+libc-2.13.so@0x10fc79,0.472585343211527,203,1
+xpc::AccessCheck::isChrome,0.3871007992231024,59,3
+NtUserGetDC,0.2512323486363596,12,1
+libGLProgrammability.dylib@0xbb5b,0.06606865028586992,4,1
+RtlAllocateHeap,0.5412155212137422,887,1
+libobjc.A.dylib@0x1568c | IdleTimerVector,0.0,2,1
+nsSSLIOLayerImportFD,0.16287546352840937,4,1
+nsCycleCollector::ScanRoots,0.16287546352840937,4,1
+PICLinker::init,0.08143773176420468,2,1
+hang | WaitForSingleObjectEx | WaitForSingleObject | F967418395______________________________,0.5576535107408613,465,1
+npietab.dll@0x3787,0.21051348275425724,6,1
+nssCertificate_Destroy,0.4508240450019345,60,2
+JS_TraceChildren,0.570789673005992,417,8
+js::MaybeGC(JSContext*),0.5545565660605836,582,3
+js_ValueToIterator,0.2239537623515629,8,1
+"nsScriptLoader::StartLoad(nsScriptLoadRequest*, nsAString_internal const&)",0.3490540561559574,35,1
+orangetoolbar.dll@0x71c2,0.459878355208964,628,1
+JS_ArenaAllocate,0.4812244541930546,106,1
+"mozJSComponentLoader::LoadModule(nsILocalFile*, nsIModule**)",0.07478392981391614,3,1
+ImageRenderer::PrepareImage(),0.15651746466152594,5,1
+nvapi.dll@0x4e97e,0.2794636394712066,19,2
+WrappedNativeMarker,0.596524582460524,695,3
+JSObject::getGlobal(),0.6198136376250165,14807,1
+MessageLoop::~MessageLoop(),0.5348649102981536,220,1
+nsWSRunObject::GetWSBoundingParent(),0.0,1,1
+nsPhoenixProfileMigrator::FillProfileDataFromPhoenixRegistry(),0.08143773176420468,2,1
+"GetPropCompiler::reset(js::mjit::Repatcher&, js::mjit::ic::PICInfo&)",0.18909255736720781,5,1
+"js::Interpret(JSContext*, js::StackFrame*, js::InterpMode)",0.5659799466183224,424,1
+"js::PropertyTable::change(int, JSContext*)",0.34624303569459847,24,1
+"nsHTMLScrollFrame::Reflow(nsPresContext*, nsHTMLReflowMetrics&, nsHTMLReflowState const&, unsigned int&)",0.3011441762457331,22,1
+nsID::Equals(nsID const&),0.49306172395904946,156,1
+_cairo_spline_decompose_into,0.42111051783386494,148,2
+"nsXPLookAndFeel::GetColor(nsILookAndFeel::nsColorID, unsigned int&)",0.1290757509900526,3,1
+F_660538865________________,0.29374074608535083,22,1
+"nsWindowWatcher::OpenWindowJSInternal(nsIDOMWindow*, char const*, char const*, char const*, int, nsIArray*, int, nsIDOMWindow**)",0.4128503361773689,59,3
+_cairo_array_num_elements,0.20535669374824558,7,1
+F1009621517________________,0.2155200174815558,10,2
+"nsPluginHost::SetUpPluginInstance(char const*, nsIURI*, nsIPluginInstanceOwner*)",0.5861792370722199,593,1
+nsIFrame::GetUsedBorder(),0.47353874732798706,118,1
+"nsDocument::AddToIdTable(mozilla::dom::Element*, nsIAtom*)",0.2035943294105117,8,1
+"TraceRecorder::import(nanojit::LIns*, int, long*, JSTraceType_, char const*, unsigned int, JSStackFrame*)",0.18909255736720781,5,1
+"nsXBLProtoImplField::InstallField(nsIScriptContext*, JSObject*, nsIPrincipal*, nsIURI*, int*)",0.4227633104684379,83,1
+"@0x0 | nsIEProfileMigrator::Migrate(unsigned short, nsIProfileStartup*, wchar_t const*)",0.2787269887250701,21,1
+GraphWalker<scanVisitor>::DoWalk(nsDeque&),0.6214788511243832,3709,2
+"js::Compiler::defineGlobals(JSContext*, js::GlobalScope&, JSScript*)",0.5014896840609925,143,1
+PL_GetNextOpt,0.0,2,1
+IUnknown::QueryInterface<IDXGISurface>(IDXGISurface**),0.18909255736720781,5,1
+nsCSSSelector::Reset,0.28882653536570574,13,1
+"nsXPConnect::GetNativeOfWrapper(JSContext*, JSObject*)",0.1531000812205453,9,1
+GetWidgetOffset,0.3471439995185135,23,2
+_atof_l,0.0,1,1
+ycc_rgb_convert,0.3203640620977975,68,3
+JSScript::getGlobalSlot(unsigned int),0.24431319529261405,8,1
+"js::gc::Arena::finalize<JSObject>(JSContext*, js::gc::AllocKind, unsigned __int64, bool)",0.5994784645839574,1418,1
+PREF_GetBoolPref,0.08143773176420468,2,1
+vksaver.dll@0x39d6,0.5812872727292551,3568,1
+CFRelease | __CFDictionaryDeallocate,0.20535669374824558,7,1
+F1650855128_____________________________,0.3804592141025964,31,1
+SECITEM_Hash,0.22862461710944693,7,1
+"js::analyze::ScriptAnalysis::addJump(JSContext*, unsigned int, unsigned int*, unsigned int*, unsigned int, unsigned int*, unsigned int)",0.35735007449970124,47,1
+nsAttributeTextNode::~nsAttributeTextNode(),0.0,3,1
+ReplaceCallback,0.08143773176420468,2,2
+memcpy | fillInCell,0.38816901003883486,77,1
+F_399515997______________________________________________,0.3878728419000361,40,1
+"nsFrameManager::ReResolveStyleContext(nsPresContext*, nsIFrame*, nsIContent*, nsStyleChangeList*, nsChangeHint, nsRestyleHint, mozilla::css::RestyleTracker&, nsFrameManager::DesiredA11yNotifications, nsTArray<nsIContent*, nsTArrayDefaultAllocator>&)",0.38483241805775675,36,1
+"nsWindowSH::GetProperty(nsIXPConnectWrappedNative*, JSContext*, JSObject*, int, unsigned __int64*, int*)",0.15651746466152594,5,1
+"nsPluginHost::ScanPluginsDirectory(nsIFile*, nsIComponentManager*, int, int*, int)",0.0,1,1
+"nsTHashtable<nsBaseHashtableET<nsURIHashKey, nsCOMPtr<nsIURI> > >::s_HashKey(PLDHashTable*, void const*)",0.2817282642151927,11,1
+strstr,0.08143773176420468,2,2
+nsLocalFile::Remove(int),0.08143773176420468,2,1
+FireOrClearDelayedEvents,0.3530295133416155,24,1
+PopActiveVMFrame,0.45385418508508685,176,2
+nsImageFrame::GetImageMap(nsPresContext*),0.16287546352840937,4,1
+nsCOMPtr<nsISimpleEnumerator>::nsCOMPtr<nsISimpleEnumerator>(nsISimpleEnumerator*) | nsStyleContext::Destroy(),0.08143773176420468,2,1
+"@0x0 | nsDisplayList::ComputeVisibilityForSublist(nsDisplayListBuilder*, nsRegion*, nsRect const&, nsRect const&)",0.5016605304062538,137,1
+hang | NtUserMessageCall | RealDefWindowProcW,0.5562297750273925,1185,2
+BuildTextRuns,0.28679442551245027,14,1
+hang | NtUserWaitMessage | NtUserWaitMessage | base::MessagePumpForUI::WaitForWork(),0.3169888068410475,19,1
+arena_dalloc_small | arena_dalloc | free | JSFreePointerListTask::run(),0.4716069213872468,148,1
+PrepareAndDispatch,0.37666104237299136,131,1
+nsGlobalWindow::SetDocShell,0.0,1,1
+_invalid_parameter_noinfo,0.323605913368791,25,2
+FindNCHit,0.5306282740743428,241,2
+WrapperIsNotMainThreadOnly,0.2581515019801053,9,1
+hang | ntdll.dll@0xe514,0.0,1,1
+F_2125799176_____________________________________,0.18909255736720781,5,1
+_VEC_memzero,0.27198169863466526,337,4
+MirrorWrappedNativeParent,0.0,1,1
+XDRChars,0.2551374559015245,15,1
+F_488409223___________,0.08143773176420468,2,1
+chromehang | FontFileAnalyzer::IsPfm(unsigned __int64),0.0,1,1
+"JSObject::removeProperty(JSContext*, int)",0.2239537623515629,8,1
+js_NextActiveContext,0.15651746466152594,5,2
+nsASDOMWindowEnumerator::GetNext(nsISupports**),0.07478392981391614,3,1
+F_1621050107_____________,0.3268186682110179,37,1
+nsSHistory::EvictContentViewersInRange,0.0,1,1
+"nsComponentManagerImpl::GetServiceByContractID(char const*, nsID const&, void**)",0.3731573720204711,29,1
+chromehang | ZwQueryFullAttributesFile,0.2811897908051327,16,2
+libvlccore.dll@0x9fc59,0.5262173371574705,1581,2
+js_DestroyScriptsToGC,0.2239537623515629,8,1
+"nsCOMPtr_base::assign_from_qi(nsQueryInterface, nsID const&) | nsContentUtils::CanCallerAccess(nsPIDOMWindow*)",0.45101442848152495,124,1
+nsIFrame::GetOffsetTo(nsIFrame const*),0.5347720618093244,473,1
+nsXULControllers::cycleCollection::UnmarkPurple(nsISupports*),0.40828096549805876,51,1
+mozjs.dll@0x1f7768,0.4124168692744794,51,1
+nsPluginStreamListenerPeer::GetInterfaceGlobal,0.0,1,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | Initialize(),0.5102577595741988,316,1
+FindNamedItems,0.4970309332975308,135,2
+JS_DefineConstDoubles,0.08143773176420468,2,1
+JS_DHashTableEnumerate,0.4898392269563069,88,1
+nspr4.dll@0x288f,0.4219862346140196,90,1
+hang | F_875177159_________________________________________________________________,0.6345106957142445,7936,2
+"js_UnwindScope(JSContext*, int, int)",0.2239537623515629,8,1
+vksaver.dll@0x3643,0.5812872727292551,3568,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | nsTArray<nsTimerImpl*, nsTArrayDefaultAllocator>::AppendElements<nsTimerImpl*>(nsTimerImpl* const*, unsign...",0.5652862398508908,680,1
+gfxTextRun::`vector deleting destructor''(unsigned int),0.4360909373198895,60,2
+FinalizeArenaList<JSObject_Slots8>,0.45763861787591864,127,1
+"nsThread::Dispatch(nsIRunnable*, unsigned int)",0.5284279631100116,746,1
+"js_GetPropertyHelper(JSContext*, JSObject*, int, unsigned int, js::Value*)",0.5015158437928824,119,1
+hang | InternalDialogBox,0.5432102335409769,868,1
+nsCycleCollectingAutoRefCnt::unmarkPurple(),0.47633943458866823,179,1
+hang | WaitForSingleObjectEx | WaitForSingleObject | F_1175683577_______________,0.5789925474754432,541,1
+gfxDWriteFontList::InitFontList(),0.06606865028586992,4,2
+chromehang | NtClose,0.2811897908051327,16,4
+FinishCreate,0.15003851475250873,7,1
+JS_GetGlobalForScopeChain,0.0,1,1
+nsIDocument::InnerWindowID(),0.08143773176420468,2,1
+"nsTArray<ObserverRef, nsTArrayDefaultAllocator>::AppendElements<ObserverRef>(ObserverRef const*, unsigned int) | nsObserverList::FillObserverArray(nsCOMArray<nsIObserver>&)",0.43111431519943494,234,1
+icuuc36.dll@0x1f94,0.4577219249875978,604,1
+nsLineBox::DeleteLineList,0.08143773176420468,2,2
+fopen,0.3639335449590263,152,1
+nsRuleNode::DestroyInternal(nsRuleNode***),0.5360185891931223,236,1
+"nsDOMEvent::QueryInterface(nsID const&, void**)",0.2239537623515629,8,1
+js::mjit::JITScript::purgePICs(),0.5778483274098317,570,1
+_de_casteljau,0.42111051783386494,148,2
+nsXPConnect::Peek(JSContext**),0.43547837888891094,65,1
+F_855855466_____________________,0.6272101343133786,2501,1
+JS_updateMallocCounter,0.4119899734653356,297,4
+DocumentViewerImpl::SetBounds,0.4079382324599028,206,1
+F18720598__________________________________________________,0.13490179783749162,43,1
+hang | mozilla::plugins::PPluginInstanceParent::CallNPP_Destroy(short*),0.6327552591221065,3748,1
+NS_GetInnermostURI(nsIURI*),0.21051348275425724,6,1
+"nsPluginHostImpl::TrySetUpPluginInstance(char const*, nsIURI*, nsIPluginInstanceOwner*)",0.5814465560022056,495,1
+kernelbase.dll@0xcacd,0.3540078920477835,292,1
+"NS_URIChainHasFlags(nsIURI*, unsigned int, int*)",0.08143773176420468,2,3
+js::Shape::removeFromDictionary(JSObject*),0.0,1,1
+Load,0.18909255736720781,5,1
+js::ContextStack::popInvokeArgs,0.4343027858633987,93,3
+sqlite3InitCallback,0.21051348275425724,6,1
+libsystem_c.dylib@0x27edc,0.0,2,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsHtml5TreeOperation::AppendText(wchar_t const*, int, nsIContent*, nsHtml5TreeOpExecutor*)",0.1290757509900526,3,1
+je_free | nsScriptSecurityManager::`scalar deleting destructor''(unsigned int),0.44474668763888753,367,1
+JS_GetStringEncodingLength,0.18909255736720781,5,1
+JS_BeginRequest,0.5236196790118586,266,8
+quicktimewebhelper.qtx@0xebf9,0.5006777266373043,853,2
+igd10umd32.dll@0x1195c,0.08143773176420468,2,1
+_purecall | nsWindow::Show(int),0.0,1,1
+js_ConcatStrings,0.18909255736720781,5,5
+libobjc.A.dylib@0x511c,0.16287546352840937,4,1
+nvwgf2um.dll@0xcfcc8,0.08143773176420468,2,1
+nsCSSCompressedDataBlock::Destroy(),0.37167009619327906,25,1
+hang | NtUserMessageCall | SendMessageW,0.4695635509526715,272,1
+js::Parser::memberExpr(int),0.16287546352840937,4,1
+"je_free | js::gc::Arena::finalize<JSObject>(JSContext*, js::gc::AllocKind, unsigned int)",0.46644632658323015,91,1
+JSJ_HashTableAdd,0.08143773176420468,2,1
+js_GetGCStringRuntime,0.0,1,1
+DefinePropertyIfFound,0.539452321923,225,1
+js_ValueToNumber,0.2705302891314126,10,7
+"nsAccessibilityService::GetAccessible(nsIDOMNode*, nsIPresShell*, nsIWeakReference*, nsIFrame**, int*, nsIAccessible**)",0.08143773176420468,2,1
+StrChrIA,0.5887944991171974,837,3
+FreeArenaList,0.33054059688162035,18,2
+@0x0 | HIObject::Destruct(),0.15651746466152594,5,1
+"nsNodeWeakReference::QueryReferent(nsID const&, void**)",0.4970309332975308,135,1
+XPCWrappedNative::GetNewOrUsed,0.1290757509900526,3,1
+nanojit::Assembler::asm_cmp(nanojit::LIns*),0.15651746466152594,5,1
+GetElement,0.16327740716919728,15,3
+nsXULDocument::ResumeWalk(),0.2715687054086482,13,1
+"mozilla::ipc::RPCChannel::RPCFrame::Describe(int*, char const**, char const**, char const**)",0.12215659764630703,4,1
+nsEventStateManager::FireContextClick,0.0,1,1
+FinalizeArenaList<JSString>,0.4716069213872468,148,1
+js_GetClassPrototype,0.1290757509900526,3,2
+"nsXPTCStubBase::QueryInterface(nsID const&, void**)",0.44406525433354216,64,1
+RtlpWaitOnCriticalSection | RtlAddAccessAllowedAce | PR_Lock,0.23342072743106987,15,1
+JS_IsAboutToBeFinalized,0.37986611895725564,28,1
+mozilla::layers::ImageLayerOGL::RenderLayer,0.20536822413038452,16,1
+"js::types::TypeCompartment::markSetsUnknown(JSContext*, js::types::TypeObject*)",0.5085756121084518,185,1
+nsDocAccessible::RefreshNodes(nsIDOMNode*),0.08143773176420468,2,1
+sqlite3BtreeClose,0.20535669374824558,7,1
+2zbar.dll@0x3b3c7,0.15651746466152594,5,1
+"memcpy | nsCharTraits<unsigned short>::copy(unsigned short*, unsigned short const*, unsigned int)",0.08143773176420468,2,1
+"nsDocLoader::QueryInterface(nsID const&, void**)",0.3163191118942683,20,1
+"nsTArray<nsHttpHeaderArray::nsEntry, nsTArrayDefaultAllocator>::IndexOf<nsHttpAtom, nsHttpHeaderArray::nsEntry::MatchHeader>(nsHttpAtom const&, unsigned int, nsHttpHeaderArray::nsEntry::MatchHeader const&) | nsHttpChannel::AddCacheEntryHeaders(nsICache...",0.1290757509900526,3,1
+str_split,0.0,1,2
+chromehang | NtQueryFullAttributesFile,0.2811897908051327,16,2
+"nsDocShell::GetInterface(nsID const&, void**)",0.3303080319980719,23,1
+nsCOMPtr_base::~nsCOMPtr_base() | nsInterfaceRequestorAgg::Release(),0.08143773176420468,2,1
+hang | F_1203669909__________________________,0.5349328786744902,369,1
+nsGenericHTMLElement::CopyInnerTo(nsGenericElement*),0.28882653536570574,13,1
+nsPluginInstanceOwner::Destroy(),0.0,1,1
+JS_GetParent,0.2151262516500877,9,2
+small_malloc_from_free_list | szone_malloc_should_clear,0.08143773176420468,2,1
+GetPropertyHelper<js::mjit::ic::GetElementIC>::lookup(),0.09833758803338306,12,1
+msvcr80.dll@0x173f2,0.30135541717558345,13,1
+pthread_mutex_lock,0.4219933365028906,142,7
+PKIX_RevocationChecker_Create,0.0,1,1
+_purecall | base::ObjectWatcher::Watch::Run(),0.5146053832454298,330,1
+PR_FindFunctionSymbol,0.3412157972177727,30,2
+"PL_DHashTableOperate | free | nsEventListenerManager::AddEventListenerByType(nsIDOMEventListener*, nsAString_internal const&, int, nsIDOMEventGroup*)",0.38106773146101647,38,1
+send,0.5383563720938562,2460,3
+"nsWindow::WindowProcInternal(HWND__*, unsigned int, unsigned int, long)",0.5604999630108424,436,2
+nsIFrame::GetOffsetTo,0.2521145435736637,11,1
+nsNPAPIPluginInstance::ForceRedraw,0.3130315833056093,299,2
+xpc::AccessCheck::isChrome(JSCompartment*),0.3871007992231024,59,1
+GetMovieRate_priv,0.08143773176420468,2,1
+nsExternalAppHandler::OpenWithApplication(),0.5033566113342253,185,1
+HashMgr::~HashMgr(),0.3678997930563207,26,1
+SynthesizeFrame,0.2035943294105117,8,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | std::_Allocate<MessageLoop::PendingTask>(unsigned int, MessageLoop::PendingTask*)",0.2783782592244278,12,1
+QTMLGrabMutex,0.3161449482129927,23,1
+nsComponentManagerImpl::KnownModule::Description(),0.25233690872659253,31,1
+hang | InternalFindAtom,0.20535669374824558,7,2
+@0x0 | nsDisplayClip::GetBounds(nsDisplayListBuilder*),0.5320589379999087,263,1
+JSString::mark(JSTracer*),0.5594133719987514,341,1
+memmove | F_137635984_________________________________,0.0,1,1
+chromehang | ZwClose,0.2811897908051327,16,1
+chromehang | NtGdiGetFontData,0.3073099441220331,15,1
+"IsAboutToBeFinalized(JSContext*, void*)",0.3861259146706378,33,1
+CSSStyleRuleImpl::Release(),0.295211777645242,16,1
+JSScope::trace(JSTracer*),0.36271396518328786,31,1
+hang | NtDelayExecution,0.48435346719413863,339,1
+sqlite3DbFree,0.13593426053983765,13,1
+js_FindXMLProperty,0.0,2,1
+nsCachedStyleData::GetStyleDisplay(),0.33287370246189923,17,1
+fun_bind,0.0,1,1
+atidxx32.dll@0x3e7c3,0.20539045559481234,12,1
+RtlpWaitOnCriticalSection | RtlDeNormalizeProcessParams,0.5635308029896902,2299,1
+hang | F_839780673_______________________________,0.5775276480499133,873,1
+"js::Shape::newDictionaryShape(JSContext*, js::Shape const&, js::Shape**)",0.24431319529261405,8,1
+args_resolve,0.39953635090500933,84,1
+"nsRuleNode::GetStyleDisplay(nsStyleContext*, int)",0.43434819909129097,54,1
+@0x0 | CallResolveOp,0.539452321923,225,1
+"nsXMLHttpRequest::StreamReaderFunc(nsIInputStream*, void*, char const*, unsigned int, unsigned int, unsigned int*)",0.0,1,1
+wmvdmod.dll@0x57349,0.0,1,1
+GetScopeOfObject,0.0,1,1
+avgssff7.dll@0x56829,0.16287546352840937,4,1
+FinderKit@0x7c438,0.2420964375306899,198,1
+CDevice::DriverInternalError(long),0.4267792044477625,705,1
+nsDisplayClip::GetBounds(nsDisplayListBuilder*),0.5320589379999087,263,1
+nsHTMLTextAreaElement::Select(),0.08143773176420468,2,1
+nsHttpChannel::Connect(int),0.22862461710944693,7,1
+"AffixMgr::isRevSubset(char const*, char const*, int)",0.08143773176420468,2,2
+memcpy | fts3NodeAddTerm,0.6050635735458713,1275,1
+kbdsock.dll@0x4154,0.0,1,1
+nsAttrAndChildArray::RemoveChildAt,0.08143773176420468,2,2
+nsXPTCStubBase::QueryInterface,0.44406525433354216,64,1
+glitter_scan_converter_render,0.3554768106851669,31,1
+"nsIMEStateManager::OnTextStateFocus(nsPresContext*, nsIContent*)",0.08143773176420468,2,2
+jvm.dll@0x5e5c2,0.5460004667318746,676,1
+jvm.dll@0x5e5c4,0.5460004667318746,676,1
+"nsStringBundleService::getStringBundle(char const*, nsIStringBundle**)",0.08143773176420468,2,1
+"nsBlockFrame::GetChildLists(nsTArray<mozilla::layout::FrameChildList, nsTArrayDefaultAllocator>*)",0.29895537993745047,23,1
+qcms_transform_data_rgba_out_lut_sse2,0.41156910951161163,92,2
+Flash Player@0x2d434c,0.07507973289732126,10,1
+"nsHTMLCanvasElement::GetContext(nsAString_internal const&, unsigned __int64 const&, nsISupports**)",0.0,1,1
+"nsDiskCacheBlockFile::Open(nsILocalFile*, unsigned int, unsigned int)",0.21132330912970942,11,1
+"CallQueryInterface<nsISupports, nsXPCOMCycleCollectionParticipant>(nsISupports*, nsXPCOMCycleCollectionParticipant**)",0.24431319529261405,8,2
+nsCOMPtr_base::assign_assuming_AddRef(nsISupports*),0.1290757509900526,3,1
+"nsSimpleURI::SchemeIs(char const*, int*)",0.3654211034190315,29,1
+nsTextServicesDocument::IsBlockNode(nsIContent*),0.0,1,1
+"XPCNativeInterface::GetNewOrUsed(XPCCallContext&, nsID const*)",0.1290757509900526,3,1
+tfpupwdbankex.dll@0x9e26,0.24834045993162066,22,1
+"memcpy | nsACString_internal::Replace(unsigned int, unsigned int, char const*, unsigned int)",0.2964515798868058,15,1
+js::mjit::JITScript::purgePICs,0.3530110996651568,37,1
+js::gc::GetGCThingTraceKind(void const*),0.5654714142448736,317,1
+PR_ExitMonitor,0.33471669015524885,23,1
+RtlpFindUCREntry,0.12215659764630703,4,1
+scanVisitor::VisitNode(PtrInfo*),0.12215659764630703,4,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsScriptableUnicodeConverter::ConvertFromUnicodeWithLength(nsAString_internal const&, int*, char**)",0.32909529372666435,43,1
+F1546913566_____________________________________,0.5562297750273925,1185,1
+F_437410032______________________________________________________________,0.406803149351156,54,1
+NSLinkModule,0.07478392981391614,3,1
+nsDocShell::InternalLoad,0.0,1,1
+"nsPluginStreamListenerPeer::ServeStreamAsFile(nsIRequest*, nsISupports*)",0.3727836587922477,83,1
+js_DecompileValueGenerator,0.16287546352840937,4,1
+hang | F_1440697021____________________________________________________,0.6370393747791826,9000,1
+"js::DefaultValue(JSContext*, JSObject*, JSType, JS::Value*)",0.4053485609958623,68,1
+NS_strlen(unsigned short const*),0.1427371567485724,9,1
+nsMimeTypeArray::GetMimeTypes(),0.31706517467741463,30,1
+pcache1Fetch,0.5205179770565808,128,1
+gfxTextRun::GetChar,0.08143773176420468,2,1
+nsDiskCacheMap::DeleteRecord,0.6015859816980551,1357,1
+nsPurpleBuffer::Put(nsISupports*),0.26716780396502343,16,1
+js::gc::MarkId,0.48103290682680644,144,1
+RtlpTpWorkCallback,0.5158282064107821,3874,2
+IcedTeaPlugin.so@0x7cfc,0.1290757509900526,3,2
+nsXBLBinding::AllowScripts(),0.3798182324599177,32,1
+F967418395______________________________,0.3728659003456928,47,1
+RegisterGuidsApiCallback,0.5635308029896902,2299,1
+nvapi.dll@0x75e2e,0.3211468603322575,25,1
+row_callback,0.0,1,1
+"nsPropertyTable::GetPropertyListFor(unsigned short, nsIAtom*)",0.2581515019801053,9,1
+"nsBufferedOutputStream::Write(char const*, unsigned int, unsigned int*)",0.19958969365475793,12,1
+"IsAboutToBeFinalized(JSContext*, void const*)",0.5656699172177049,406,1
+tfpupwdbankex.dll@0x9f76,0.24834045993162066,22,1
+@0x0 | JSC::Yarr::execute,0.5599132263392933,347,1
+"nsPropertyTable::GetPropertyInternal(nsPropertyOwner, unsigned short, nsIAtom*, int, unsigned int*)",0.22618212631631757,13,2
+JS_GetGlobalObject,0.27063642968879525,15,2
+sqlite3_initialize,0.1290757509900526,3,1
+_SEH_epilog4,0.3347560869384862,28,3
+"@0x0 | nsDocShell::SetHistoryEntry(nsCOMPtr<nsISHEntry>*, nsISHEntry*)",0.2461093214769147,12,2
+@0x0 | F1661783649________________,0.4790335516513828,145,1
+"@0x0 | nsPluginStreamListenerPeer::SetUpStreamListener(nsIRequest*, nsIURI*)",0.4769172539317146,85,1
+"nsRuleNode::GetStyleUIReset(nsStyleContext*, int)",0.21051348275425724,6,1
+"nsHTMLAnchorElement::UnbindFromTree(int, int)",0.1290757509900526,3,1
+fb_addon4.dll@0x27421,0.37827214132741876,113,1
+nsDocShell::GetAllowDNSPrefetch(int*),0.0,1,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | nsCycleCollectorGCHookRunnable::Run(),0.3038248993991985,55,1
+"nsBlockFrame::BuildDisplayList(nsDisplayListBuilder*, nsRect const&, nsDisplayListSet const&)",0.5205179162934013,201,1
+RtlpWaitOnCriticalSection | RtlpDeCommitFreeBlock | libvlccore.dll@0x9fcce,0.5268780374142732,2152,1
+F1330478284_________________________________________,0.18909255736720781,5,1
+nsLayoutUtils::GetCrossDocParentFrame,0.24005422825472644,9,1
+RtlpWaitOnCriticalSection | RtlpDeCommitFreeBlock | nvlsp.dll@0x5d40,0.43392300085089947,515,1
+js_SetProtoOrParent,0.08143773176420468,2,2
+JS_LookupProperty,0.0,1,1
+_VEC_memcpy,0.45864989885664315,84,2
+objc_msgSend | HPSmartPrint@0xe1ef,0.0,1,1
+JSLinearString::mark,0.24005422825472644,9,1
+mozilla::plugins::child::_geturlnotify,0.0,1,1
+hang | NtUserCallOneParam,0.3608206537098993,27,1
+datamngrhlp.dll@0x4808,0.5597617144253467,1788,1
+__entry_from_strcat_in_strcpy,0.15003851475250876,7,1
+nsRegion::SetToElements(unsigned int),0.5044051636732237,143,1
+PL_DHashTableOperate | nsTHashtable<nsDOMStorageEntry>::RemoveEntry(void const*),0.1290757509900526,3,1
+"nsRuleNode::Transition(nsIStyleRule*, unsigned char, unsigned char)",0.4484260570935462,66,1
+nsCacheService::DoomEntry_Internal(nsCacheEntry*),0.3740784459718257,35,2
+nsIFrame::GetOrdinal(nsBoxLayoutState&),0.16287546352840937,4,1
+chromehang | kernelbase.dll@0x141f,0.21051348275425724,6,1
+GetPropertyDescriptorById,0.2817282642151927,11,1
+js::InvokeKernel,0.45021591479537304,105,1
+nsDeque::PopFront(),0.0,1,1
+"js::detail::HashTable<unsigned int const, js::HashSet<unsigned int, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::prepareHash(JSString* const&)",0.0,1,1
+extent_tree_ad_s_RB_REMOVE_COLOR,0.08143773176420468,2,1
+sqlite3DbMallocRaw,0.5355318425140084,325,3
+DoStopPlugin,0.3833856153163062,35,2
+oggplay_buffer_set_last_data,0.0,1,5
+"nsDisplayTransform::GetResultingTransformMatrix(nsIFrame const*, nsPoint const&, float, nsRect const*, nsIFrame**)",0.0,1,1
+"nsCOMPtr_base::~nsCOMPtr_base() | nsTHashtable<nsBaseHashtableET<PrefCallback, nsAutoPtr<PrefCallback> > >::s_ClearEntry(PLDHashTable*, PLDHashEntryHdr*)",0.044266655321848,8,1
+CFStringGetLength,0.21290831766665813,18,1
+F1786948743_______________________________,0.5003419947723088,231,1
+agcore.dll@0x5114b2,0.07478392981391614,3,1
+js_SweepScopeProperties,0.2669214038944282,11,1
+js_EqualStrings,0.3344324447382981,21,2
+"mozilla::dom::PContentDialogParent::CreateSharedMemory(unsigned int, mozilla::ipc::SharedMemory::SharedMemoryType, bool, int*)",0.0,1,1
+find_objects_by_template,0.12215659764630703,4,1
+coreclr.dll@0xbaf32,0.47123993571658,107,1
+nssPKIObject_Lock,0.08143773176420468,2,1
+@0x0 | nsDocShell::Destroy(),0.14597560725923098,6,1
+js::mjit::JITScript::sweepCallICs,0.1290757509900526,3,1
+gbmzh_bb.dll@0x1142c,0.5128017164895039,1074,1
+SocketWrite,0.5351864156424384,431,1
+__addAltHandler2,0.20840418894758625,134,1
+NtWaitForSingleObject,0.0,1,1
+js_TryValueOf,0.5692793864794163,424,1
+nsIFrame::GetUsedBorderAndPadding(),0.31037804292806653,26,1
+vdbeFreeOpArray,0.0,1,1
+nsGetInterface::operator(),0.0,1,2
+HeapDestroy,0.23419667844278114,29,1
+"js::detail::HashTable<js::Shape* const, js::HashSet<js::Shape*, js::ShapeHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::lookup(js::Shape const* const&, unsigned int, unsigned int)",0.463036016643009,87,1
+objc_msgSend | __CFDictionaryFindBuckets1b,0.0,1,1
+JS_GetOptions,0.12215659764630703,4,2
+NewGCThing<JSFunction>,0.5052635692831825,146,1
+"nsDisplayText::Paint(nsDisplayListBuilder*, nsIRenderingContext*)",0.43574582692489433,97,2
+nsBidiPresUtils::Resolve(nsBlockFrame*),0.2581515019801053,9,1
+"js::Interpret(JSContext*, js::StackFrame*, unsigned int, js::InterpMode)",0.4411873368003006,154,2
+F369423984__________________,0.3350933021392366,35,1
+nsBuiltinDecoderStateMachine::ScheduleStateMachine(__int64),0.24383366704732942,26,1
+js_GetIndexFromBytecode,0.5639668121394454,1653,1
+F_1360900201_______________________________,0.34647890359989353,27,1
+nsGlobalWindow::cycleCollection::UnmarkPurple(nsISupports*),0.43623929974165604,110,2
+InternalCallWinProc,0.5825512978687701,476,3
+SuppressDeletedPropertyHelper<SingleIdPredicate>,0.08143773176420468,2,1
+"WaitForSingleObject | google_breakpad::ExceptionHandler::WriteMinidumpOnHandlerThread(_EXCEPTION_POINTERS*, MDRawAssertionInfo*)",0.2669214038944282,11,1
+objc_msgSend | __PRETTY_FUNCTION__.174748,0.23184183509252804,28,1
+gfxContext::gfxContext(gfxASurface*),0.38623739548068253,57,3
+"nsTreeBodyFrame::PaintColumn(nsTreeColumn*, nsRect const&, nsPresContext*, nsIRenderingContext&, nsRect const&)",0.0,1,1
+hash_access,0.4841981393578358,306,1
+js::gc::MarkAtomRange,0.6070862460638492,603,2
+nsBlockFrame::DestroyFrom(nsIFrame*),0.45456595701640085,75,1
+"mozilla::gfx::BaseRect<int, nsRect, nsPoint, nsSize, nsMargin>::UnionEdges(nsRect const&)",0.19370098143124076,90,1
+"nsTArray<nsCOMPtr<nsIAtom>, nsTArrayDefaultAllocator>::Clear | nsAttrValue::EnsureEmptyMiscContainer",0.1290757509900526,3,1
+"CD3DBase::SetTexture(unsigned long, IDirect3DBaseTexture9*)",0.0,1,1
+nsZipArchive::GetData(nsZipItem*),0.37252883652265306,33,2
+"nsFloatManager::GetFlowArea(int, nsFloatManager::BandInfoType, int, nsRect, nsFloatManager::SavedState*)",0.1290757509900526,3,1
+sqlite3BtreeGetMeta,0.0,1,1
+pcache1TruncateUnsafe,0.32575092705681874,16,1
+ntdll.dll@0x38c39,0.15651746466152594,5,2
+nsXULDocument::AddChromeOverlays(),0.0,1,1
+nppl3260.dll@0x54bb,0.2637687717459505,13,2
+"JSScript::NewScriptFromCG(JSContext*, JSCodeGenerator*)",0.30817533871784786,20,1
+GetPropCompiler::reset(js::mjit::ic::PICInfo&),0.048184489034369254,7,1
+mozalloc.dll@0x1a39,0.2590398235987706,13,1
+base::BaseTimer_Helper::OrphanDelayedTask(),0.367540976726388,29,1
+nsChromeRegistry::Canonify,0.12215659764630703,4,1
+ProcessSingleMorphRun,0.0,1,2
+"nsQueryReferent::operator()(nsID const&, void**)",0.38712797208364713,91,1
+js::PropertyTree::sweepShapes(JSContext*),0.3824423213901235,31,1
+mozilla::layers::SurfaceToTexture,0.39766726170745964,192,1
+F_1123003313____________________________________,0.1290757509900526,3,1
+js::DeepBail(JSContext*),0.18909255736720781,5,2
+"js::TraceRecorder::prop(JSObject*, nanojit::LIns*, unsigned long*, nanojit::LIns**, js::Value*)",0.0,1,1
+PL_DHashTableFinish,0.47859052253628365,81,3
+arena_purge,0.4491340593750166,60,1
+memmove | F613920541____________________,0.0,2,1
+StartDraw,0.12215659764630703,4,1
+JS_HashTableRawLookup,0.34566399091596656,31,5
+arena_malloc_large,0.3682321572766549,28,1
+"ArabicShape(HDC__*, void**, unsigned short const*, int, int, tag_SCRIPT_ANALYSIS*, unsigned short*, unsigned short*, tag_SCRIPT_VISATTR*, int*)",0.16287546352840937,4,1
+nanojit::Assembler::findRegFor,0.0,1,1
+hang | NtUserCallHwndLock,0.6351777554980844,6147,1
+arena_run_tree_insert,0.5250062399763955,192,1
+XPC_WN_Helper_NewResolve,0.47378339545060566,84,1
+"nsHTMLAreaElement::UnbindFromTree(int, int)",0.0,1,1
+"nsDocShell::InternalLoad(nsIURI*, nsIURI*, nsISupports*, unsigned int, wchar_t const*, char const*, nsIInputStream*, nsIInputStream*, unsigned int, nsISHEntry*, int, nsIDocShell**, nsIRequest**)",0.29272512837851783,21,1
+"mozilla::layers::BasicLayerManager::PushGroupWithCachedSurface(gfxContext*, gfxASurface::gfxContentType)",0.5715850841237962,632,1
+nsFrameLoader::Show,0.0,1,1
+nsTextControlFrame::IsSingleLineTextControl(),0.2715687054086482,13,1
+"nsWindowWatcher::SizeOpenedDocShellItem(nsIDocShellTreeItem*, nsIDOMWindow*, SizeSpec const&)",0.0,1,1
+js_Execute,0.24005422825472644,9,4
+"nsIFrame::FinishAndStoreOverflow(nsOverflowAreas&, nsSize)",0.3326066582471092,20,1
+PL_HashTableRawAdd,0.18336757216618904,6,1
+"hang | WaitForSingleObjectEx | WaitForSingleObject | google_breakpad::ExceptionHandler::WriteMinidumpOnHandlerThread(_EXCEPTION_POINTERS*, MDRawAssertionInfo*)",0.37642817155554215,188,1
+DbgBreakPoint,0.42236179002230234,71,1
+arena_run_tree_remove,0.5403282248820263,329,1
+"nsEventReceiverSH::AddEventListenerHelper(JSContext*, JSObject*, unsigned int, int*, int*)",0.12215659764630703,4,1
+ExternalResourceShower,0.0,4,1
+3vbar.dll@0x3b317,0.15651746466152594,5,1
+nsLineLayout::ReflowFrame,0.0,3,7
+Java_netscape_javascript_JSObject_call,0.1290757509900526,3,1
+"arena_dalloc | free | nsDisplayListBuilder::LeavePresShell(nsIFrame*, nsRect const&)",0.6339297144213816,2317,1
+nsDSURIContentListener::CheckFrameOptions(nsIRequest*),0.0,1,1
+-[NSTableView drawRowIndexes:clipRect:],0.08143773176420468,2,1
+nsGenericElement::UnbindFromTree,0.5028010291967261,130,1
+WrappedNativeSuspecter,0.5595912887809488,252,1
+RtlpCoalesceFreeBlocks,0.5398823099801924,569,3
+regexp_finalize,0.42963714977038686,60,1
+js_SetupLocks,0.0,1,1
+sqlite3VdbeIdxRowidLen,0.08143773176420468,2,1
+nsAttrValue::GetAtomCount,0.08143773176420468,2,1
+"hang | mozilla::plugins::PPluginScriptableObjectParent::CallGetChildProperty(mozilla::plugins::PPluginIdentifierParent*, bool*, bool*, mozilla::plugins::Variant*, bool*)",0.6345106957142445,7936,3
+mozilla::storage::Statement::Finalize(),0.0,1,1
+PR_Close,0.2817282642151927,11,1
+arena_dalloc_small | arena_dalloc | free | clearPrefEntry,0.5627930234539948,3122,1
+JS_HashString,0.0,1,1
+"wcslen | std::basic_string<unsigned short, std::char_traits<unsigned short>, std::allocator<unsigned short> >::assign(unsigned short const*)",0.16287546352840937,4,1
+JS_SetPrivate,0.5054595918053042,117,2
+MOZ_PNG_build_gamma_tab,0.0,1,1
+PR_DestroyPollableEvent,0.23730768325289922,11,1
+Exception,0.0,1,1
+"nsGenericElement::SetAttr(int, nsIAtom*, nsIAtom*, nsAString_internal const&, int)",0.39798560055978416,57,1
+nsTransitionManager::WillRefresh(mozilla::TimeStamp),0.37678153505237405,38,1
+ffplugin.dll@0x173ee4,0.3275367013663557,20,1
+operator new(unsigned int) | js::InitJIT(js::TraceMonitor*),0.05879218654448032,5,1
+sqlite3MemFree,0.0,2,1
+js::MarkRangeConservatively,0.18909255736720781,5,3
+SocketSend,0.5477616512369946,1032,1
+nsXULTemplateBuilder::Uninit,0.5779009967099263,1800,1
+ComputeLineHeight,0.2669214038944282,11,1
+nsAttrValue::ToString(nsAString_internal&),0.4399110271052172,61,1
+DrawBorderImage,0.22862461710944693,7,1
+hang | F342576760__________________________,0.6319693032399936,6850,1
+nsIFrame::BuildDisplayListForChild,0.21051348275425724,6,1
+"nsHttpTransaction::HandleContent(char*, unsigned int, unsigned int*, unsigned int*)",0.1290757509900526,3,1
+gfxFontFamily::FindFontForChar,0.2715687054086482,13,1
+"xpc::WrapperFactory::Rewrap(JSContext*, JSObject*, JSObject*, JSObject*, unsigned int)",0.579232422777657,793,1
+nsZipArchive::BuildFileList,0.1290757509900526,3,1
+js_GetStringBytes,0.2669214038944282,11,1
+FlashPlayer-10.4-10.5@0x21ee79,0.12215659764630703,4,1
+nsCycleCollector::BeginCollection,0.17330643811371008,7,1
+nsSelectionState::DoTraverse,0.21051348275425724,6,1
+arena_dalloc_small | arena_dalloc | free | nsStandardURL::Release(),0.2783782592244278,12,1
+nsINode::GetCurrentDoc(),0.3952218652180961,40,3
+"js::PropertyCache::fullTest(JSContext*, unsigned char*, JSObject**, JSObject**, js::PropertyCacheEntry*)",0.5029776347890551,177,1
+nsDOMUIEvent::GetLayerPoint(),0.07478392981391614,3,1
+PR_AtomicDecrement | nsSupportsCStringImpl::Release(),0.0,1,1
+nsDisplayClip::nsDisplayClip,0.0,1,1
+"NS_AccumulateFastLoadChecksum(unsigned int*, unsigned char const*, unsigned int, int)",0.30124253532566964,70,1
+vksaver.dll@0x3398,0.5812872727292551,3568,1
+JS_ArenaRelease,0.4537507124344166,73,1
+nsZipArchive::GetItem,0.1290757509900526,3,2
+nsIFrame::IsBoxFrame,0.0,1,1
+nsXPConnect::Traverse,0.5358412256923532,169,1
+nsDownload::UpdateDB(),0.3793273755966454,33,1
+nsAccessibleWrap::GetHWNDFor(nsAccessible*),0.31698880684104747,19,1
+RtlpDeCommitFreeBlock | nvlsp.dll@0x5d0d,0.43392300085089947,515,1
+nanojit::LIns::isTramp(),0.1290757509900526,3,1
+RtlpOptimizeSRWLockList,0.5635308029896902,2299,1
+"nsFrameManager::ReResolveStyleContext(nsPresContext*, nsIFrame*, nsIContent*, nsStyleChangeList*, nsChangeHint, int)",0.42770410982076446,55,1
+"js::LookupPropertyWithFlags(JSContext*, JSObject*, int, unsigned int, JSObject**, JSProperty**)",0.5571983159005687,2428,1
+nsHtml5TreeBuilder::flushCharacters(),0.0,1,3
+nsNSSSocketInfo::EnsureDocShellDependentStuffKnown(),0.1290757509900526,3,2
+JS_IsExceptionPending,0.08143773176420468,2,3
+RtlpFlushCacheContents,0.36746323026187167,32,1
+"js::PropertyTree::getChild(JSContext*, js::Shape*, js::Shape const&)",0.2669214038944282,11,1
+nsAttrName::ReleaseInternalName,0.0,1,1
+nsGenericElement::GetAttrCount(),0.1290757509900526,3,1
+nsBlockFrame::ReflowBlockFrame,0.0,1,2
+nsHTMLTextFieldAccessible::NativeRole(),0.07478392981391614,3,2
+hang | iavcdec_reseek_status,0.1562216615781208,6,1
+EnableTraceHintAt,0.27089124665392195,19,1
+RtlpUpdateUCRIndexRemove,0.12215659764630703,4,1
+DoMatch,0.2648053039303937,12,1
+"XPCCallContext::XPCCallContext(XPCContext::LangType, JSContext*, JSObject*, JSObject*, int, unsigned int, int*, int*)",0.2521145435736637,11,1
+DllGetClassObject,0.16287546352840937,4,1
+"nsBidiPresUtils::RemoveBidiContinuation(nsIFrame*, int, int, int&)",0.0,1,1
+CrashIfInvalidSlot,0.5406267083514216,293,3
+"XPCCallContext::XPCCallContext(XPCContext::LangType, JSContext*, JSObject*, JSObject*, int, unsigned int, unsigned __int64*, unsigned __int64*)",0.2521145435736637,11,1
+nvapi.dll@0x508ce,0.3611777205794658,106,1
+jvm.dll@0xbc228,0.2714924940577058,28,2
+js_SetProperty,0.0,1,1
+arena_malloc,0.08143773176420468,2,1
+"_purecall | nsXPTCStubBase::QueryInterface(nsID const&, void**)",0.44406525433354216,64,1
+hang | RtlpWaitOnCriticalSection | EtwEventEnabled | F_1706698279__________________________________,0.5895059690283307,1215,1
+"nsFileOutputStream::Write(char const*, unsigned int, unsigned int*)",0.32783944771077794,139,2
+js::ExecuteTree,0.4466489807358222,129,6
+js_IsDelegate,0.0,1,1
+"nsIEProfileMigrator::Migrate(unsigned short, nsIProfileStartup*, unsigned short const*)",0.2787269887250701,21,1
+nsPurpleBuffer::SelectPointers(GCGraphBuilder&),0.5691086252787503,430,2
+nsGenericElement::DestroyContent(),0.37417966851608553,34,2
+DebugBreak,0.42236179002230234,71,1
+nsExternalAppHandler::nsExternalAppHandler,0.07478392981391614,3,1
+F360209511_________________,0.25374646101935255,19,1
+cp_backLine_1,0.28859151352053874,46,1
+"memcpy | nsAString_internal::Assign(wchar_t const*, unsigned int)",0.3842629957035669,33,1
+"js::gc::TypedMarker(JSTracer*, JSString*)",0.35422554141105306,23,1
+crc32_little,0.25567964372601204,15,1
+mozalloc_abort(char const* const) | mozalloc_handle_oom() | xul.dll@0xe08a5,0.0,1,1
+"nsStandardURL::SchemeIs(char const*, int*)",0.3654211034190315,29,2
+"nsExternalHelperAppService::GetTypeFromURI(nsIURI*, nsACString_internal&)",0.0,1,1
+orangetoolbar.dll@0x713f,0.459878355208964,628,1
+js::PropertyTable::search,0.6277692358221941,1170,4
+hang | RtlpWaitOnCriticalSection | EtwEventEnabled | PR_Lock,0.2772131794710503,21,1
+js::Shape::getChild,0.39444925111545365,35,1
+gfxWindowsPlatform::VerifyD2DDevice(bool),0.4303070462708847,379,1
+Flash Player@0x91d90,0.24133107756537808,19,1
+nsBuiltinDecoder::GetBuffered(nsTimeRanges*),0.3836874918478636,45,1
+PR_Read,0.40349961879597945,95,2
+_cairo_gstate_restore,0.16287546352840937,4,1
+js_GrowSlots,0.0,1,1
+GetAdvanceForGlyphs,0.18909255736720781,5,2
+"hang | mozilla::plugins::PPluginScriptableObjectParent::CallHasProperty(mozilla::plugins::PPluginIdentifierParent*, bool*)",0.6319693032399936,6850,4
+nsSMILTimeValueSpec::ConvertBetweenTimeContainers,0.0,8,1
+F575112435____________________________________________________,0.15622166157812084,6,1
+nsJSArgArray::cycleCollection::UnmarkPurple(nsISupports*),0.40828096549805876,51,1
+_ftol2_pentium4,0.47853258511490615,123,2
+RtlpWin32NTNameToNtPathName_U,0.08143773176420468,2,1
+_cairo_hash_table_remove,0.2521145435736637,11,1
+js_AttemptCompilation,0.0,1,2
+Flash Player@0x1ba41a,0.0,1,1
+nsRuleNode::Sweep(),0.46816998365701246,81,1
+nsFrame::Init,0.3130315833056093,299,2
+nsHttpChannel::ContinueProcessResponse(unsigned int),0.4869769769465915,114,2
+F_1422272006_____________________________________________________,0.18909255736720781,5,1
+"nsDocShell::OnStateChange(nsIWebProgress*, nsIRequest*, unsigned int, unsigned int)",0.16287546352840937,4,1
+js::Shape::trace(JSTracer*),0.5019514374410315,170,2
+js::mjit::stubs::SetElem<int>(js::VMFrame&),0.25301812294589665,15,1
+_fill_rectangles,0.24431319529261405,8,1
+"strlen | AppendASCIItoUTF16(char const*, nsAString_internal&)",0.0,1,1
+"nsFrame::BoxReflow(nsBoxLayoutState&, nsPresContext*, nsHTMLReflowMetrics&, nsIRenderingContext*, int, int, int, int, int)",0.5284829574579331,341,4
+nsStyleContext::Mark(),0.48458354035846807,111,1
+nsAutoScrollTimer::Notify(nsITimer*),0.2669214038944282,11,1
+mozalloc_abort(char const* const) | _RTC_Terminate,0.6016738544465943,5242,3
+js_fun_apply,0.2648053039303937,12,2
+JSAutoEnterCompartment::enter,0.5975851742754736,1765,1
+libflashplayer.so@0x609268,0.15651746466152594,5,1
+GetChar,0.2581515019801053,9,1
+nsAString_internal::Equals(nsAString_internal const&),0.28679442551245027,14,1
+"js_XDRScript(JSXDRState*, JSScript**)",0.29753636045021525,26,1
+"hang | mozilla::plugins::PPluginInstanceParent::CallNPP_GetValue_NPPVpluginScriptableNPObject(mozilla::plugins::PPluginScriptableObjectParent**, short*)",0.6128149698083426,1782,1
+JS_IsRunning,0.30539149411576755,16,1
+"nsTextFrame::GetTrimmedOffsets(nsTextFragment const*, int)",0.320558735225132,30,1
+orangetoolbar.dll@0x40092,0.459878355208964,628,1
+"arena_dalloc | free | ReleaseData(void*, unsigned int)",0.16287546352840937,4,1
+nsIFrame::SetNextSibling(nsIFrame*),0.15651746466152594,5,3
+js::mjit::EnterMethodJIT,0.6023856727464769,5828,12
+__from_strstr_to_strchr,0.543524232446665,815,1
+"memcpy | TextStageManager::AddStagesForSubrect(IDWritePrivateGlyphRunAnalysis*, SubRectInfo const*)",0.15003851475250876,7,1
+CallCompiler::update,0.0,1,1
+vksaver3.dll@0x2e55,0.5812872727292551,3568,1
+nsPluginInstanceOwner::CreateWidget(),0.43499389860664395,76,2
+"nsWindowSH::GetProperty(nsIXPConnectWrappedNative*, JSContext*, JSObject*, int, JS::Value*, int*)",0.15651746466152594,5,1
+save_marker,0.0,2,1
+js_ValueToBoolean(js::Value const&),0.3710374987131146,29,1
+F1587000313_________________,0.4454613909993853,71,1
+"nsGenericHTMLElement::MapCommonAttributesInto(nsMappedAttributes const*, nsRuleData*)",0.0,1,1
+"nsTArray_base<nsTArrayFallibleAllocator>::EnsureNotUsingAutoArrayBuffer(unsigned int) | nsTArray_base<nsTArrayFallibleAllocator>::SwapArrayElements<nsTArrayFallibleAllocator>(nsTArray_base<nsTArrayFallibleAllocator>&, unsigned int) | gfxDWriteFontFileS...",0.21487020317320898,14,1
+"nsGetInterface::operator()(nsID const&, void**)",0.3482344189060035,46,1
+SampleMouseAndKeyboard,0.0,1,1
+gfxFontGroup::BuildFontList(),0.0,1,1
+"nsStyleSet::FileRules(int (*)(nsIStyleRuleProcessor*, void*), RuleProcessorData*, nsRuleWalker*)",0.4078700841193315,50,1
+"nsThread::ProcessNextEvent(int, int*)",0.4278690363389984,5302,1
+libclient.dylib@0x1306f6,0.0,5,1
+JSScript::isEmpty(),0.0,1,1
+"JSC::Yarr::executeRegex(JSContext*, JSC::Yarr::RegexCodeBlock&, unsigned short const*, unsigned int, unsigned int, int*, int)",0.315891100590131,32,1
+FinderKit@0x77bb7,0.07478392981391614,3,1
+PK11_GetInternalSlot,0.0,1,1
+"nsBaseContentList::cycleCollection::Traverse(void*, nsCycleCollectionTraversalCallback&)",0.6022323563540687,1859,1
+nsBaseWidget::Destroy(),0.5199110657177309,199,4
+JS_dtobasestr,0.46032483616769676,169,2
+"@0x0 | CD3D10Resource::CGdiInterop::GetDeviceBitmapDC(CD3D10Device*, int)",0.0,1,1
+F_416412190_____________________________________________________,0.15651746466152594,5,1
+js_GetPropertyHelper,0.49067154937024626,100,3
+js::Compiler::defineGlobals,0.5014896840609925,143,1
+ssl3_HandleCertificate,0.1290757509900526,3,1
+CharLowerA,0.2155200174815558,10,1
+libc-2.12.1.so@0x33ba5,0.18208877038704424,7,4
+js::LookupPropertyWithFlags,0.5571983159005687,2428,1
+js::detail::RegExpPrivate::decref(JSContext*),0.07478392981391614,3,1
+AnnexFileReadTableBytesByIndex,0.1427371567485724,9,1
+vorbis_synthesis,0.16287546352840937,4,1
+js_DecompileFunction,0.08143773176420468,2,2
+nsAttrAndChildArray::InsertChildAt,0.0,1,1
+"js::mjit::JITScript::sweepCallICs(JSContext*, bool)",0.4337268658086939,70,1
+_PR_MD_PR_POLL,0.5188810546802597,352,1
+"NS_NewSVGElement(nsIContent**, already_AddRefed<nsINodeInfo>, mozilla::dom::FromParser)",0.0,1,1
+CrashReporter::GetOrInit,0.29434604943086273,18,1
+CSSImportantRule::AddRef(),0.0,1,1
+nsIFrame::GetClosestView(nsPoint*),0.1290757509900526,3,1
+jvm.dll@0xca9b2,0.38376057813540376,34,1
+mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsCSSRuleProcessor::RefreshRuleCascade(nsPresContext*),0.3489349308390333,31,1
+nsXULTreeBuilder::RemoveMatchesFor(nsTreeRows::Subtree&),0.0,1,3
+js_LockGCThingRT,0.0,1,4
+"gfxTextRun::SetPotentialLineBreaks(unsigned int, unsigned int, unsigned char*, gfxContext*)",0.34095570549825055,22,1
+RtlpLowFragHeapFree,0.5124160098968664,749,1
+objc_msgSend | _nsnote_callback,0.27788428340068233,32,3
+nsDocShell::GetVisibility(int*),0.07478392981391614,3,1
+main,0.0,1,1
+_cairo_gstate_copy_transformed_pattern,0.07478392981391614,3,1
+quicktimewebhelper.qtx@0xe4d9,0.5006777266373043,853,1
+MOZ_Z_inflate_fast,0.38682922587997237,32,1
+"hang | mozilla::plugins::PPluginScriptableObjectParent::CallHasMethod(mozilla::plugins::PPluginIdentifierParent*, bool*)",0.6370393747791826,9000,1
+FinalizeArenaList<JSObject_Slots16>,0.45763861787591864,127,1
+nsOggDecodeStateMachine::Decode(),0.27915437549538996,39,1
+js_NewGCObject,0.0,1,1
+"nsGenericElement::cycleCollection::Traverse(void*, nsCycleCollectionTraversalCallback&)",0.6026270245055512,1211,2
+nsWeakFrame::Init(nsIFrame*),0.0,1,2
+nvumdshimx.dll@0x384c8,0.0,1,1
+js::gc::GetGCThingTraceKind,0.36617982124533444,40,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | _MD_CURRENT_THREAD",0.16287546352840937,4,1
+js::GCMarker::drainMarkStack(),0.471238233176177,88,1
+"mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::plugins::PluginModuleParent::StreamCast(_NPP*, _NPStream*)",0.5353399848433807,347,2
+avgssff.dll@0x9943,0.21051348275425724,6,1
+"memmove | nsCacheMetaData::SetElement(char const*, char const*)",0.3554768106851669,31,2
+quicktimewebhelper.qtx@0xe5d9,0.5006777266373043,853,2
+ffplugin.dll@0x173ed4,0.3275367013663557,20,1
+nsNSSSocketInfo::EnsureDocShellDependentStuffKnown,0.15651746466152594,5,1
+NPObjWrapper_NewResolve,0.3211468603322575,25,5
+nsDiskCacheDevice::OpenDiskCache(),0.21487020317320898,14,1
+RtlpWaitForCriticalSection,0.5481860856211586,1629,2
+"_purecall | nsIFrame::IsFocusable(int*, int)",0.37335977511728397,37,1
+"nsWindowSH::GetProperty(nsIXPConnectWrappedNative*, JSContext*, JSObject*, int, int*, int*)",0.2542427427785716,10,1
+mozilla::layers::MacIOSurfaceImageOGL::SetData,0.12394237195584407,5,1
+"memcpy | nsAString_internal::Replace(unsigned int, unsigned int, unsigned short const*, unsigned int)",0.19590978867134434,8,1
+strcasecmp_l,0.0,1,1
+"XPCConvert::NativeData2JS(XPCLazyCallContext&, unsigned __int64*, void const*, nsXPTType const&, nsID const*, unsigned int*)",0.3613070833035926,23,2
+js::mjit::JaegerShot(JSContext*),0.44938978662965445,123,1
+"mozilla::plugins::PPluginModuleParent::OnCallReceived(IPC::Message const&, IPC::Message*&)",0.08143773176420468,2,1
+u4bar.dll@0x3b317,0.15651746466152594,5,1
+"strlen | nsACString_internal::Replace(unsigned int, unsigned int, char const*, unsigned int)",0.2964515798868058,15,1
+"nsObjectFrame::PaintPlugin(nsIRenderingContext&, nsRect const&, nsRect const&)",0.3608206537098993,27,1
+"nsDocShell::Embed(nsIContentViewer*, char const*, nsISupports*)",0.20146484589156782,18,1
+"mozilla::imagelib::nsICODecoder::WriteInternal(char const*, unsigned int)",0.1733064381137101,7,4
+"nsHtml5TreeOperation::Perform(nsHtml5TreeOpExecutor*, nsIContent**)",0.5099546444250265,159,1
+BaseThreadInitThunk,0.4808236473228638,568,1
+libgobject-2.0.so.0.1600.3@0x211d3,0.0,1,1
+AutoMarkingPtr::Unlink(),0.26281723250998257,32,1
+js::AutoCompartment::enter(),0.5980908704312384,5990,1
+mozilla::gl::GLContext::UploadSurfaceToTexture,0.20814776505754695,15,1
+js::Shape::finalize(JSContext*),0.49474718026462816,122,2
+nsDocShell::EnsureScriptEnvironment(),0.07478392981391614,3,1
+"nsGIFDecoder2::GifWrite(unsigned char const*, unsigned int)",0.08143773176420468,2,1
+TNode::IsContainer() const,0.08143773176420468,2,3
+fun_trace,0.5274288141504937,256,3
+CGSScanconverterRenderMask,0.0,1,1
+ProcessKerningRun,0.20535669374824558,7,1
+"nsExpirationTracker<gfxTextRun, int>::RemoveObject(gfxTextRun*)",0.47973777887181446,106,1
+"nsUrlClassifierPrefixSet::Contains(unsigned int, int*)",0.19498482587557556,19,1
+nsLineBox::IndexOf(nsIFrame*),0.2542427427785716,10,2
+vksaver.dll@0x3960,0.5812872727292551,3568,1
+"mozilla::plugins::PluginInstanceParent::PluginWindowHookProc(HWND__*, unsigned int, unsigned int, long)",0.18336757216618904,6,1
+nsIFrame::GetContentRect(),0.34959346757921345,34,1
+mozalloc_abort(char const* const) | NS_DebugBreak_P | mozilla::plugins::PluginModuleChild::ShouldContinueFromReplyTimeout(),0.5151447781570614,299,5
+"nsTreeBodyFrame::PrefillPropertyArray(int, nsTreeColumn*)",0.08143773176420468,2,2
+NewArguments,0.0,1,1
+"NS_EscapeURL(char const*, int, unsigned int, nsACString_internal&)",0.400574345732132,37,1
+"nsAString_internal::ReplacePrep(unsigned int, unsigned int, unsigned int)",0.23795519642573065,10,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | mozilla::`anonymous namespace''::ContainerState::ProcessDisplayItems(nsDisplayList const&, mozilla::FrameLayerBuilder::Clip&)",0.5651081456843489,378,1
+obj_hasOwnProperty,0.21051348275425724,6,1
+wcslen | HostentBlob_WriteNameOrAlias,0.37266341036578593,347,1
+BuildArgArray,0.2219569545293476,9,1
+nsCOMPtr_base::assign_with_AddRef(nsISupports*) | DocumentViewerImpl::Close(nsISHEntry*),0.3776920259618302,41,1
+"js::mjit::Recompiler::expandInlineFrames(JSCompartment*, js::StackFrame*, js::mjit::CallSite*, js::StackFrame*, js::VMFrame*)",0.3639998262249718,26,1
+PL_DHashTableOperate | SetOrRemoveObject,0.0,1,1
+js::mjit::ic::SplatApplyArgs(js::VMFrame&),0.22862461710944693,7,1
+gfxFont::AddRef(),0.2219569545293476,9,1
+hang | libSystem.B.dylib@0x1342,0.1290757509900526,3,1
+libc-2.11.1.so@0x2da81,0.38582100447665013,126,1
+"js::Parser::primaryExpr(js::TokenKind, int)",0.295211777645242,16,1
+UserCallWinProcCheckWow,0.6174357899219851,2201,13
+"mozilla::plugins::PPluginInstanceChild::CallNPN_GetURL(nsCString const&, nsCString const&, short*)",0.5864597516291925,1691,1
+js_XDRFunctionObject,0.16287546352840937,4,2
+JSC::Yarr::RegexGenerator::generateDisjunction(JSC::Yarr::PatternDisjunction*),0.1290757509900526,3,1
+RtlNtStatusToDosError,0.4611039323391902,392,1
+"CDevice::ID3D10Device1_ClearRenderTargetView_(ID3D10Device1*, ID3D10RenderTargetView*, float const* const)",0.35936459397805687,64,1
+"js::gc::Mark<JSObject>(JSTracer*, JSObject*)",0.41308220562995757,46,2
+QDPlatformGlobalToLocal,0.0,1,1
+XPCWrappedNative::HasProto(),0.6081047010071804,806,1
+@0x0 | AddIPv4InterfaceInfo,0.2216676500728897,10,1
+"nsImageDocument::ScrollImageTo(int, int, int)",0.08143773176420468,2,1
+nsMenuPopupFrame::CreateWidgetForView(nsIView*),0.5096789859466154,225,2
+F_549434524________________________________________,0.42963803698699327,58,1
+UpdateViewsForTree,0.18909255736720781,5,1
+GetTrimmableWhitespaceCount,0.12215659764630703,4,1
+js::gc::Chunk::releaseArena,0.19590978867134434,8,1
+js_NewGCFunction(JSContext*),0.43329262837563615,66,1
+objc_msgSend | __CFXNotificationPost,0.299209135989409,37,1
+"nsBlockInFlowLineIterator::nsBlockInFlowLineIterator(nsBlockFrame*, nsIFrame*, bool*)",0.2542427427785716,10,1
+isi2f,0.2705302891314126,10,1
+nsACString_internal::Assign,0.0,1,1
+HashString,0.2521145435736637,11,2
+_purecall | imgRequest::NotifyProxyListener(imgRequestProxy*),0.21051348275425724,6,1
+js::VisitFrameSlots<js::CountSlotsVisitor>,0.08143773176420468,2,1
+"mozilla::`anonymous namespace''::ContainerState::ProcessDisplayItems(nsDisplayList const&, nsRect const*)",0.16287546352840937,4,1
+nsIFrame::GetStyleDisplay(),0.45039729780185,62,1
+"js::types::TypeSet::sweep(JSContext*, JSCompartment*)",0.5236923945157606,222,1
+_moz_cairo_surface_flush,0.22862461710944693,7,1
+xpc::XrayWrapper<JSCrossCompartmentWrapper>::createHolder,0.42296336219559877,56,1
+@0x0 | nsHttpConnection::OnOutputStreamReady(nsIAsyncOutputStream*),0.0,1,1
+js::GetIterator,0.1290757509900526,3,3
+"nsEventListenerManager::AddScriptEventListener(nsISupports*, nsIAtom*, nsAString_internal const&, unsigned int, int, int)",0.4227633104684379,83,1
+sse2_composite_src_x888_8888,0.269418072826224,18,1
+arena_dalloc_small | arena_dalloc | free | _PR_NativeDestroyThread,0.5523566075131437,260,1
+epicplaygames.dll@0xcec7,0.4362258910998667,117,1
+pr_FindSymbolInLib,0.3131566581158912,22,4
+jsds_FilterHook,0.43049763209515857,146,2
+sblsp.dll@0x6ed7,0.38470159710647756,44,1
+js_GetGCThingTraceKind(void*),0.5927511064245335,706,2
+mozalloc_abort(char const* const) | mozalloc.dll@0x109f,0.4990940518534975,117,3
+"mozilla::plugins::PPluginScriptableObjectChild::OnCallReceived(IPC::Message const&, IPC::Message*&)",0.08143773176420468,2,1
+nvwgf2um.dll@0x9df02,0.08143773176420468,2,1
+js_GetOpcode,0.0,1,1
+"Hunspell::spell(char const*, int*, char**)",0.05879218654448032,5,1
+_PR_MD_RECV,0.3657962456198084,32,1
+"nsFrameConstructorState::ProcessFrameInsertions(nsAbsoluteItems&, nsIAtom*)",0.08143773176420468,2,1
+mozilla::net::CallOnStop::Run,0.08143773176420468,2,1
+"nsPrefBranch::freeObserverList() | nsPrefBranch::Observe(nsISupports*, char const*, unsigned short const*)",0.0,1,1
+mozalloc_abort(char const* const) | msvcr80.dll@0xe456,0.5412841433315287,10511,1
+"mozilla::plugins::PluginScriptableObjectParent::GetPropertyHelper(void*, int*, int*, _NPVariant*)",0.22862461710944693,7,1
+nsBuiltinDecoderStateMachine::ScheduleStateMachine,0.24383366704732942,26,1
+_ftol2,0.46032483616769676,169,2
+CopyRgn,0.15651746466152594,5,1
+hang,0.17987036978507667,836,2
+js_PutCallObject,0.16287546352840937,4,2
+"nsNavHistory::CanAddURI(nsIURI*, int*)",0.08143773176420468,2,1
+"hang | mozilla::plugins::PPluginModuleParent::CallPPluginInstanceConstructor(mozilla::plugins::PPluginInstanceParent*, nsCString const&, unsigned short const&, InfallibleTArray<nsCString> const&, InfallibleTArray<nsCString> const&, short*)",0.6184030594795961,1932,1
+"hang | mozilla::plugins::PPluginInstanceParent::CallNPP_HandleEvent(mozilla::plugins::NPRemoteEvent const&, short*)",0.643706136204486,10043,4
+ContentEnumFunc,0.33738957389061136,23,1
+KiUserCallbackDispatcher,0.348185016510964,43,1
+Flash Player@0x3369ae,0.1290757509900526,3,1
+arena_dalloc_small | arena_dalloc | free | nsPrefBranch::`scalar deleting destructor''(unsigned int),0.5627930234539948,3122,1
+strstr | nsDiskCacheStreamIO::FlushBufferToFile(),0.34158148468183713,34,1
+mozilla::ipc::AsyncChannel::ReportConnectionError,0.5930542183044129,590,1
+"js::mjit::ic::CallProp(js::VMFrame&, js::mjit::ic::PICInfo*)",0.4941930899775812,183,1
+nsIFrame::GetView(),0.16287546352840937,4,2
+"nsGenericElement::UnbindFromTree(int, int)",0.5659250806769559,681,4
+"nsDOMEvent::cycleCollection::Traverse(void*, nsCycleCollectionTraversalCallback&)",0.33443244473829803,21,1
+"js::mjit::EnterMethodJIT(JSContext*, js::StackFrame*, void*, JS::Value*, bool)",0.6023856727464769,5828,2
+tiny_malloc_from_free_list | szone_malloc,0.1978966633172454,16,2
+obj_eval,0.1290757509900526,3,3
+"imgFrame::Draw(gfxContext*, gfxPattern::GraphicsFilter, gfxMatrix const&, gfxRect const&, nsIntMargin const&, nsIntRect const&)",0.24252929267107742,14,2
+avgssff.dll@0x10fe1,0.3305405968816203,18,1
+GeForceGLDriver@0x12010,0.17117081920971364,31,2
+nsAttrAndChildArray::NonMappedAttrCount(),0.18909255736720781,5,1
+"js::types::TypeMonitorResult(JSContext*, JSScript*, unsigned char*, JS::Value const&)",0.48250847892536763,86,1
+NewOrRecycledNode,0.551434569906863,468,2
+balance_nonroot,0.2875153465516028,18,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | nsTArray<gfxGlyphExtents*, nsTArrayDefaultAllocator>::AppendElements<gfxGlyphExtents*>(gfxGlyphExtents* co...",0.5652862398508908,680,1
+xul.dll@0x5d727,0.20535669374824558,7,1
+SuspectCompartment,0.22862461710944693,7,1
+NS_AccumulateFastLoadChecksum,0.30124253532566964,70,1
+"gfxMixedFontFamily::ReplaceFontEntry(gfxFontEntry*, gfxFontEntry*)",0.33267762170027765,26,3
+PL_DHashTableOperate | nsPropertyTable::Enumerate,0.0,1,1
+"nsSocketOutputStream::Write(char const*, unsigned int, unsigned int*)",0.5718671277836826,1830,1
+js::gc::ScanRope,0.5701889287998168,285,1
+NoteJSChild,0.46343255273394396,95,2
+nsTextFragment::CharAt(int),0.5185878426495434,240,6
+WriteVersion,0.0790720140674944,5,2
+__security_check_cookie,0.5204233716924521,250,1
+AffixMgr::parse_file,0.2913695072756583,16,1
+SetStyleSheetReference,0.4710508022462575,80,1
+_alloca_probe,0.47766947708848595,184,2
+nsObjectFrame::TryNotifyContentObjectWrapper(),0.4639455657404319,118,1
+je_free | mozutils.dll@0x2a0f,0.3904657034808163,36,1
+"nsIFrame::BuildDisplayListForChild(nsDisplayListBuilder*, nsIFrame*, nsRect const&, nsDisplayListSet const&, unsigned int)",0.5929367555242537,857,2
+js_MonitorLoopEdge,0.4710508022462575,80,1
+nsLineBreaker::FlushCurrentWord(),0.06606865028586992,4,1
+Flip4Mac WMV Plugin@0x16ff,0.15651746466152594,5,1
+AddRule,0.24431319529261405,8,1
+RtlpWorkerCallout,0.5492139978035547,3812,2
+nsGlobalWindow::RunTimeout,0.08143773176420468,2,1
+nsPIDOMWindow::GetFrameElementInternal(),0.2783782592244278,12,1
+mozilla::storage::AsyncExecuteStatements::Run,0.2878187806428346,23,2
+nsFrameLoader::Finalize(),0.15651746466152594,5,1
+nsBlockFrame::Init,0.3130315833056093,299,2
+"nsSVGGraphicElement::QueryInterface(nsID const&, void**)",0.08143773176420468,2,1
+InterlockedCompareExchange,0.5528117649383697,367,2
+gfxTextRun::GetChar(unsigned int),0.22862461710944693,7,1
+F_12715505________________________,0.40790151118018103,110,1
+nsDiskCacheMap::Open(nsILocalFile*),0.24431319529261405,8,1
+"nsIMM32Handler::OnMouseEvent(nsWindow*, long, int)",0.1290757509900526,3,1
+timeGetTime,0.41315483965057065,91,1
+nsCSSRuleProcessor::HasAttributeDependentStyle(AttributeRuleProcessorData*),0.30539149411576755,16,1
+"mozalloc_abort(char const* const) | mozalloc_handle_oom() | nsTArray_base<nsTArrayDefaultAllocator>::EnsureCapacity(unsigned int, unsigned int) | nsCSSRuleProcessor::RefreshRuleCascade(nsPresContext*)",0.3718535550486218,28,1
+gfxWindowsPlatform::UpdateRenderMode(),0.277347520435549,16,1
+F_70310140_____________________________________________,0.4897373888114019,146,1
+"nsDocShell::LoadHistoryEntry(nsISHEntry*, unsigned int)",0.4022358680541142,37,1
+NativeInterfaceGC,0.0,1,1
+js::analyze::ScriptAnalysis::analyzeBytecode(JSContext*),0.45359902677245584,123,1
+avgssff5.dll@0xdaf2c,0.31557121058629317,16,1
+F18148466____________________________,0.2817282642151927,11,1
+npswf32.dll@0x141855,0.3438242477191966,20,1
+F_1793464356________________________,0.3373691885763189,19,2
+"nsWindow::DispatchMouseEvent(unsigned int, unsigned int, long, int, short, unsigned short)",0.41016648080851875,50,1
+nsPurpleBuffer::SelectPointers,0.16287546352840937,4,2
+js::Shape::entryCount(),0.1290757509900526,3,1
+nsQueryInterface::operator(),0.08143773176420468,2,9
+"nsScriptSecurityManager::GetPrincipalAndFrame(JSContext*, JSStackFrame**, unsigned int*)",0.29195121451846195,12,1
+nsHttpChannel::CallOnStartRequest(),0.30051471913845407,17,1
+mozilla::ipc::RPCChannel::DispatchIncall(IPC::Message const&),0.32022440294174953,19,1
+orangetoolbar.dll@0x9244,0.459878355208964,628,1
+nsPluginInstanceOwner::SendIdleEvent,0.0,1,1
+"mozilla::plugins::PluginInstanceParent::NPP_URLNotify(char const*, short, void*)",0.1290757509900526,3,2
+mozilla::dom::binding::instanceIsProxy(JSObject*),0.0,1,1
+nsGlobalWindow::GetContextInternal(),0.3275367013663557,20,1
