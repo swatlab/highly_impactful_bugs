@@ -87,6 +87,11 @@ def mapUptimeToBug(bug_list, up_seconds):
             bug_uptime[thisBug] = uptime_list
     return
 
+def mapBugsToSignaturee(bug_list, signature):
+    for thisBug in bug_list:
+        bug_to_signature[thisBug] = signature
+    signature_to_bugs[signature] = bug_list
+
 #   Triage crash report by user and bug
 def crashTriage(crash_report):
     signature = crash_report['signature']
@@ -107,6 +112,7 @@ def crashTriage(crash_report):
         mapCrashesToBug(bug_list, signature)
         mapBugsToVersion(bug_list, version)
         mapUptimeToBug(bug_list, up_seconds)
+        mapBugsToSignaturee(bug_list, signature)
     else:                       # otherwise, do the two step mapping (user-crash_type, crash_type-bug)
         mapUsersToCrash(signature, user_key)
     
@@ -201,12 +207,34 @@ def computeEntropy(total_user_cnt):
         entropy_dict[thisBug] = (entropy, frequency, version_cnt, uptime)
     return
 
+def computeSignEntropy(total_user_cnt):
+    for sign in signature_to_bugs:        
+        thisBug = signature_to_bugs[sign][0]
+        user_stack = userStackOfBug(thisBug)    # indirectly mapped users
+        user_stack += bug_dict_usr[thisBug]     # directly mapped users
+        occur_dict = Counter(user_stack)
+        entropy = 0
+        frequency = len(user_stack)             # total crash occurrence for the bug
+        for user in occur_dict:
+            user_occur = occur_dict[user]       # one user's crash occurrence for the bug
+            p_user = user_occur / frequency     # probability of the user triggering the bug  
+            entropy += -(p_user * math.log(p_user, total_user_cnt))
+        entropy_sign_dict[sign] = (entropy, frequency, len(signature_to_bugs[sign]))
+    return
+
 #   Output bugs' entropy, frequency and bugs in a csv file
 def outputEntropy():
     print 'writing entropy to csv ...'
     for bugID in entropy_dict:
         (entropy, frequency, version_cnt, uptime) = entropy_dict[bugID]
         entropy_writer.writerow([bugID, entropy, frequency, version_cnt, uptime])
+    return
+
+def outputSignEntropy():
+    print 'writing sign entropy to csv ...'
+    for sign in signature_to_bugs:
+        (entropy, frequency, no_of_bugs) = entropy_sign_dict[sign]
+        signature_entropy_writer.writerow([sign, entropy, frequency, no_of_bugs])
     return
 
 def outputVersionBugs():
@@ -225,7 +253,8 @@ if(__name__ == '__main__'):
     print ''
             
     #   Initialize variables
-    crash_users, bug_dict_sig, entropy_dict, user_version, version_bugs = dict(), dict(), dict(), dict(), dict()
+    crash_users, bug_dict_sig, entropy_dict, entropy_sign_dict, user_version, version_bugs = dict(), dict(), dict(), dict(), dict(), dict()
+    bug_to_signature, signature_to_bugs = dict(), dict()
     bug_dict_usr, bug_uptime = dict(), dict()
     total_user = set()
     beginDate, endDate = '20120101', '20121231'
@@ -235,6 +264,10 @@ if(__name__ == '__main__'):
     #entropy_writer.writerow(['crash_type', 'entropy', 'frequency', 'bugs'])
     entropy_writer.writerow(['bug', 'entropy', 'frequency', 'version_cnt', 'up_time'])
     
+    signature_entropy_writer = csv.writer(open('output/firefox_signature_entropy.csv', 'wb'), delimiter = ',')
+    signature_entropy_writer.writerow(['signature', 'entropy', 'frequency', 'bug_count'])
+    
+
     #   creat csv writer to map version~bugs
     #if(user_key_mode == 'time'):
     version_writer = csv.writer(open('output/' + product + '_version.csv', 'wb'), delimiter = ',')
@@ -248,9 +281,12 @@ if(__name__ == '__main__'):
     #cleanVoidBug()
     computeEntropy(len(total_user))
     
+    computeSignEntropy(len(total_user))
+
     #   output entropy to a csv file
     outputEntropy()
     
+    outputSignEntropy()
     #   output version~bugs to a csv file
     #if(user_key_mode == 'time'):
     outputVersionBugs()
